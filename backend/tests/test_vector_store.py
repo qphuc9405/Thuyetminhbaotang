@@ -1,3 +1,4 @@
+import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
@@ -69,6 +70,55 @@ class VectorStoreTests(unittest.TestCase):
         ))
         with self.assertRaises(ValueError):
             self.store.answer("Cầu Hiền Lương", zone_id="unknown")
+
+    def test_custom_id_is_shared_by_narration_and_chat(self):
+        document = {"id": "cau-hien-luong-nguon-1", "zone_id": "bridge",
+                    "title": "Cầu Hiền Lương", "content": "Cầu Hiền Lương bắc qua sông Bến Hải.",
+                    "source": "Nguồn kiểm tra"}
+        self.store.upsert(document)
+        narration = self.store.narration("bridge")["documents"]
+        self.assertEqual(narration[0]["content"], document["content"])
+        self.assertEqual(self.store.answer("sông Bến Hải", "bridge")["sources"][0]["id"], document["id"])
+        self.assertEqual(self.store.narration("museum")["documents"], [])
+        self.assertEqual(self.store.search("sông Bến Hải", zone_id="museum"), [])
+        document["zone_id"] = "museum"
+        self.store.upsert(document)
+        self.assertEqual(self.store.narration("bridge")["documents"], [])
+        self.assertEqual(self.store.search("sông Bến Hải", zone_id="bridge"), [])
+        self.assertEqual(self.store.search("sông Bến Hải", zone_id="museum")[0]["id"], document["id"])
+
+    def test_invalid_zone_types_and_missing_assignment(self):
+        for zone in ([], {}, 42, True, "", "unknown"):
+            with self.subTest(zone=zone):
+                with self.assertRaises(ValueError):
+                    self.store.answer("cầu", zone)
+                with self.assertRaises(ValueError):
+                    self.store.narration(zone)
+                with self.assertRaises(ValueError):
+                    self.store.upsert({"id": "custom", "title": "Cầu", "content": "Cầu", "zone_id": zone})
+        with self.assertRaises(ValueError):
+            self.store.upsert({"id": "custom", "title": "Cầu", "content": "Cầu"})
+        self.store.upsert({"id": "custom", "title": "Cầu", "content": "Cầu", "zone_id": None})
+        self.assertEqual(len(self.store.search("Cầu")), 1)
+        self.assertEqual(self.store.search("Cầu", zone_id="bridge"), [])
+
+    def test_migrates_legacy_database_without_losing_content(self):
+        old_path = Path(self.directory.name) / "old.sqlite3"
+        with sqlite3.connect(old_path) as db:
+            db.execute("""CREATE TABLE documents (id TEXT PRIMARY KEY, title TEXT NOT NULL,
+                content TEXT NOT NULL, source TEXT NOT NULL DEFAULT '', category TEXT NOT NULL DEFAULT '',
+                updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)""")
+            db.executemany("INSERT INTO documents(id,title,content) VALUES (?,?,?)", [
+                ("bridge-1", "Chủ đề", "Nội dung cũ"),
+                ("bridge", "Tổng quan", "Bài giới thiệu cũ"),
+                ("custom", "Chưa phân loại", "Giữ nguyên"),
+            ])
+        migrated = VectorStore(old_path)
+        self.assertEqual([d["id"] for d in migrated.narration("bridge")["documents"]], ["bridge", "bridge-1"])
+        self.assertEqual(migrated.narration("bridge")["documents"][0]["content"], "Bài giới thiệu cũ")
+        self.assertEqual(len(VectorStore(old_path).list_documents()), 3)
+        custom = next(d for d in migrated.list_documents() if d["id"] == "custom")
+        self.assertIsNone(custom["zone_id"])
 
 
 if __name__ == "__main__":

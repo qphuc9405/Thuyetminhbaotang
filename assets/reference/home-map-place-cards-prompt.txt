@@ -1,0 +1,5 @@
+Use case: precise-object-edit. Edit the attached existing illustrated museum website homepage with ONLY TWO LOCAL REMOVALS. Keep the exact 1672x941 canvas, all geography, museum building in the upper left, parking, monument, river, bridges, flag, title/banner, top toolbar, bottom toolbar/chat, all colors and every other label unchanged.
+Remove only:
+1. The small gold-bordered text pill 'Nhà trưng bày Vĩ tuyến 17' under the new upper-left museum, approximately x=13–28%, y=23–27%. Reconstruct the lawn/path underneath naturally.
+2. The entire 'Cầu Hiền Lương' photo-and-text callout card approximately x=11.5–29%, y=28–40%. Reconstruct the underlying river naturally. Keep the existing golden location pin by the historic bridge.
+Do not remove or change the actual museum building, the actual bridges, the nearby monument, the title, toolbar, or any other callout card. Do not add any new lettering, cards, buttons, or icons. Two real HTML cards will be drawn by the website on top of this background. Preserve all pixels outside the two specified local label areas as closely as possible.

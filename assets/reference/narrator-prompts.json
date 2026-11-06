@@ -1,0 +1,32 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "frontend/public/soldier-guide-present.png",
+  "present": [
+    {
+      "id": "museum",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent web narrator character sprite. Edit target: attached soldier-guide-present.png. Replace ONLY the character identity and clothing with a friendly adult Vietnamese woman museum educator, teal áo dài with long sleeves, black hair neatly tied back, no hat, distinct feminine face. Preserve the exact original waist-up presentation pose, arm and hand placement, open palm toward the right of the canvas, other hand resting at waist, camera, scale, framing, friendly polished 3D cartoon rendering, lighting, transparent canvas, and placement. Canvas aspect ratio 1417:1110. Head at the same position, mouth centered at x=40%, y=31.5% of canvas, for compatibility with existing animation mask. Mouth is a gentle relaxed smile. Single character, no text, no scenery, no props, no frame, no watermark. Actual transparent RGBA background. Keep full extended hand inside canvas. This is a replacement sprite for an existing animated guide; exact gesture and composition matter."
+    },
+    {
+      "id": "flag",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent web narrator character sprite. Edit target: attached soldier-guide-present.png. Replace ONLY the character identity and clothing with a friendly adult Vietnamese female soldier, olive green uniform and matching peaked military cap with a simple red star badge, neatly tucked black hair, distinct feminine face. Preserve the exact original waist-up presentation pose, arm and hand placement, open palm toward the right of the canvas, other hand resting at waist, camera, scale, framing, friendly polished 3D cartoon rendering, lighting, transparent canvas, and placement. Canvas aspect ratio 1417:1110. Head at the same position, mouth centered at x=40%, y=31.5% of canvas, for compatibility with existing animation mask. Mouth is a gentle relaxed smile. Single character, no text, no scenery, no props, no frame, no watermark. Actual transparent RGBA background. Keep full extended hand inside canvas. This is a replacement sprite for an existing animated guide; exact gesture and composition matter."
+    },
+    {
+      "id": "monument",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent web narrator character sprite. Edit target: attached soldier-guide-present.png. Replace ONLY the character identity and clothing with a friendly older Vietnamese male heritage educator about 60, silver hair, warm expressive face, cream long-sleeved collared shirt and dark brown trousers, no hat. Preserve the exact original waist-up presentation pose, arm and hand placement, open palm toward the right of the canvas, other hand resting at waist, camera, scale, framing, friendly polished 3D cartoon rendering, lighting, transparent canvas, and placement. Canvas aspect ratio 1417:1110. Head at the same position, mouth centered at x=40%, y=31.5% of canvas, for compatibility with existing animation mask. Mouth is a gentle relaxed smile. Single character, no text, no scenery, no props, no frame, no watermark. Actual transparent RGBA background. Keep full extended hand inside canvas. This is a replacement sprite for an existing animated guide; exact gesture and composition matter."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "museum",
+      "prompt": "Edit the attached fictional adult museum guide illustration for a museum narration animation. Keep the transparent background, same canvas, identical character, clothing, position and presenting gesture. Make her mouth slightly open as she speaks to visitors. Change only the mouth expression; preserve everything else and keep the face perfectly aligned with the original."
+    },
+    {
+      "id": "flag",
+      "prompt": "Use case: precise-object-edit. Edit target: attached transparent narrator character sprite. Change ONLY the mouth from its gentle smile to a natural open speaking mouth, showing upper teeth and a small dark opening as if pronouncing 'a'. Preserve the exact pixel-aligned face, nose, chin, eyes, hairstyle, clothing, full body, hands, gesture, canvas dimensions 1416x1111, scale, position, lighting, alpha transparency and all other details. Do not redraw or shift the head or any feature outside the lips. The output will be overlaid on the original image using a small soft ellipse around the mouth, so exact mouth alignment is critical. No background, no text, no extra objects."
+    },
+    {
+      "id": "monument",
+      "prompt": "Use case: precise-object-edit. Edit target: attached transparent narrator character sprite. Change ONLY the mouth from its gentle smile to a natural open speaking mouth, showing upper teeth and a small dark opening as if pronouncing 'a'. Preserve the exact pixel-aligned face, nose, chin, eyes, hairstyle, clothing, full body, hands, gesture, canvas dimensions 1416x1111, scale, position, lighting, alpha transparency and all other details. Do not redraw or shift the head or any feature outside the lips. The output will be overlaid on the original image using a small soft ellipse around the mouth, so exact mouth alignment is critical. No background, no text, no extra objects."
+    }
+  ]
+}

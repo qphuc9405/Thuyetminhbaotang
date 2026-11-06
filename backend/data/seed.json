@@ -4,111 +4,127 @@
     "title": "Cầu Hiền Lương",
     "content": "Cầu Hiền Lương bắc qua sông Bến Hải, gắn với thời kỳ giới tuyến quân sự tạm thời sau Hiệp định Genève năm 1954. Trong không gian tham quan này, khách có thể tìm hiểu những câu chuyện về cây cầu và hai bờ giới tuyến.\n\nChào mừng bạn đến với khu Cầu Hiền Lương. Cây cầu bắc qua sông Bến Hải là một biểu tượng lịch sử của khát vọng hòa bình và thống nhất. Hãy chọn một tư liệu phía dưới để khám phá thêm.",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Di tích"
+    "category": "Di tích",
+    "zone_id": "bridge"
   },
   {
     "id": "bridge-1",
     "title": "Cầu sắt lịch sử – Cầu Hiền Lương",
     "content": "Tìm hiểu vai trò của cầu Hiền Lương và những lần thay đổi cấu trúc qua các thời kỳ. Ảnh nền giao diện là bản dựng minh họa, không phải ảnh lưu trữ hiện vật.\n\nCông trình lịch sử",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Công trình"
+    "category": "Công trình",
+    "zone_id": "bridge"
   },
   {
     "id": "bridge-2",
     "title": "Dòng sông Bến Hải – Cầu Hiền Lương",
     "content": "Sông Bến Hải gắn với giới tuyến quân sự tạm thời tại vĩ tuyến 17. Đây không phải đường biên giới quốc gia vĩnh viễn.\n\nKhông gian địa lý",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Địa danh"
+    "category": "Địa danh",
+    "zone_id": "bridge"
   },
   {
     "id": "bridge-3",
     "title": "Câu chuyện đôi bờ – Cầu Hiền Lương",
     "content": "Những câu chuyện về cuộc sống và khát vọng đoàn tụ của nhân dân hai bờ cần được gắn với tư liệu đã kiểm duyệt khi đưa lên hệ thống chính thức.\n\nChủ đề lịch sử",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Tư liệu"
+    "category": "Tư liệu",
+    "zone_id": "bridge"
   },
   {
     "id": "museum",
     "title": "Nhà trưng bày Vĩ tuyến 17",
     "content": "Không gian giới thiệu lịch sử đôi bờ Hiền Lương – Bến Hải qua tài liệu, hình ảnh và hiện vật. Dữ liệu hiện tại chỉ dùng cho bản demo frontend; danh mục hiện vật thực tế cần được bảo tàng xác nhận.\n\nBạn đang khám phá Nhà trưng bày Vĩ tuyến 17. Không gian này giúp kết nối hiện vật với những câu chuyện về cuộc sống, đấu tranh và khát vọng thống nhất đất nước.",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Di tích"
+    "category": "Di tích",
+    "zone_id": "museum"
   },
   {
     "id": "museum-1",
     "title": "Ảnh tư liệu lịch sử – Nhà trưng bày Vĩ tuyến 17",
     "content": "Tư liệu ảnh về đời sống và lịch sử vùng giới tuyến. Cần tải ảnh được cấp quyền và ghi rõ nguồn lưu trữ.\n\nBộ sưu tập hình ảnh",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Hình ảnh"
+    "category": "Hình ảnh",
+    "zone_id": "museum"
   },
   {
     "id": "museum-2",
     "title": "Hồ sơ và văn bản – Nhà trưng bày Vĩ tuyến 17",
     "content": "Các bản đồ, văn bản và hồ sơ lịch sử phục vụ nghiên cứu cần được biên mục, số hóa và kiểm duyệt.\n\nTài liệu trưng bày",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Tài liệu"
+    "category": "Tài liệu",
+    "zone_id": "museum"
   },
   {
     "id": "museum-3",
     "title": "Câu chuyện hiện vật – Nhà trưng bày Vĩ tuyến 17",
     "content": "Mỗi hiện vật sẽ có kịch bản thuyết minh tiếng Việt, tiếng Anh, ảnh và nguồn tham khảo riêng khi kết nối backend.\n\nKịch bản theo hiện vật",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Thuyết minh"
+    "category": "Thuyết minh",
+    "zone_id": "museum"
   },
   {
     "id": "flag",
     "title": "Kỳ đài Hiền Lương",
     "content": "Kỳ đài Hiền Lương nằm ở bờ Bắc sông Bến Hải. Cột cờ và lá cờ Tổ quốc là những hình ảnh tiêu biểu gắn với ý chí thống nhất non sông.\n\nChào mừng bạn đến với Kỳ đài Hiền Lương, nơi hình ảnh lá cờ đỏ sao vàng lưu giữ nhiều ký ức lịch sử. Nhấn vào từng chủ đề bên dưới để tiếp tục nghe thuyết minh.",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Di tích"
+    "category": "Di tích",
+    "zone_id": "flag"
   },
   {
     "id": "flag-1",
     "title": "Lá cờ Tổ quốc – Kỳ đài Hiền Lương",
     "content": "Biểu tượng quốc gia gắn với câu chuyện về kỳ đài Hiền Lương và tinh thần hướng về thống nhất.\n\nBiểu tượng lịch sử",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Biểu tượng"
+    "category": "Biểu tượng",
+    "zone_id": "flag"
   },
   {
     "id": "flag-2",
     "title": "Cấu trúc kỳ đài – Kỳ đài Hiền Lương",
     "content": "Cần đối chiếu kích thước và các giai đoạn trùng tu theo hồ sơ quản lý di tích, không sử dụng số liệu chưa được xác minh.\n\nCông trình phục dựng",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Kiến trúc"
+    "category": "Kiến trúc",
+    "zone_id": "flag"
   },
   {
     "id": "flag-3",
     "title": "Ký ức giới tuyến – Kỳ đài Hiền Lương",
     "content": "Tìm hiểu ký ức của người dân hai bờ thông qua lời kể và tài liệu đã được cơ quan quản lý kiểm chứng.\n\nKý ức lịch sử",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Câu chuyện"
+    "category": "Câu chuyện",
+    "zone_id": "flag"
   },
   {
     "id": "monument",
     "title": "Tượng đài Khát vọng thống nhất",
     "content": "Tượng đài Khát vọng thống nhất thuộc không gian di tích ở bờ Nam sông Bến Hải, thể hiện ước vọng đoàn tụ của dân tộc trong những năm chia cắt.\n\nBạn đang đến với Tượng đài Khát vọng thống nhất. Công trình lưu giữ thông điệp về sự đoàn tụ, hòa bình và ý chí thống nhất của nhân dân Việt Nam.",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Di tích"
+    "category": "Di tích",
+    "zone_id": "monument"
   },
   {
     "id": "monument-1",
     "title": "Tượng đài và quảng trường – Tượng đài Khát vọng thống nhất",
     "content": "Tổng quan kiến trúc và bố cục quảng trường tại bờ Nam. Dữ liệu về tác giả, kích thước và niên đại cần được đối chiếu hồ sơ di tích.\n\nKhông gian tưởng niệm",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Kiến trúc"
+    "category": "Kiến trúc",
+    "zone_id": "monument"
   },
   {
     "id": "monument-2",
     "title": "Khát vọng đoàn tụ – Tượng đài Khát vọng thống nhất",
     "content": "Chủ đề lịch sử thể hiện mong muốn hòa bình và thống nhất của người dân hai miền.\n\nGiá trị tinh thần",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Chủ đề"
+    "category": "Chủ đề",
+    "zone_id": "monument"
   },
   {
     "id": "monument-3",
     "title": "Ảnh khu di tích – Tượng đài Khát vọng thống nhất",
     "content": "Bộ sưu tập hình ảnh hiện tại và qua các thời kỳ sẽ được cập nhật trong hệ thống quản trị.\n\nTư liệu hình ảnh",
     "source": "Nội dung minh họa từ giao diện dự án; chưa kiểm duyệt",
-    "category": "Hình ảnh"
+    "category": "Hình ảnh",
+    "zone_id": "monument"
   }
 ]

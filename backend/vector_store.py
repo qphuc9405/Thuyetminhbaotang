@@ -10,6 +10,14 @@ import struct
 import unicodedata
 from pathlib import Path
 
+ZONE_IDS = {"bridge", "museum", "flag", "monument", "union"}
+
+
+def validate_zone(zone_id: str | None) -> None:
+    if zone_id is not None and (not isinstance(zone_id, str) or zone_id not in ZONE_IDS):
+        raise ValueError("Địa điểm không hợp lệ.")
+
+
 VECTOR_SIZE = 384
 WORD_RE = re.compile(r"[\w]+", re.UNICODE)
 
@@ -100,7 +108,17 @@ class VectorStore:
                 CREATE INDEX IF NOT EXISTS chunks_document_id ON chunks(document_id);
             """)
 
+            columns = {row["name"] for row in db.execute("PRAGMA table_info(documents)")}
+            if "zone_id" not in columns:
+                db.execute("ALTER TABLE documents ADD COLUMN zone_id TEXT")
+                for zone_id in ZONE_IDS:
+                    db.execute("UPDATE documents SET zone_id = ? WHERE id = ? OR id LIKE ?",
+                               (zone_id, zone_id, f"{zone_id}-%"))
+            db.execute("CREATE INDEX IF NOT EXISTS documents_zone_id ON documents(zone_id)")
+
     def upsert(self, document: dict) -> dict:
+        if not isinstance(document, dict):
+            raise ValueError("Mỗi tài liệu phải là một JSON object.")
         identifier = document.get("id")
         title = document.get("title")
         content = document.get("content")
@@ -113,18 +131,26 @@ class VectorStore:
         if len(identifier) > 120 or len(title) > 240 or len(content) > 100_000:
             raise ValueError("Tài liệu vượt quá giới hạn độ dài.")
 
+        if "zone_id" in document:
+            zone_id = document["zone_id"]
+        else:
+            zone_id = next((zone for zone in ZONE_IDS if identifier == zone or identifier.startswith(f"{zone}-")), None)
+            if zone_id is None:
+                raise ValueError("Tài liệu cần zone_id; dùng null cho tư liệu tổng quan.")
+        validate_zone(zone_id)
         chunks = split_content(content)
         with self._connect() as db:
             db.execute("""
-                INSERT INTO documents(id, title, content, source, category, updated_at)
-                VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                INSERT INTO documents(id, title, content, source, category, zone_id, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                 ON CONFLICT(id) DO UPDATE SET
                     title=excluded.title,
                     content=excluded.content,
                     source=excluded.source,
                     category=excluded.category,
+                    zone_id=excluded.zone_id,
                     updated_at=CURRENT_TIMESTAMP
-            """, (identifier, title.strip(), content.strip(), source.strip(), category.strip()))
+            """, (identifier, title.strip(), content.strip(), source.strip(), category.strip(), zone_id))
             db.execute("DELETE FROM chunks WHERE document_id = ?", (identifier,))
             db.executemany(
                 "INSERT INTO chunks(document_id, position, content, vector) VALUES (?, ?, ?, ?)",
@@ -133,23 +159,33 @@ class VectorStore:
                     for index, chunk in enumerate(chunks)
                 ],
             )
-        return {"id": identifier, "title": title.strip(), "chunks": len(chunks)}
+        return {"id": identifier, "title": title.strip(), "chunks": len(chunks), "zone_id": zone_id}
 
     def list_documents(self) -> list[dict]:
         with self._connect() as db:
             rows = db.execute("""
-                SELECT d.id, d.title, d.source, d.category, d.updated_at,
+                SELECT d.id, d.title, d.source, d.category, d.zone_id, d.updated_at,
                        COUNT(c.position) AS chunks
                 FROM documents d LEFT JOIN chunks c ON c.document_id = d.id
                 GROUP BY d.id ORDER BY d.title
             """).fetchall()
         return [dict(row) for row in rows]
 
+    def narration(self, zone_id: str) -> dict:
+        validate_zone(zone_id)
+        if zone_id is None:
+            raise ValueError("Thuyết minh cần địa điểm.")
+        with self._connect() as db:
+            rows = db.execute("""
+                SELECT id, title, content, source, category, zone_id FROM documents
+                WHERE zone_id = ? ORDER BY CASE WHEN id = ? THEN 0 ELSE 1 END, title, id
+            """, (zone_id, zone_id)).fetchall()
+        return {"zone_id": zone_id, "documents": [dict(row) for row in rows]}
+
     def search(self, query: str, limit: int = 5, zone_id: str | None = None) -> list[dict]:
         if not isinstance(query, str) or not query.strip():
             raise ValueError("Câu hỏi không được để trống.")
-        if zone_id is not None and zone_id not in {"bridge", "museum", "flag", "monument"}:
-            raise ValueError("Địa điểm không hợp lệ.")
+        validate_zone(zone_id)
         query_vector = embed(query)
         with self._connect() as db:
             sql = """
@@ -159,8 +195,8 @@ class VectorStore:
             """
             params: tuple = ()
             if zone_id:
-                sql += " WHERE d.id = ? OR d.id LIKE ?"
-                params = (zone_id, f"{zone_id}-%")
+                sql += " WHERE d.zone_id = ?"
+                params = (zone_id,)
             rows = db.execute(sql, params).fetchall()
 
         ranked = []

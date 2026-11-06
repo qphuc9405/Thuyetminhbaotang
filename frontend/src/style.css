@@ -32,12 +32,27 @@ a { color: inherit; }
 .language-code { position: absolute; right: 3px; bottom: 3px; font-size: 8px; font-weight: 800; background: #163846; border-radius: 4px; padding: 0 2px; }
 
 .home-hitboxes { position: absolute; z-index: 2; inset: 76px 0 112px; pointer-events: none; }
-.hotspot { position: absolute; pointer-events: auto; background: transparent; border: 1px solid transparent; border-radius: 16px; transition: background .2s, box-shadow .2s; }
+.hotspot { position: absolute; width: 18%; height: 10%; pointer-events: auto; background: transparent; border: 1px solid transparent; border-radius: 16px; transition: background .2s, box-shadow .2s; }
 .hotspot:hover, .hotspot:focus-visible { background: #ffe1a225; box-shadow: 0 0 0 2px #f5d38d; }
-.hotspot.bridge { left: 11%; top: 24%; width: 19%; height: 17%; }
-.hotspot.museum { left: 48%; top: 34%; width: 19%; height: 16%; }
-.hotspot.flag { left: 74%; top: 61%; width: 25%; height: 18%; }
-.hotspot.monument { left: 38%; top: 3%; width: 20%; height: 19%; }
+/* Place the bridge card on the river, just left of its gold pin and below the museum card. */
+.hotspot.bridge { left: 11%; top: 34%; }
+.hotspot.museum { left: 1.2%; top: 14%; width: 13.5%; height: 9%; grid-template-columns: 23% minmax(0, 1fr) 12px; gap: 5px; padding: 5px; }
+.hotspot.museum .home-place-card-text strong { font-size: clamp(11px, .85vw, 14px); }
+.hotspot.museum .home-place-card-text > span { font-size: clamp(9px, .65vw, 11px); }
+.hotspot.museum .home-place-arrow { width: 12px; }
+.home-place-card { display: grid; grid-template-columns: 25% minmax(0, 1fr) 16px; align-items: stretch; gap: clamp(6px, .55vw, 10px); padding: clamp(5px, .45vw, 8px); border: 1.5px solid #e7c66d; border-radius: 12px; background: linear-gradient(125deg, #052d38f5, #031f2bf5); box-shadow: 0 0 12px #f2cc6955, inset 0 0 12px #4dc3c71a; color: #fff6dd; text-align: left; }
+.home-place-card > img { width: 100%; height: 100%; min-height: 0; object-fit: cover; border-radius: 10px; }
+.home-place-card-text { display: flex; flex-direction: column; justify-content: center; min-width: 0; gap: 3px; }
+.home-place-card-text strong { font-size: clamp(12px, 1vw, 17px); line-height: 1.2; }
+.home-place-card-text > span { font-size: clamp(10px, .75vw, 13px); line-height: 1.3; }
+.home-place-arrow { align-self: center; color: #e7c66d; }
+.home-place-card:hover, .home-place-card:focus-visible { background: #104654f5; border-color: #ffe3a1; box-shadow: 0 0 0 2px #f5d38d, 0 0 18px #f2cc6970; }
+.hotspot.flag { left: 76%; top: 62%; }
+.hotspot.monument { left: 36.5%; top: 8%; }
+.hotspot.union { left: 49%; top: 35%; }
+.home-map-pin { position: absolute; display: grid; place-items: center; width: 44px; height: 52px; padding: 0; transform: translate(-50%, -100%); pointer-events: auto; border: 0; border-radius: 12px; background: transparent; color: #ffe8a3; filter: drop-shadow(0 0 6px #ffbd35); transition: filter .2s; }
+.home-map-pin svg { width: 38px; height: 46px; fill: #e6a526; stroke-width: 1.8; }
+.home-map-pin:hover, .home-map-pin:focus-visible { filter: drop-shadow(0 0 10px #ffe3a1); background: #ffe1a225; }
 .home-journey { position: absolute; z-index: 3; right: clamp(20px, 4vw, 70px); bottom: 140px; width: min(450px, calc(100% - 40px)); padding: 20px; border: 1px solid #e6c5808c; border-radius: 22px; background: #061e2ce8; box-shadow: 0 20px 60px #00101bb0; backdrop-filter: blur(16px); }
 .section-kicker { display: block; color: #f2ce86; font-size: 10px; font-weight: 800; letter-spacing: .2em; }
 .home-destinations { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 13px; }
@@ -52,7 +67,7 @@ a { color: inherit; }
 
 .explore-page { display: flex; flex-direction: column; }
 .explore-background { object-position: center; }
-.explore-overlay { position: absolute; z-index: -2; inset: 0; background: linear-gradient(90deg, #051b2be8 0%, #071f2bc2 29%, #061d2a54 64%, #0419227a 100%), linear-gradient(0deg, #051a27e8 0%, transparent 32%, #061b258a 100%); pointer-events: none; }
+.explore-overlay { position: absolute; z-index: -2; inset: 0; background: linear-gradient(90deg, #051b2bb8 0%, #071f2b85 29%, #061d2a20 64%, #04192238 100%), linear-gradient(0deg, #051a2799 0%, transparent 32%, #061b2533 100%); pointer-events: none; }
 .explore-header { background: #061e29dd; }
 .back-button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 13px; border: 1px solid #d4bc8f8c; border-radius: 999px; background: #173a47; color: #fff1d2; white-space: nowrap; }
 .back-button:hover { background: #265c68; }
@@ -80,7 +95,7 @@ a { color: inherit; }
 .soldier-sprite { position: relative; width: 100%; aspect-ratio: 1417 / 1110; transform-origin: 42% 92%; will-change: transform; }
 .soldier-pose, .soldier-mouth { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: fill; }
 .soldier-pose { filter: drop-shadow(0 12px 18px #00131dbb); }
-.soldier-mouth { z-index: 1; opacity: 0; -webkit-mask-image: radial-gradient(ellipse 5.5% 4% at 40% 31.5%, #000 45%, transparent 100%); mask-image: radial-gradient(ellipse 5.5% 4% at 40% 31.5%, #000 45%, transparent 100%); transition: opacity .14s ease-in-out; }
+.soldier-mouth { z-index: 1; opacity: 0; -webkit-mask-image: radial-gradient(ellipse 5.5% 4% at var(--mouth-x, 40%) var(--mouth-y, 31.5%), #000 45%, transparent 100%); mask-image: radial-gradient(ellipse 5.5% 4% at var(--mouth-x, 40%) var(--mouth-y, 31.5%), #000 45%, transparent 100%); transition: opacity .14s ease-in-out; }
 .soldier-guide.is-speaking .soldier-sprite { animation: soldier-body 5.4s ease-in-out infinite; }
 .soldier-guide.is-speaking:not(.has-speech-boundary) .soldier-mouth { animation: soldier-talk .72s ease-in-out infinite; }
 .soldier-guide.has-speech-boundary.mouth-open .soldier-mouth { opacity: 1; }
@@ -199,10 +214,6 @@ a { color: inherit; }
   .home-destinations button { min-height: 48px; padding: 7px; font-size: 10px; }
   .home-destinations button span { font-size: 15px; }
   .home-page > .chat-dock { bottom: 20px; width: calc(100% - 24px); }
-  .hotspot.bridge { left: 6%; top: 27%; width: 41%; height: 16%; }
-  .hotspot.museum { left: 45%; top: 36%; width: 42%; height: 16%; }
-  .hotspot.flag { left: 55%; top: 61%; width: 43%; height: 16%; }
-  .hotspot.monument { left: 15%; top: 7%; width: 43%; height: 18%; }
   .back-button { width: 34px; height: 34px; justify-content: center; padding: 0; }
   .back-button span { display: none; }
   .explore-identity { min-width: 0; }
@@ -239,12 +250,12 @@ a { color: inherit; }
 .home-page::after { content: none; }
 .home-image { object-fit: fill; object-position: center; }
 .home-hitboxes { inset: 0; }
-.hotspot.bridge { left: 11.5%; top: 29%; width: 18%; height: 14%; }
-.hotspot.museum { left: 48%; top: 36%; width: 18%; height: 14%; }
-.hotspot.flag { left: 74.5%; top: 62%; width: 25%; height: 16%; }
-.hotspot.monument { left: 38.5%; top: 8.5%; width: 18%; height: 14%; }
 
-.home-top-hitboxes { position: absolute; z-index: 5; top: 1.5%; right: 1.2%; display: grid; grid-template-columns: repeat(5, 1fr); width: 38.7%; height: 7.5%; min-height: 44px; }
+/* Artwork: 1672 × 941; toolbar bounds (1004, 15)–(1651, 84).
+   Its dividers are at x=1122, 1243, 1362, 1480, not equal fifths. */
+.home-top-hitboxes { position: absolute; z-index: 5; top: calc(15 / 941 * 100%); left: calc(1004 / 1672 * 100%); display: grid; grid-template-columns: 118fr 121fr 119fr 118fr 171fr; width: calc(647 / 1672 * 100%); height: calc(69 / 941 * 100%); }
+.home-top-hitboxes button { min-width: 0; touch-action: manipulation; }
+.home-top-hitboxes button > * { display: none; pointer-events: none; }
 .home-top-hitboxes button, .home-bottom-hitboxes button { padding: 0; border: 1px solid transparent; border-radius: 12px; background: transparent; }
 .home-top-hitboxes button:hover, .home-bottom-hitboxes button:hover { background: #f9d89224; border-color: #f9d892aa; }
 .home-bottom-hitboxes { position: absolute; z-index: 5; left: 1%; right: 1%; bottom: 1.4%; display: flex; justify-content: space-between; height: 9.5%; min-height: 58px; pointer-events: none; }
@@ -279,16 +290,20 @@ a { color: inherit; }
   .home-image { object-fit: cover; object-position: 48% center; }
   .home-page .home-soldier-guide { top: auto; bottom: 195px; left: -8px; width: min(48vw, 230px); }
   .home-guide-bubble { top: auto; bottom: 84px; left: 12px; width: min(320px, calc(100% - 24px)); min-height: 0; padding: 10px 12px; border-radius: 16px; font-size: 12px; }
-  .home-top-hitboxes { top: 7px; right: 7px; width: 64%; height: 48px; }
+  /* The cover image crops the painted toolbar on narrow screens. Replace it
+     with visible controls whose rendered boxes are also their touch targets. */
+  .home-top-hitboxes { top: 0; left: 0; width: 100%; height: 9%; min-height: 64px; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 5px; background: #062b38; border-bottom: 1px solid #d6bb837d; }
+  .home-top-hitboxes button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; min-height: 44px; color: #ffe3a2; border-radius: 8px; }
+  .home-top-hitboxes button > * { display: block; }
+  .home-top-hitboxes button svg { width: 22px; height: 22px; }
+  .home-top-hitboxes button span { font-size: 10px; white-space: nowrap; }
   .home-bottom-hitboxes { left: 7px; right: 7px; bottom: 7px; height: 66px; }
   .home-bottom-hitboxes button { width: 18%; }
   .home-page > .chat-dock { left: 20%; bottom: 7px; width: 60%; }
   .home-page .chat-form { min-height: 64px; height: 64px; padding: 3px; }
   .home-page .chat-form button { width: 32px; height: 32px; }
   .home-page .chat-form input { font-size: 11px; }
-  .hotspot.bridge { left: 8%; top: 34%; width: 40%; height: 15%; }
-  .hotspot.museum { left: 45%; top: 38%; width: 40%; height: 16%; }
-  .hotspot.flag { left: 54%; top: 62%; width: 44%; height: 16%; }
-  .hotspot.monument { left: 15%; top: 12%; width: 42%; height: 18%; }
   .home-floating-panel { right: 7px; left: 7px; bottom: 82px; width: auto; max-height: 50vh; }
 }
+
+.narration-source { display: block; margin-top: 10px; color: #e8d5ac; }

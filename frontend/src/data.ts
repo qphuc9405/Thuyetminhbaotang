@@ -1,4 +1,4 @@
-export type ZoneId = 'bridge' | 'museum' | 'flag' | 'monument';
+export type ZoneId = 'bridge' | 'museum' | 'flag' | 'monument' | 'union';
 
 export type Exhibit = {
   id: string;
@@ -17,6 +17,7 @@ export type Zone = {
   accent: string;
   image: string;
   hotspot: {
+    // Percentage coordinates on the 1672 × 941 map; the pin tip anchors here.
     x: number;
     y: number;
   };
@@ -33,8 +34,8 @@ export const zones: Zone[] = [
     accent: '#d7b26b',
     image: '/home-reference-soldier.png',
     hotspot: {
-      x: 30.5,
-      y: 35.5,
+      x: 32,
+      y: 38,
     },
     exhibits: [
       {
@@ -69,8 +70,8 @@ export const zones: Zone[] = [
     accent: '#e8cb92',
     image: '/home-reference-soldier.png',
     hotspot: {
-      x: 55,
-      y: 48.5,
+      x: 20.9,
+      y: 15.2,
     },
     exhibits: [
       {
@@ -105,8 +106,8 @@ export const zones: Zone[] = [
     accent: '#e2b46b',
     image: '/home-reference-soldier.png',
     hotspot: {
-      x: 73,
-      y: 68.2,
+      x: 74,
+      y: 70,
     },
     exhibits: [
       {
@@ -141,8 +142,8 @@ export const zones: Zone[] = [
     accent: '#dcb87b',
     image: '/home-reference-soldier.png',
     hotspot: {
-      x: 36.5,
-      y: 13,
+      x: 34.3,
+      y: 10.8,
     },
     exhibits: [
       {
@@ -167,5 +168,16 @@ export const zones: Zone[] = [
         caption: 'Tư liệu hình ảnh',
       },
     ],
+  },
+  {
+    id: 'union',
+    title: 'Nhà liên hiệp',
+    short: 'Khám phá khu vực Nhà liên hiệp',
+    description: 'Khu vực Nhà liên hiệp được đánh dấu trên bản đồ tham quan.',
+    script: '',
+    accent: '#e8cb92',
+    image: '/union-reference.png',
+    hotspot: { x: 53.8, y: 49.6 },
+    exhibits: [],
   },
 ];

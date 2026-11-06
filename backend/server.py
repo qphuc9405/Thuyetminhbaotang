@@ -45,6 +45,12 @@ class Handler(BaseHTTPRequestHandler):
             self._json(200, {"status": "ok", "documents": len(store.list_documents())})
         elif route.path == "/api/documents":
             self._json(200, {"documents": store.list_documents()})
+        elif route.path == "/api/narration":
+            try:
+                zone_id = parse_qs(route.query).get("zone_id", [None])[0]
+                self._json(200, store.narration(zone_id))
+            except ValueError as error:
+                self._json(400, {"error": str(error)})
         elif route.path == "/api/search":
             params = parse_qs(route.query)
             try:
