@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "093282c9-0419-4833-b315-be9e108be34e",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "/home/phuc/cnpm/trolyaobaotang/.archify/architecture-vi-tuyen-17-20261108-204712/candidate.json",
+  "output": "/home/phuc/cnpm/trolyaobaotang/.archify/architecture-vi-tuyen-17-20261108-204712/kien-truc.html",
+  "specification": {
+    "sha256": "64e90e13003c1900e1c10b1f9397e06dbb71e721528e43fdc7e3686ae5dbda56",
+    "bytes": 11915
+  },
+  "artifact": {
+    "sha256": "6c3e0be9eba84119962836e3c321dc8bf9210e70576f75b724b926459e7018d2",
+    "bytes": 848327
+  }
+}

@@ -42,7 +42,7 @@ export const mediaByZone: Record<ZoneId, { hero: Photo; photos: Photo[]; videos:
     hero: unionOriginal,
     photos: [
       unionOriginal,
-      localPhoto('/home-map-sharp.png', 'Vị trí Nhà liên hiệp trên bản đồ', 'Bản đồ minh họa khu di tích'),
+      localPhoto('/home-map-open-forecourt-sharp.png', 'Vị trí Nhà liên hiệp trên bản đồ', 'Bản đồ minh họa khu di tích'),
     ],
     videos: [],
   },

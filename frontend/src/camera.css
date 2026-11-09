@@ -1,0 +1,17 @@
+.home-map-stage { overflow: hidden; }
+.home-map-camera { position: absolute; inset: 0; isolation: isolate; transform-origin: 0 0; transition: transform var(--camera-duration) var(--camera-easing); }
+.home-map-camera.camera-no-transition { transition: none; }
+.home-map-stage[data-camera-phase="zooming"] .home-map-camera,
+.home-map-stage[data-camera-phase="returning"] .home-map-camera { will-change: transform; }
+.camera-busy { cursor: progress; }
+.camera-busy > :not(.home-map-stage) { pointer-events: none; }
+.camera-busy .home-hitboxes { opacity: 0; pointer-events: none; }
+.camera-busy .home-hitboxes button { pointer-events: none; }
+.home-hitboxes { transition: opacity 180ms ease; }
+.detail-enter h1:focus { outline: none; }
+.detail-enter { animation: detail-arrive var(--detail-fade-duration, 220ms) ease-out both; }
+@keyframes detail-arrive { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .home-map-camera, .home-hitboxes { transition: none; }
+  .detail-enter { animation: none; }
+}

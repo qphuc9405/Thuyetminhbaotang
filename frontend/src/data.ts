@@ -11,9 +11,10 @@ export type Exhibit = {
 export type Zone = {
   id: ZoneId;
   title: string;
+  href: string;
+  camera: { x: number; y: number; zoom: number };
   short: string;
   description: string;
-  script: string;
   accent: string;
   image: string;
   hotspot: {
@@ -27,10 +28,11 @@ export type Zone = {
 export const zones: Zone[] = [
   {
     id: 'bridge',
+    href: '#bridge',
+    camera: { x: 32, y: 38, zoom: 2.7 },
     title: 'Cầu Hiền Lương',
     short: 'Cây cầu lịch sử trên sông Bến Hải',
     description: 'Cầu Hiền Lương bắc qua sông Bến Hải, gắn với thời kỳ giới tuyến quân sự tạm thời sau Hiệp định Genève năm 1954. Trong không gian tham quan này, khách có thể tìm hiểu những câu chuyện về cây cầu và hai bờ giới tuyến.',
-    script: 'Chào mừng bạn đến với khu Cầu Hiền Lương. Cây cầu bắc qua sông Bến Hải là một biểu tượng lịch sử của khát vọng hòa bình và thống nhất. Hãy chọn một tư liệu phía dưới để khám phá thêm.',
     accent: '#d7b26b',
     image: '/home-reference-soldier.png',
     hotspot: {
@@ -63,15 +65,16 @@ export const zones: Zone[] = [
   },
   {
     id: 'museum',
+    href: '#museum',
+    camera: { x: 13.2, y: 60.5, zoom: 3.2 },
     title: 'Nhà trưng bày Vĩ tuyến 17',
     short: 'Không gian tư liệu, hình ảnh và hiện vật',
     description: 'Không gian giới thiệu lịch sử đôi bờ Hiền Lương – Bến Hải qua tài liệu, hình ảnh và hiện vật. Dữ liệu hiện tại chỉ dùng cho bản demo frontend; danh mục hiện vật thực tế cần được bảo tàng xác nhận.',
-    script: 'Bạn đang khám phá Nhà trưng bày Vĩ tuyến 17. Không gian này giúp kết nối hiện vật với những câu chuyện về cuộc sống, đấu tranh và khát vọng thống nhất đất nước.',
     accent: '#e8cb92',
     image: '/home-reference-soldier.png',
     hotspot: {
-      x: 20.9,
-      y: 15.2,
+      x: 13.2,
+      y: 60.5,
     },
     exhibits: [
       {
@@ -91,18 +94,19 @@ export const zones: Zone[] = [
       {
         id: 'museum-3',
         name: 'Câu chuyện hiện vật',
-        type: 'Thuyết minh',
-        content: 'Mỗi hiện vật sẽ có kịch bản thuyết minh tiếng Việt, tiếng Anh, ảnh và nguồn tham khảo riêng khi kết nối backend.',
-        caption: 'Kịch bản theo hiện vật',
+        type: 'Tư liệu',
+        content: 'Mỗi hiện vật có nội dung giới thiệu, hình ảnh và nguồn tham khảo riêng.',
+        caption: 'Nội dung theo hiện vật',
       },
     ],
   },
   {
     id: 'flag',
+    href: '#flag',
+    camera: { x: 74, y: 70, zoom: 3 },
     title: 'Kỳ đài Hiền Lương',
     short: 'Biểu tượng chủ quyền và khát vọng thống nhất',
     description: 'Kỳ đài Hiền Lương nằm ở bờ Bắc sông Bến Hải. Cột cờ và lá cờ Tổ quốc là những hình ảnh tiêu biểu gắn với ý chí thống nhất non sông.',
-    script: 'Chào mừng bạn đến với Kỳ đài Hiền Lương, nơi hình ảnh lá cờ đỏ sao vàng lưu giữ nhiều ký ức lịch sử. Nhấn vào từng chủ đề bên dưới để tiếp tục nghe thuyết minh.',
     accent: '#e2b46b',
     image: '/home-reference-soldier.png',
     hotspot: {
@@ -135,10 +139,11 @@ export const zones: Zone[] = [
   },
   {
     id: 'monument',
+    href: '#monument',
+    camera: { x: 34.3, y: 10.8, zoom: 3.4 },
     title: 'Tượng đài Khát vọng thống nhất',
     short: 'Thông điệp về hòa bình và đoàn tụ',
     description: 'Tượng đài Khát vọng thống nhất thuộc không gian di tích ở bờ Nam sông Bến Hải, thể hiện ước vọng đoàn tụ của dân tộc trong những năm chia cắt.',
-    script: 'Bạn đang đến với Tượng đài Khát vọng thống nhất. Công trình lưu giữ thông điệp về sự đoàn tụ, hòa bình và ý chí thống nhất của nhân dân Việt Nam.',
     accent: '#dcb87b',
     image: '/home-reference-soldier.png',
     hotspot: {
@@ -171,10 +176,11 @@ export const zones: Zone[] = [
   },
   {
     id: 'union',
+    href: '#union',
+    camera: { x: 53.8, y: 49.6, zoom: 3.2 },
     title: 'Nhà liên hiệp',
     short: 'Khám phá khu vực Nhà liên hiệp',
     description: 'Khu vực Nhà liên hiệp được đánh dấu trên bản đồ tham quan.',
-    script: '',
     accent: '#e8cb92',
     image: '/union-reference.png',
     hotspot: { x: 53.8, y: 49.6 },

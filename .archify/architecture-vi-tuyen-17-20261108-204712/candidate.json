@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Vĩ tuyến 17 — Kiến trúc trợ lý bảo tàng",
+    "output": ".archify/architecture-vi-tuyen-17-20261108-204712/kien-truc.html",
+    "quality_profile": "showcase",
+    "locale": "vi",
+    "translations": {
+      "page.title": "{title} — Sơ đồ",
+      "diagram.description.architecture": "Sơ đồ kiến trúc dự án Vĩ tuyến 17.",
+      "node.context.architecture": "Thành phần kiến trúc",
+      "node.focus": "Xem {label}",
+      "node.focus.detail": "Xem {label}, {detail}",
+      "legend.title": "Chú giải",
+      "legend.architecture.frontend": "Giao diện",
+      "legend.architecture.backend": "Xử lý nghiệp vụ",
+      "legend.architecture.database": "Kho dữ liệu",
+      "legend.architecture.external": "Thành phần ngoài",
+      "viewer.kind.frontend": "Giao diện",
+      "viewer.kind.backend": "Xử lý nghiệp vụ",
+      "viewer.kind.database": "Kho dữ liệu",
+      "viewer.kind.external": "Thành phần ngoài",
+      "viewer.kind.node": "Thành phần",
+      "viewer.toolbar.actions": "Thao tác sơ đồ",
+      "viewer.theme.toggle.title": "Đổi giao diện sáng/tối (T)",
+      "viewer.theme.toggle": "Đổi giao diện sáng/tối",
+      "viewer.theme.dark": "Tối",
+      "viewer.theme.light": "Sáng",
+      "viewer.preset.choose.title": "Chọn kiểu hiển thị (S)",
+      "viewer.preset.choose": "Chọn kiểu hiển thị",
+      "viewer.preset.style": "Kiểu",
+      "viewer.preset.menu": "Kiểu hiển thị",
+      "viewer.preset.classic": "Cổ điển",
+      "viewer.preset.classic.short": "Cổ điển",
+      "viewer.motion.live": "Chuyển động",
+      "viewer.motion.still": "Tĩnh",
+      "viewer.motion.pause": "Dừng chuyển động",
+      "viewer.motion.resume": "Bật chuyển động",
+      "viewer.present.enter": "Trình chiếu",
+      "viewer.present.present": "Trình chiếu",
+      "viewer.present.exit": "Thoát trình chiếu",
+      "viewer.present.exit.label": "Thoát",
+      "viewer.export.button": "Xuất",
+      "viewer.export.button.title": "Xuất sơ đồ (E)",
+      "viewer.export.diagram": "Xuất sơ đồ",
+      "viewer.export.menu": "Xuất",
+      "viewer.export.subtitle": "Tệp độc lập để chia sẻ",
+      "viewer.export.share": "Chia sẻ",
+      "viewer.export.copyDiagram": "Sao chép sơ đồ",
+      "viewer.export.image": "Ảnh",
+      "viewer.export.raster": "Ảnh điểm ảnh",
+      "viewer.nav.controls": "Điều khiển sơ đồ",
+      "viewer.nav.route": "Theo dõi đường đi",
+      "viewer.nav.route.title": "Theo dõi đường đi (R)",
+      "viewer.nav.route.short": "LUỒNG",
+      "viewer.nav.radar": "Mở bản đồ tổng quan",
+      "viewer.nav.radar.title": "Bản đồ tổng quan (M)",
+      "viewer.nav.radar.short": "BẢN ĐỒ",
+      "viewer.nav.lens": "So sánh vai trò",
+      "viewer.nav.lens.title": "So sánh vai trò (L)",
+      "viewer.nav.lens.short": "VAI TRÒ",
+      "viewer.nav.find": "Tìm thành phần",
+      "viewer.nav.find.title": "Tìm thành phần (/)",
+      "viewer.nav.guide": "Mở hướng dẫn",
+      "viewer.nav.guide.title": "Hướng dẫn sơ đồ (?)",
+      "viewer.nav.zoomOut": "Thu nhỏ",
+      "viewer.nav.zoomIn": "Phóng to",
+      "viewer.nav.reset": "Đặt lại góc nhìn",
+      "viewer.nav.read": "ĐỌC",
+      "viewer.outline.title": "Danh sách thành phần",
+      "viewer.rail.show": "Ghi chú và danh sách",
+      "viewer.rail.controls": "Bảng bên",
+      "viewer.rail.collapse": "Thu gọn bảng bên",
+      "viewer.rail.bottom": "Đưa bảng xuống dưới",
+      "viewer.rail.right": "Đưa bảng sang bên",
+      "viewer.common.copied": "Đã sao chép",
+      "viewer.common.copyFailed": "Không sao chép được",
+      "viewer.common.copyLink": "Sao chép liên kết",
+      "viewer.common.clear": "Xóa lựa chọn",
+      "viewer.common.close": "Đóng",
+      "viewer.passport.sourceCount.one": "{count} trích dẫn mã nguồn đã kiểm tra",
+      "viewer.passport.sourceCount.other": "{count} trích dẫn mã nguồn đã kiểm tra",
+      "viewer.passport.source.openLink": "Mở ↗",
+      "viewer.passport.repository.open": "Mở phiên bản mã nguồn {revision}",
+      "viewer.passport.source.open": "Mở {path} tại phiên bản {revision}"
+    },
+    "repository": {
+      "url": "https://github.com/qphuc9405/Thuyetminhbaotang.git",
+      "revision": "1e04c0c18baebfadc54e0a413faefd756233f090"
+    }
+  },
+  "components": [
+    {
+      "id": "giao-dien",
+      "type": "frontend",
+      "label": "Giao diện tham quan",
+      "sublabel": "React 18 · TypeScript · trình duyệt",
+      "pos": [
+        40,
+        50
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "frontend/src/main.tsx",
+          "line": 210,
+          "end_line": 258
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "line": 328,
+          "end_line": 358
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "line": 570,
+          "end_line": 589
+        }
+      ]
+    },
+    {
+      "id": "vite",
+      "type": "backend",
+      "label": "Máy chủ phát triển Vite",
+      "sublabel": "Cổng 5173 · tệp tĩnh và proxy /api",
+      "pos": [
+        430,
+        50
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "frontend/vite.config.ts",
+          "line": 1,
+          "end_line": 9
+        },
+        {
+          "path": "run.sh",
+          "line": 35,
+          "end_line": 43
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "API tư liệu Python",
+      "sublabel": "ThreadingHTTPServer · cổng 8000",
+      "pos": [
+        820,
+        50
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "backend/server.py",
+          "line": 42,
+          "end_line": 77
+        },
+        {
+          "path": "backend/server.py",
+          "line": 80,
+          "end_line": 90
+        }
+      ]
+    },
+    {
+      "id": "am-thanh",
+      "type": "frontend",
+      "label": "Âm thanh trình duyệt",
+      "sublabel": "MP3 trang chủ · giọng đọc địa điểm",
+      "pos": [
+        40,
+        320
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "frontend/src/main.tsx",
+          "line": 105,
+          "end_line": 164
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "line": 21,
+          "end_line": 22
+        }
+      ]
+    },
+    {
+      "id": "nhap-lieu",
+      "type": "backend",
+      "label": "Công cụ nhập tư liệu",
+      "sublabel": "manage.py · seed / import / list",
+      "pos": [
+        430,
+        320
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "backend/manage.py",
+          "line": 17,
+          "end_line": 41
+        }
+      ]
+    },
+    {
+      "id": "kho-vector",
+      "type": "backend",
+      "label": "Xử lý kho tư liệu",
+      "sublabel": "VectorStore · tìm kiếm và trích đoạn",
+      "pos": [
+        820,
+        320
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "backend/vector_store.py",
+          "line": 119,
+          "end_line": 162
+        },
+        {
+          "path": "backend/vector_store.py",
+          "line": 174,
+          "end_line": 215
+        },
+        {
+          "path": "backend/vector_store.py",
+          "line": 217,
+          "end_line": 231
+        }
+      ]
+    },
+    {
+      "id": "tep-json",
+      "type": "database",
+      "label": "Tệp tư liệu JSON",
+      "sublabel": "seed.json hoặc tệp do người dùng nhập",
+      "pos": [
+        430,
+        590
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "backend/manage.py",
+          "line": 12,
+          "end_line": 14
+        },
+        {
+          "path": "backend/manage.py",
+          "line": 30,
+          "end_line": 39
+        }
+      ]
+    },
+    {
+      "id": "sqlite",
+      "type": "database",
+      "label": "Cơ sở dữ liệu SQLite",
+      "sublabel": "knowledge.sqlite3 · documents / chunks",
+      "pos": [
+        820,
+        590
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "sources": [
+        {
+          "path": "backend/server.py",
+          "line": 13,
+          "end_line": 15
+        },
+        {
+          "path": "backend/vector_store.py",
+          "line": 78,
+          "end_line": 117
+        },
+        {
+          "path": "backend/vector_store.py",
+          "line": 142,
+          "end_line": 161
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "gui-api",
+      "from": "giao-dien",
+      "to": "vite",
+      "label": "HTTP /api · zone_id",
+      "variant": "emphasis"
+    },
+    {
+      "id": "chuyen-tiep",
+      "from": "vite",
+      "to": "api",
+      "label": "Proxy HTTP /api",
+      "variant": "emphasis"
+    },
+    {
+      "id": "doc-noi-dung",
+      "from": "giao-dien",
+      "to": "am-thanh",
+      "label": "Phát MP3 / đọc tư liệu"
+    },
+    {
+      "id": "xu-ly",
+      "from": "api",
+      "to": "kho-vector",
+      "label": "Thuyết minh / chat / nhập"
+    },
+    {
+      "id": "nhap-vector",
+      "from": "nhap-lieu",
+      "to": "kho-vector",
+      "label": "Kiểm tra và upsert"
+    },
+    {
+      "id": "doc-json",
+      "from": "nhap-lieu",
+      "to": "tep-json",
+      "label": "Đọc tệp JSON"
+    },
+    {
+      "id": "luu-doc",
+      "from": "kho-vector",
+      "to": "sqlite",
+      "label": "SQL · đọc / ghi giao dịch"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Tham quan và thuyết minh",
+      "items": [
+        "Năm điểm đến: Cầu Hiền Lương, Nhà trưng bày, Kỳ đài, Tượng đài và Nhà liên hiệp. Điều hướng bằng #địa-điểm.",
+        "GET /api/narration?zone_id=… lấy toàn bộ tư liệu của địa điểm; giao diện đọc bài đầu tiên bằng speechSynthesis. Trang chủ dùng MP3 có sẵn.",
+        "Chuyển địa điểm hủy yêu cầu cũ. Nếu thiếu tư liệu hoặc mất kết nối, giao diện thông báo lỗi, không đọc nội dung tĩnh thay thế."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Tra cứu và lưu trữ",
+      "items": [
+        "POST /api/chat nhận question và zone_id; VectorStore tìm các đoạn phù hợp rồi trả nội dung trích dẫn kèm nguồn. Chưa tích hợp LLM.",
+        "Chuẩn hóa tiếng Việt; băm đặc trưng từ và ký tự thành vector 384 chiều. Xếp hạng bằng cosine, lọc tối đa 3 kết quả có điểm ≥ 0,16 khi trả lời.",
+        "Nhập tư liệu qua CLI hoặc POST /api/documents: kiểm tra dữ liệu, chia đoạn 160 từ chồng lấn 25 từ, tạo vector và lưu trong cùng giao dịch SQLite."
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Phạm vi triển khai hiện tại",
+      "items": [
+        "Sơ đồ mô tả kiến trúc chạy cục bộ qua run.sh: Vite phục vụ giao diện và chuyển tiếp API đến Python. Chưa có cấu hình triển khai production trong sơ đồ.",
+        "Ảnh minh họa và nhân vật nằm trong frontend/public; cấu hình tại data.ts, guides.ts và media.ts. Ảnh Wikimedia và liên kết video VOV/VTV/Tuổi Trẻ dùng Internet.",
+        "Mã nguồn được ghim theo commit hiện tại. Skill Archify trong .agents/ là công cụ tạo sơ đồ, không thuộc luồng chạy ứng dụng."
+      ]
+    }
+  ]
+}
