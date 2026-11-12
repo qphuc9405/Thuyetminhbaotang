@@ -8,3 +8,5 @@ backend/data/*.sqlite3
 backend/data/*.sqlite3-*
 __pycache__/
 *.pyc
+museum-guide/data/audio_cache/
+.pytest_cache/

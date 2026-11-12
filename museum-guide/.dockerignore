@@ -1,0 +1,7 @@
+node_modules
+frontend/node_modules
+**/__pycache__
+.env
+backend/.env
+data/processed/pages
+data/raw/*.pdf

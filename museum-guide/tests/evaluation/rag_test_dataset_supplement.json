@@ -1,0 +1,594 @@
+{
+ "meta": {
+  "description": "Bộ câu hỏi kiểm tra nguồn bổ sung 2026-10-31 (SRC003–SRC006, NOTE01). Chunk kỳ vọng tra từ số dòng.",
+  "n_items": 16,
+  "n_image_queries": 16
+ },
+ "items": [
+  {
+   "test_id": "SUP-01",
+   "question": "Bà Nguyễn Thị Hương kể gì về cuộc chiến màu sơn trên cầu Hiền Lương?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC004"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC004-L011",
+    "SRC004-L020"
+   ],
+   "expected_keywords": [
+    "Nguyễn Thị Hương"
+   ],
+   "reference_answer": "Theo lời kể trong SRC004, năm 1956 bà được điều về làm đội trưởng đội sơn cầu 20 người; hai bên thay nhau sơn, đến 1960 giữ hai màu xanh – vàng. Sách (tr.185–186) ghi khác: Đội 337 gồm 10 người, từ 9-11-1958.",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "Nguyễn Thị Hương"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-02",
+   "question": "Chiếc loa 500W ở bờ Bắc có đường kính bao nhiêu và được đặt ở đâu?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001",
+    "SRC003",
+    "SRC005"
+   ],
+   "expected_pages": [
+    116
+   ],
+   "expected_chunk_ids": [
+    "SRC003-L058",
+    "SRC005-L018-1"
+   ],
+   "expected_keywords": [
+    "500"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "500"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": [
+    "IMG046"
+   ]
+  },
+  {
+   "test_id": "SUP-03",
+   "question": "Lúc đầu hệ thống loa bờ Bắc có bao nhiêu cụm, mỗi cụm bao nhiêu loa?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003",
+    "SRC005"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L054",
+    "SRC005-L014-1"
+   ],
+   "expected_keywords": [
+    "24 loa"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "24 loa"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-04",
+   "question": "O Nhạn là ai?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L062"
+   ],
+   "expected_keywords": [
+    "O Nhạn"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement_image_filename",
+   "must_include": [
+    "O Nhạn"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": [
+    "IMG043"
+   ]
+  },
+  {
+   "test_id": "SUP-05",
+   "question": "Trạm tăng âm của hệ thống loa phóng thanh đặt cách cầu Hiền Lương bao xa?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC005"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC005-L018-2"
+   ],
+   "expected_keywords": [
+    "2,5km",
+    "trạm tăng âm"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "2,5km",
+    "trạm tăng âm"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-06",
+   "question": "Vì sao sông Minh Lương được đổi tên thành Hiền Lương?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L008"
+   ],
+   "expected_keywords": [
+    "Minh Mạng"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "Minh Mạng"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-07",
+   "question": "Cụm di tích Đôi bờ Hiền Lương – Bến Hải được xếp hạng di tích quốc gia đặc biệt năm nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC004",
+    "SRC005"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC004-L071",
+    "SRC005-L020-2"
+   ],
+   "expected_keywords": [
+    "2013"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "2013"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-08",
+   "question": "Ông Hoàng Nghi nhớ lại những gì về chuyện chọi cờ?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC004"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC004-L050",
+    "SRC004-L059"
+   ],
+   "expected_keywords": [
+    "Hoàng Nghi"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "Hoàng Nghi"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-09",
+   "question": "Theo Nguyễn Tuân, mỗi nửa cầu Hiền Lương có bao nhiêu tấm ván?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001",
+    "SRC003"
+   ],
+   "expected_pages": [
+    184
+   ],
+   "expected_chunk_ids": [
+    "SRC003-L018"
+   ],
+   "expected_keywords": [
+    "450"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "450"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-10",
+   "question": "Cầu Hiền Lương bị đánh sập năm 1966 hay năm 1967?",
+   "language": "vi",
+   "expected_source_ids": [
+    "NOTE01",
+    "SRC001",
+    "SRC003",
+    "SRC004"
+   ],
+   "expected_pages": [
+    183
+   ],
+   "expected_chunk_ids": [
+    "NOTE-01",
+    "SRC003-L028",
+    "SRC003-L083",
+    "SRC004-L020"
+   ],
+   "expected_keywords": [
+    "1967"
+   ],
+   "reference_answer": "Sách tr.183 ghi 9-1966; SRC003 ghi 2/8/1967; SRC004, SRC005 ghi năm 1967. Câu trả lời phải nêu cả hai, không chọn.",
+   "answerable": true,
+   "category": "supplement_conflict",
+   "must_include": [
+    "1967"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-11",
+   "question": "What did the witness Nguyen Thi Huong say about painting the Hien Luong bridge?",
+   "language": "en",
+   "expected_source_ids": [
+    "SRC004"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC004-L011",
+    "SRC004-L020"
+   ],
+   "expected_keywords": [
+    "Nguyễn Thị Hương"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "Nguyễn Thị Hương"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-12",
+   "question": "贤良桥北岸最初的扩音系统有几组喇叭？",
+   "language": "zh",
+   "expected_source_ids": [
+    "SRC003",
+    "SRC005"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L054",
+    "SRC005-L014-1"
+   ],
+   "expected_keywords": [
+    "24 loa"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "24 loa"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-13",
+   "question": "Đường dây điện cấp cho hệ thống loa phóng thanh dài bao nhiêu?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC005"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC005-L018-2"
+   ],
+   "expected_keywords": [
+    "6KvA"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "6KvA"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": []
+  },
+  {
+   "test_id": "SUP-14",
+   "question": "Năm 2014 cầu Hiền Lương được phục hồi màu sơn như thế nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003",
+    "SRC004"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L034",
+    "SRC004-L027"
+   ],
+   "expected_keywords": [
+    "2014"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement",
+   "must_include": [
+    "2014"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": [
+    "IMG045"
+   ]
+  },
+  {
+   "test_id": "SUP-15",
+   "question": "Cho tôi xem ảnh cụm loa phát thanh bên bờ Nam",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L054"
+   ],
+   "expected_keywords": [
+    "bờ Nam"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement_image_filename",
+   "must_include": [
+    "bờ Nam"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": [
+    "IMG042"
+   ]
+  },
+  {
+   "test_id": "SUP-16",
+   "question": "Có ảnh toàn cảnh cầu Hiền Lương chụp ngày 2-9-1959 không?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC003"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "SRC003-L022"
+   ],
+   "expected_keywords": [
+    "2-9-1959"
+   ],
+   "reference_answer": "",
+   "answerable": true,
+   "category": "supplement_image_filename",
+   "must_include": [
+    "2-9-1959"
+   ],
+   "must_not_guess": [
+    "số liệu/niên đại không có trong nguồn",
+    "danh tính người trong ảnh"
+   ],
+   "expected_images": [
+    "IMG044"
+   ]
+  }
+ ],
+ "image_queries": [
+  {
+   "test_id": "IMQ-01",
+   "query": "Cụm loa phát thanh bên bờ Nam",
+   "expected_images": [
+    "IMG042"
+   ]
+  },
+  {
+   "test_id": "IMQ-02",
+   "query": "Cụm loa phát thanh bên bờ Bắc",
+   "expected_images": [
+    "IMG041",
+    "IMG047",
+    "IMG049"
+   ]
+  },
+  {
+   "test_id": "IMQ-03",
+   "query": "O Nhạn phát thanh viên Đài Truyền thanh Vĩnh Linh",
+   "expected_images": [
+    "IMG043"
+   ]
+  },
+  {
+   "test_id": "IMQ-04",
+   "query": "cầu Hiền Lương bị bom Mỹ đánh sập năm 1967",
+   "expected_images": [
+    "IMG037"
+   ]
+  },
+  {
+   "test_id": "IMQ-05",
+   "query": "toàn cảnh cầu Hiền Lương ngày 2-9-1959",
+   "expected_images": [
+    "IMG044"
+   ]
+  },
+  {
+   "test_id": "IMQ-06",
+   "query": "mẹ Diệm vá cờ Tổ quốc",
+   "expected_images": [
+    "IMG050"
+   ]
+  },
+  {
+   "test_id": "IMQ-07",
+   "query": "1954 Geneva Conference",
+   "expected_images": [
+    "IMG035"
+   ]
+  },
+  {
+   "test_id": "IMQ-08",
+   "query": "chiếc loa trưng bày Đài Tiếng nói Việt Nam",
+   "expected_images": [
+    "IMG046"
+   ]
+  },
+  {
+   "test_id": "IMQ-09",
+   "query": "cột cờ tại cầu Hiền Lương ngày nay",
+   "expected_images": [
+    "IMG040"
+   ]
+  },
+  {
+   "test_id": "IMQ-10",
+   "query": "cầu Hiền Lương hai màu",
+   "expected_images": [
+    "IMG045",
+    "IMG034",
+    "IMG004",
+    "BKFIG11"
+   ]
+  },
+  {
+   "test_id": "IMQ-11",
+   "query": "cầu Hiền Lương do người Pháp xây dựng năm 1952",
+   "expected_images": [
+    "IMG038"
+   ]
+  },
+  {
+   "test_id": "IMQ-12",
+   "query": "cụm loa phóng thanh phục dựng bờ Nam khu di tích",
+   "expected_images": [
+    "IMG048"
+   ]
+  },
+  {
+   "test_id": "IMQ-13",
+   "query": "khẩu hiệu Nam Bắc là một nhà",
+   "expected_images": [
+    "IMG036",
+    "IMG024"
+   ]
+  },
+  {
+   "test_id": "IMQ-14",
+   "query": "cầu Hiền Lương nhìn từ phía Nam năm 1964",
+   "expected_images": [
+    "IMG039"
+   ]
+  },
+  {
+   "test_id": "IMQ-15",
+   "query": "loudspeakers on the southern bank",
+   "expected_images": [
+    "IMG042",
+    "IMG048"
+   ]
+  },
+  {
+   "test_id": "IMQ-16",
+   "query": "贤良桥 扩音器",
+   "expected_images": [
+    "IMG041",
+    "IMG042",
+    "IMG043",
+    "IMG046",
+    "IMG047",
+    "IMG048",
+    "IMG049",
+    "IMG030",
+    "IMG024",
+    "IMG036"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "errors": [],
+ "warnings": [],
+ "pdf": {
+  "file": "DoiBoGioiTuyen19541967_HoangChiHieu.pdf",
+  "size_bytes": 26646530,
+  "pdf_pages_actual": 130,
+  "pdf_pages_processed": 130,
+  "pdf_pages_missing": [],
+  "pdf_pages_error": [],
+  "book_pages_ocr": 260,
+  "pages_with_text_layer": 0,
+  "pages_needing_ocr": 130,
+  "embedded_images_all_pages": 130,
+  "page_scans_saved": 130,
+  "page_scans_unreadable": [],
+  "ocr_mean_conf": 93.49,
+  "ocr_min_conf": 44.93,
+  "ocr_pages_below_80": 3,
+  "blank_or_figure_only_halves": [
+   [
+    1,
+    "left"
+   ],
+   [
+    1,
+    "right"
+   ],
+   [
+    2,
+    "right"
+   ],
+   [
+    4,
+    "right"
+   ],
+   [
+    6,
+    "right"
+   ],
+   [
+    7,
+    "right"
+   ],
+   [
+    27,
+    "left"
+   ],
+   [
+    28,
+    "right"
+   ],
+   [
+    29,
+    "right"
+   ],
+   [
+    128,
+    "right"
+   ]
+  ],
+  "halves_needing_manual_review": [
+   [
+    1,
+    "left",
+    57.86,
+    7
+   ],
+   [
+    1,
+    "right",
+    null,
+    0
+   ],
+   [
+    2,
+    "right",
+    null,
+    0
+   ],
+   [
+    4,
+    "right",
+    null,
+    0
+   ],
+   [
+    6,
+    "right",
+    96.0,
+    1
+   ],
+   [
+    7,
+    "right",
+    96.0,
+    1
+   ],
+   [
+    27,
+    "left",
+    null,
+    0
+   ],
+   [
+    28,
+    "right",
+    null,
+    0
+   ],
+   [
+    29,
+    "right",
+    null,
+    0
+   ],
+   [
+    56,
+    "right",
+    75.49,
+    236
+   ],
+   [
+    77,
+    "left",
+    44.93,
+    227
+   ],
+   [
+    128,
+    "right",
+    null,
+    0
+   ]
+  ]
+ },
+ "book_figures": {
+  "detected_candidates": 15,
+  "saved": 15,
+  "missing_files": [],
+  "note": "PDF là scan: get_images() chỉ thấy 130 ảnh nguyên trang; hình trong trang được tách bằng phân tích layout (scripts/detect_figures.py) và đã kiểm tra bằng mắt trên contact sheet."
+ },
+ "archive": {
+  "zip_entries": 68,
+  "macosx_metadata_skipped": 34,
+  "image_files_in_zip": 34,
+  "non_image_entries": [],
+  "image_files_extracted": 34,
+  "identical_sha256_groups": 0,
+  "unreadable": []
+ },
+ "database": {
+  "pages": 260,
+  "chunks_by_source": {
+   "DOC001": 4,
+   "DOC002": 3,
+   "DOC006": 1,
+   "NOTE01": 11,
+   "REF001": 1,
+   "REF002": 1,
+   "SRC001": 604,
+   "SRC003": 24,
+   "SRC004": 14,
+   "SRC005": 15,
+   "WEB001": 2,
+   "WEB002": 1,
+   "WEB003": 1,
+   "WEB004": 1
+  },
+  "images_total": 65,
+  "archive_with_description": 44,
+  "archive_linked_to_book_content": 42,
+  "archive_directly_matching_book_figures": 4,
+  "images_missing_metadata": {},
+  "duplicate_groups": {
+   "DUP-A": "IMG005,IMG028",
+   "DUP-B": "IMG007,IMG032",
+   "DUP-C": "IMG008,IMG031",
+   "DUP-D": "IMG009,IMG027",
+   "DUP-E": "IMG010,IMG033",
+   "DUP-F": "IMG014,IMG026",
+   "DUP-G": "IMG004,IMG034",
+   "DUP-S024": "IMG024,IMG036"
+  },
+  "archive_unknown_source": 44,
+  "archive_low_confidence_need_manual_check": [
+   "IMG005",
+   "IMG009",
+   "IMG010",
+   "IMG011",
+   "IMG012",
+   "IMG013",
+   "IMG021",
+   "IMG022",
+   "IMG023",
+   "IMG025",
+   "IMG027",
+   "IMG028",
+   "IMG030",
+   "IMG033",
+   "IMG035",
+   "IMG043",
+   "IMG050"
+  ],
+  "events_total": 31,
+  "events_anchor_failed": 0
+ },
+ "printed_pages": {
+  "rule": "trái = 2*pdf-1, phải = 2*pdf",
+  "ocr_detected_agree": 226,
+  "ocr_detected_disagree": 10,
+  "ocr_not_detected": 24,
+  "disagree_pages": [
+   [
+    10,
+    "left",
+    19,
+    49
+   ],
+   [
+    16,
+    "left",
+    31,
+    2
+   ],
+   [
+    19,
+    "right",
+    38,
+    3
+   ],
+   [
+    22,
+    "left",
+    43,
+    3
+   ],
+   [
+    25,
+    "right",
+    50,
+    2
+   ],
+   [
+    31,
+    "right",
+    62,
+    7
+   ],
+   [
+    39,
+    "left",
+    77,
+    3
+   ],
+   [
+    100,
+    "right",
+    200,
+    219
+   ],
+   [
+    108,
+    "left",
+    215,
+    5
+   ],
+   [
+    129,
+    "left",
+    257,
+    2
+   ]
+  ]
+ },
+ "status": "OK"
+}

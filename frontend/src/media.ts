@@ -35,14 +35,14 @@ const flag3d = localPhoto('/flag-3d.png', 'Kỳ đài Hiền Lương — cảnh 
 const flagOriginal = localPhoto('/flag-reference.png', 'Kỳ đài — ảnh tham khảo', 'Ảnh do bạn cung cấp');
 const monument3d = localPhoto('/monument-3d.png', 'Tượng đài Khát vọng thống nhất — cảnh 3D', 'Dựng 3D từ ảnh tham khảo của bạn');
 const monumentOriginal = localPhoto('/monument-reference.png', 'Tượng đài — ảnh tham khảo', 'Ảnh do bạn cung cấp');
-const unionOriginal = localPhoto('/union-reference.png', 'Nhà liên hiệp — ảnh tham khảo', 'Ảnh do bạn cung cấp');
+const unionOriginal = localPhoto('/union-reference.png', 'Nhà liên hợp — ảnh tham khảo', 'Ảnh do nhóm cung cấp');
 
 export const mediaByZone: Record<ZoneId, { hero: Photo; photos: Photo[]; videos: Video[] }> = {
   union: {
     hero: unionOriginal,
     photos: [
       unionOriginal,
-      localPhoto('/home-map-open-forecourt-sharp.png', 'Vị trí Nhà liên hiệp trên bản đồ', 'Bản đồ minh họa khu di tích'),
+      localPhoto('/home-map-open-forecourt-sharp.png', 'Vị trí Nhà liên hợp trên bản đồ', 'Bản đồ minh họa khu di tích'),
     ],
     videos: [],
   },

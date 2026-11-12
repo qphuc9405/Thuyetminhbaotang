@@ -1,3 +1,73 @@
+# Thuyết minh bảo tàng Vĩ tuyến 17
+
+## Chạy nhanh (1 lệnh)
+
+```bash
+./run.sh            # lần đầu tự tạo .venv, cài thư viện Python + npm, rồi bật toàn bộ hệ thống
+./run.sh --build    # dựng lại kho tư liệu (sau khi sửa museum-guide/scripts/curation_*.py) rồi chạy
+./run.sh --setup    # chỉ cài đặt, không chạy
+```
+
+Mở http://localhost:5173. Bấm Ctrl+C để dừng tất cả. Cần Python ≥ 3.10 và Node.js ≥ 18.
+
+Khoá API điền vào `museum-guide/backend/.env` (lần đầu `run.sh` tự tạo file này từ `.env.example`):
+- `ELEVENLABS_API_KEY`: giọng đọc. Thiếu khoá thì dùng giọng của trình duyệt.
+- `OLLAMA_API_KEY`: chatbot.
+
+## Chatbot với Ollama cục bộ (cấu hình máy ngày 11/11/2026)
+
+Máy hiện dùng Ollama trong `~/.local/share/ollama-runtime`, lệnh
+`~/.local/bin/ollama`, và dịch vụ người dùng `ollama.service`.
+Mô hình `qwen2.5:3b` chạy bằng CPU; backend dùng cấu hình sau trong
+`museum-guide/backend/.env` (không cần khóa Ollama Cloud):
+
+```dotenv
+OLLAMA_HOST=http://127.0.0.1:11434
+OLLAMA_MODEL=qwen2.5:3b
+LLM_TIMEOUT_S=90
+LLM_MAX_RETRIES=0
+LOCAL_FAST_MODE=true
+CHAT_CACHE_TTL_S=600
+```
+
+Kiểm tra hoặc khởi động lại Ollama:
+
+```bash
+systemctl --user status ollama
+systemctl --user restart ollama
+~/.local/bin/ollama list
+journalctl --user -u ollama -n 50 --no-pager
+```
+
+Dịch vụ được bật tự chạy trong phiên đăng nhập của người dùng. Chạy ứng dụng
+bằng `./run.sh` như trên; sau khi sửa `.env` cần khởi động lại backend.
+Lần hỏi đầu phải nạp mô hình, và sinh câu trả lời bằng CPU có thể mất nhiều
+thời gian. Chế độ local mặc định trả lời ngắn cho câu hỏi thường, dùng context
+lớn hơn khi hỏi chi tiết/kể chuyện; câu trả lời độc lập có nguồn và không có
+cảnh báo được cache tối đa 10 phút (128 mục, mất khi backend khởi động lại).
+Hỏi tiếp phụ thuộc hội thoại không dùng cache chung. Sau khi cập nhật dữ liệu
+cần khởi động lại backend để xóa cache và nạp dữ liệu mới.
+Giọng ElevenLabs vẫn cần khóa riêng; khi chưa có, ứng dụng dùng
+giọng trình duyệt.
+
+## Cấu trúc
+
+```
+Thuyetminhbaotang/
+├── run.sh                 chạy tất cả
+├── frontend/              web chính (Vite + React)                → :5173
+├── museum-guide/          kho tư liệu có nguồn, chatbot, giọng đọc
+│   ├── backend/           FastAPI                                  → :8077 (web gọi qua /mg)
+│   ├── scripts/           nội dung + dựng kho tư liệu (curation_topics.py = 4 chủ đề)
+│   ├── knowledge_base/    dữ liệu đã dựng (zones.json, …)
+│   ├── data/ docs/        sách, ảnh, CSDL, tài liệu
+│   └── frontend/          web cũ của museum-guide (không dùng nữa, run.sh không chạy)
+├── backend/               backend mẫu của repo (tuỳ chọn)          → :8000 (web gọi qua /api)
+└── tools/                 công cụ làm sạch ảnh
+```
+
+Đổi cổng: `WEB_PORT=3000 MG_PORT=9077 ./run.sh`. Chọn Python khác: `PYTHON=/opt/homebrew/bin/python3.12 ./run.sh`.
+
 # Vĩ tuyến 17 — Giao diện và kho tư liệu
 
 Ứng dụng React hiển thị bản đồ di tích, hiện vật và tra cứu tư liệu. Backend Python lưu tài liệu cùng vector tìm kiếm trong SQLite. Bản hiện tại chạy cục bộ, không cần tài khoản dịch vụ hay khóa API.
@@ -28,6 +98,29 @@ npm run dev
 ```
 
 Mở **http://localhost:5173**. Vite chuyển tiếp đường dẫn `/api` đến backend tại `127.0.0.1:8000`. Lệnh `seed` có thể chạy lại; tài liệu trùng `id` sẽ được cập nhật.
+
+## Nối với kho tư liệu museum-guide (cập nhật 06/11/2026)
+
+Giao diện bản đồ giữ nguyên; nội dung các khu vực, ảnh tư liệu và chatbot nay lấy từ backend **museum-guide** (kho tư liệu có trích trang sách/bài viết, chatbot RAG). Vite chuyển tiếp `/mg/*` tới `http://127.0.0.1:8077` (đổi bằng biến `MG_API`).
+
+```bash
+# 1) backend museum-guide
+cd museum-guide/backend && uvicorn app.main:app --port 8077
+# 2) giao diện này
+cd frontend && npm run dev        # hoặc: MG_API=http://host:port npm run dev
+```
+
+| Bấm trên bản đồ | Hiển thị | API museum-guide |
+|---|---|---|
+| Cầu Hiền Lương | Câu chuyện cây cầu (4 mẩu chuyện), dòng thời gian 10 mốc, 13 ảnh | `GET /api/zones/bridge` |
+| Nhà trưng bày | Gian trưng bày số: ảnh trong khung, panel thuyết minh + nguồn + thanh đọc, dải 56 hiện vật chia 5 nhóm | `GET /api/exhibits` |
+| Kỳ đài (lá cờ) | Chọi cờ, may cờ, Mẹ Vĩnh Linh vá cờ, đêm cột cờ gãy; dòng thời gian cột cờ | `GET /api/zones/flag` |
+| Tượng đài, Nhà liên hợp | Ảnh khu vực + lịch sử hình thành (nguồn web + sách) | `GET /api/zones/monument`, `/union` |
+| Ô hỏi đáp | Chatbot RAG có trích nguồn và ảnh | `POST /api/chat` |
+
+Hiệu ứng: bấm ghim trên bản đồ → bản đồ phóng to vào đúng ghim rồi mờ sang khu vực (0,9 s); quay lại → thu nhỏ về toàn cảnh. Ảnh nền chuyển động chậm (Ken Burns); đổi hiện vật thì khung ảnh và chữ chuyển dần. Tôn trọng `prefers-reduced-motion`. Mã mới: `src/mg.ts`, `src/Zones.tsx`, `src/Narration.tsx`, `src/zones.css`. Backend mẫu (`backend/`) không còn được giao diện dùng.
+
+Lưu ý: ảnh Tượng đài/Nhà liên hợp là ảnh có sẵn trong repo (chưa rõ nguồn gốc); thanh đọc dùng giọng của trình duyệt, thời lượng là ước tính.
 
 ## Thêm tư liệu
 
@@ -141,3 +234,35 @@ Các quy tắc trong `frontend/src/responsive.css` và `destination-scene.css` �
 Khi thay đổi giao diện, kiểm tra cả trang chủ và trang địa điểm ở 320×740, 390×844, 768×1024, 1024×768, 1440×900, 1920×1080 và 844×390. Kiểm tra chọn địa điểm, thanh công cụ, tư liệu và chat; không được có cuộn ngang toàn trang.
 
 Các cảnh 3D là hình minh họa, không phải ảnh tư liệu lịch sử hay mô hình 3D có thể xoay. Ảnh Wikimedia Commons trong thư viện ghi tên tác giả, nguồn và giấy phép CC BY-SA 3.0 ngay dưới ảnh.
+
+
+## Nhà trưng bày số, người hướng dẫn, chat và đa ngôn ngữ (cập nhật 08/11/2026)
+
+**Nhà trưng bày** (`frontend/src/Hall.tsx`, `hall.css`)
+- Toàn cảnh phòng (`public/museum-hall.webp`) có 15 hiện vật bấm được (ghim phát sáng + nhãn), dải thẻ hiện vật ở đáy, nút *Hình ảnh tư liệu* và *Câu chuyện lịch sử*.
+- Bấm hiện vật → camera phóng tới hiện vật (0,9 s), viền tối quanh, biển tên gỗ, panel câu chuyện (2 đoạn đầu + *Đọc tiếp*), ảnh tư liệu liên quan (bấm để xem lớn), nguồn, thanh thuyết minh. Phím ← → đổi hiện vật, Esc quay lại gian.
+- Nội dung hiện vật lấy từ museum-guide: `GET /api/zones/museum` → `hall` (biên soạn ở `museum-guide/scripts/curation_hall.py`, trích dẫn có anchor được kiểm tra khi build).
+- Ảnh phòng là **hình minh hoạ**; ảnh và lời kể trong từng hiện vật mới là tư liệu có nguồn. Hiện vật nào không có tư liệu riêng (điện thoại, vali, huân chương trong tủ…) được ghi rõ là minh hoạ và gắn với sự kiện có trong sách.
+- Ảnh nền được làm sạch bằng `tools/hall_background/clean.py` (OpenCV inpaint). Vùng xoá hơi nhoè, đã được nhân vật/nhãn che.
+
+**Người hướng dẫn ở mọi khu** (`Guide.tsx`): nhân vật nhún và mấp máy môi khi đang thuyết minh; bong bóng lời hướng dẫn hiện chữ dần, thu gọn được. Trên điện thoại ở các khu Cầu/Kỳ đài/Tượng đài/Nhà liên hợp, nhân vật thu thành avatar tròn để không che chữ.
+
+**Âm thanh** (`audio.ts`): một bộ phát duy nhất – luôn chỉ một tiếng. Ưu tiên **ElevenLabs** qua `POST /mg/api/narration/generate` của museum-guide (giọng nữ Sarah cho nữ hướng dẫn viên, giọng nam George cho chú bộ đội / cụ ông); nếu backend chưa có `ELEVENLABS_API_KEY` thì tự dùng giọng của trình duyệt và ghi chú trên thanh thuyết minh. Mọi lối thoát khu vực (nút quay lại, breadcrumb, nút Back trình duyệt, đổi khu, đóng tab) đều gọi `stopAll()`; đổi ngôn ngữ thì dừng giọng cũ.
+> Bật ElevenLabs: điền `ELEVENLABS_API_KEY=` trong `museum-guide/backend/.env` rồi chạy lại backend. Muốn đổi giọng thì sửa `VOICE_FEMALE / VOICE_MALE` trong `frontend/src/guides.ts`.
+
+**Chat ở mọi khu** (`ChatDock.tsx`): gợi ý câu hỏi theo khu/hiện vật, lịch sử thu gọn được, ảnh trong câu trả lời hiện lớn kèm tên; bấm ảnh → `Lightbox.tsx` (phóng to bằng cuộn chuột / chụm hai ngón / nút, kéo để xem, trước–sau, Esc).
+
+**Đa ngôn ngữ vi / en / zh** (`i18n.tsx`): menu chọn ngôn ngữ ở thanh công cụ, lưu lựa chọn; toàn bộ chữ giao diện, tên khu, gợi ý câu hỏi, nội dung hiện vật, mẩu chuyện, sự kiện, Tượng đài, Nhà liên hợp đều có 3 bản (bản en/zh là bản dịch của nhóm). Chatbot trả lời theo ngôn ngữ đã chọn.
+
+**Kiểm thử**: `npm test` (vitest + Testing Library – 7 kịch bản: chữ đủ 3 ngôn ngữ, lùi giọng khi không có ElevenLabs, một tiếng tại một thời điểm, mở/đóng hiện vật, tắt tiếng khi thoát, đổi tiếng Trung, ảnh chat + lightbox, Back trình duyệt).
+
+## Cập nhật 10/11/2026 – Nhà trưng bày theo 4 chủ đề (gộp với bản aa87812)
+
+- Giữ bản đồ trang chủ mới và camera phóng (`MapCamera`, `useZoneNavigation`) của bản cập nhật; thêm lại giọng đọc ElevenLabs, 3 ngôn ngữ, chat có ảnh, người hướng dẫn.
+- Nhà trưng bày (`src/Museum.tsx`, `src/museum-topics.css`):
+  - Phòng chính `/museum-room.webp` (đã xoá giao diện vẽ sẵn, sửa bảng chủ đề 4 thành "Vĩ tuyến 17 sau giải phóng Quảng Trị (1972)", sửa chú thích loa). Có 4 ghim chủ đề, Gian khánh tiết và 3 hiện vật lớn.
+  - Bấm chủ đề → camera phóng vào → trang chủ đề: danh sách hiện vật bên trái, panel lời kể + thuyết minh + ảnh tư liệu + nguồn bên phải, thanh hành trình 5 mục ở dưới, chat, người hướng dẫn. Chủ đề 1 dùng ảnh cảnh Hiệp định (`/museum/topic-1-geneva.webp`).
+  - Đường dẫn: `#museum`, `#museum/gioi-thieu`, `#museum/topic-N`, `#museum/topic-N/<hiện-vật>`. Back/Esc về phòng, rời khu nào cũng tắt tiếng.
+  - Hiện vật chưa có tư liệu gốc được gắn nhãn "Cần bổ sung nguồn".
+- Nội dung lấy từ museum-guide (`scripts/curation_topics.py` → `zones.json` → `museum.topics`).
+- Công cụ làm sạch ảnh: `tools/museum_room/`.

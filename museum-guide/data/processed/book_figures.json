@@ -1,0 +1,362 @@
+[
+ {
+  "figure_id": "FIG_P001_1",
+  "pdf_page": 1,
+  "printed_page": 1,
+  "side": "left",
+  "bbox_xywh": [
+   263,
+   71,
+   129,
+   80
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 137,
+  "height": 88,
+  "format": "png",
+  "text_cover": 0.066,
+  "ink_density": 0.305,
+  "caption_ocr": "",
+  "image_path": "data/images/book/FIG_P001_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P010_1",
+  "pdf_page": 10,
+  "printed_page": 19,
+  "side": "left",
+  "bbox_xywh": [
+   67,
+   68,
+   407,
+   306
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 415,
+  "height": 314,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.651,
+  "caption_ocr": "Toàn cảnh Hội nghị Genève 1954 (Ảnh: Freddy Bertrand)",
+  "image_path": "data/images/book/FIG_P010_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P019_1",
+  "pdf_page": 19,
+  "printed_page": 37,
+  "side": "left",
+  "bbox_xywh": [
+   67,
+   68,
+   407,
+   342
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 415,
+  "height": 350,
+  "format": "png",
+  "text_cover": 0.001,
+  "ink_density": 0.686,
+  "caption_ocr": "(Nguồn: www.panoramio.com)",
+  "image_path": "data/images/book/FIG_P019_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P027_1",
+  "pdf_page": 27,
+  "printed_page": 53,
+  "side": "left",
+  "bbox_xywh": [
+   69,
+   73,
+   407,
+   609
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 415,
+  "height": 617,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.123,
+  "caption_ocr": "",
+  "image_path": "data/images/book/FIG_P027_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P031_1",
+  "pdf_page": 31,
+  "printed_page": 61,
+  "side": "left",
+  "bbox_xywh": [
+   68,
+   67,
+   406,
+   306
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 414,
+  "height": 314,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.434,
+  "caption_ocr": "Kiểm soát liên hợp tại Cửa Tùng (Nguồn: dulichquangtri.gov.vn)",
+  "image_path": "data/images/book/FIG_P031_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P041_1",
+  "pdf_page": 41,
+  "printed_page": 81,
+  "side": "left",
+  "bbox_xywh": [
+   67,
+   74,
+   407,
+   235
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 415,
+  "height": 243,
+  "format": "png",
+  "text_cover": 0.062,
+  "ink_density": 0.409,
+  "caption_ocr": "Âm mưu chia cắt đất nước của Ngô Đình Diệm (Nguồn: http://s1150.photobucket.com)",
+  "image_path": "data/images/book/FIG_P041_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P044_1",
+  "pdf_page": 44,
+  "printed_page": 87,
+  "side": "left",
+  "bbox_xywh": [
+   66,
+   126,
+   409,
+   225
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 417,
+  "height": 233,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.785,
+  "caption_ocr": "Nhân dân Vĩnh Linh gửi kiến nghị cho Tổ Quốc tế 76 (Nguồn: Tư liệu của ông Huỳnh Văn Trình)",
+  "image_path": "data/images/book/FIG_P044_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P056_1",
+  "pdf_page": 56,
+  "printed_page": 112,
+  "side": "right",
+  "bbox_xywh": [
+   624,
+   80,
+   408,
+   332
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 416,
+  "height": 340,
+  "format": "png",
+  "text_cover": 0.049,
+  "ink_density": 0.149,
+  "caption_ocr": "Sơ đồ hệ thống loa phát thanh ở đồi bờ Hiển Lương (Nguồn: Trung tâm Lưu trữ Quốc gia II, Tp. Hồ Chí Minh, kí hiệu: Đệ ! CH 17.724)",
+  "image_path": "data/images/book/FIG_P056_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P068_1",
+  "pdf_page": 68,
+  "printed_page": 135,
+  "side": "left",
+  "bbox_xywh": [
+   31,
+   123,
+   443,
+   184
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 451,
+  "height": 192,
+  "format": "png",
+  "text_cover": 0.13,
+  "ink_density": 0.407,
+  "caption_ocr": "Trong đấu tranh phát thanh, ngoài tắng công suất loa và sử",
+  "image_path": "data/images/book/FIG_P068_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P077_1",
+  "pdf_page": 77,
+  "printed_page": 153,
+  "side": "left",
+  "bbox_xywh": [
+   66,
+   68,
+   409,
+   619
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 417,
+  "height": 627,
+  "format": "png",
+  "text_cover": 0.1,
+  "ink_density": 0.47,
+  "caption_ocr": "153",
+  "image_path": "data/images/book/FIG_P077_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P094_1",
+  "pdf_page": 94,
+  "printed_page": 187,
+  "side": "left",
+  "bbox_xywh": [
+   67,
+   149,
+   407,
+   231
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 415,
+  "height": 239,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.571,
+  "caption_ocr": "Cây cầu Hiền Lương có hai màu (Nguồn: hftp://s1150.photobucket.com)",
+  "image_path": "data/images/book/FIG_P094_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P099_1",
+  "pdf_page": 99,
+  "printed_page": 197,
+  "side": "left",
+  "bbox_xywh": [
+   66,
+   76,
+   409,
+   261
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 417,
+  "height": 269,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.64,
+  "caption_ocr": "Đón tiếp ba nhân sĩ trí thức tham gia phong trào hòa bình, bị chính quyền Sài Gòn trục xuất ra miền Bắc qua khu phi quân sự (Người đeo cà vạt, đội mũ rộng vành là nhà báo Phi Bằng;",
+  "image_path": "data/images/book/FIG_P099_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P121_1",
+  "pdf_page": 121,
+  "printed_page": 241,
+  "side": "left",
+  "bbox_xywh": [
+   104,
+   69,
+   339,
+   196
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 347,
+  "height": 204,
+  "format": "png",
+  "text_cover": 0.0,
+  "ink_density": 0.777,
+  "caption_ocr": "Nhân dân Vĩnh Linh đón học sinh được sơ tán theo kế hoạch K.8 trở về quê hương (1973). (Nguồn: tuoitre.vn)",
+  "image_path": "data/images/book/FIG_P121_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P130_1",
+  "pdf_page": 130,
+  "printed_page": 260,
+  "side": "right",
+  "bbox_xywh": [
+   581,
+   28,
+   488,
+   698
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 496,
+  "height": 706,
+  "format": "png",
+  "text_cover": 0.271,
+  "ink_density": 0.958,
+  "caption_ocr": "",
+  "image_path": "data/images/book/FIG_P130_1.png",
+  "status": "candidate_needs_visual_check"
+ },
+ {
+  "figure_id": "FIG_P130_2",
+  "pdf_page": 130,
+  "printed_page": 259,
+  "side": "left",
+  "bbox_xywh": [
+   163,
+   94,
+   130,
+   80
+  ],
+  "page_size": [
+   1101,
+   771
+  ],
+  "width": 138,
+  "height": 88,
+  "format": "png",
+  "text_cover": 0.251,
+  "ink_density": 0.315,
+  "caption_ocr": "TS. Hoàng Chí",
+  "image_path": "data/images/book/FIG_P130_2.png",
+  "status": "candidate_needs_visual_check"
+ }
+]

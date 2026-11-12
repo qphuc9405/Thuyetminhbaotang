@@ -1,0 +1,3135 @@
+[
+ {
+  "id": "hoi-nghi-geneve",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Hội nghị Genève 1954",
+  "image": {
+   "image_id": "IMG035",
+   "title": "Hội nghị Genève 1954 – phòng họp các phái đoàn",
+   "title_en": "1954 Geneva Conference – delegations in session",
+   "title_zh": "1954年日内瓦会议——代表团会场",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "1954 (chưa xác minh)",
+   "image_url": "/api/images/IMG035/file",
+   "medium_url": "/api/images/IMG035/file?size=medium",
+   "thumb_url": "/api/images/IMG035/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG035",
+    "title": "Hội nghị Genève 1954 – phòng họp các phái đoàn",
+    "title_en": "1954 Geneva Conference – delegations in session",
+    "title_zh": "1954年日内瓦会议——代表团会场",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "1954 (chưa xác minh)",
+    "image_url": "/api/images/IMG035/file",
+    "medium_url": "/api/images/IMG035/file?size=medium",
+    "thumb_url": "/api/images/IMG035/file?size=thumb"
+   },
+   {
+    "image_id": "BKFIG02",
+    "title": "Toàn cảnh Hội nghị Genève 1954",
+    "title_en": "Overview of the 1954 Geneva Conference",
+    "title_zh": "1954年日内瓦会议全景",
+    "caption": "Toàn cảnh Hội nghị Genève 1954 (Ảnh: Freddy Bertrand)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG02/file",
+    "medium_url": "/api/images/BKFIG02/file?size=medium",
+    "thumb_url": "/api/images/BKFIG02/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ngày 20-7-1954, Hiệp định đình chỉ chiến sự ở Việt Nam được ký tại Genève, lấy vĩ tuyến 17 – dòng sông Bến Hải – làm giới tuyến quân sự tạm thời. Ngày 21-7-1954, Hội nghị công bố Tuyên bố cuối cùng. Giới tuyến được xác định là tạm thời, không phải biên giới chính trị hay lãnh thổ.",
+   "Theo Hiệp định, hai bên giới tuyến có một khu phi quân sự, mỗi bên rộng nhất là 5 km, làm khu đệm để tránh xung đột. Cây cầu Hiền Lương nằm đúng trên con sông ấy và từ đây bước vào một chương lịch sử kéo dài hơn hai mươi năm."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 26,
+    "provision": null
+   },
+   {
+    "source_id": "DOC001",
+    "source_title": "Agreement on the Cessation of Hostilities in Viet-Nam (Hiệp định đình chỉ chiến sự ở Việt Nam), 20/7/1954",
+    "source_type": "HISTORICAL_DOCUMENT",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "Yale Law School – Avalon Project, 1954-07-20",
+    "url": "https://avalon.law.yale.edu/20th_century/inch001.asp"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "cau-1952",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cây cầu do người Pháp xây năm 1952",
+  "image": {
+   "image_id": "IMG038",
+   "title": "Cầu Hiền Lương do người Pháp xây dựng năm 1952",
+   "title_en": "Hien Luong bridge built by the French in 1952",
+   "title_zh": "法国人于1952年修建的贤良桥",
+   "caption": "Cầu Hiền Lương do người Pháp xây dựng năm 1952.",
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định (năm 1952 trên biển là năm xây cầu, KHÔNG phải năm chụp ảnh)",
+   "image_url": "/api/images/IMG038/file",
+   "medium_url": "/api/images/IMG038/file?size=medium",
+   "thumb_url": "/api/images/IMG038/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG038",
+    "title": "Cầu Hiền Lương do người Pháp xây dựng năm 1952",
+    "title_en": "Hien Luong bridge built by the French in 1952",
+    "title_zh": "法国人于1952年修建的贤良桥",
+    "caption": "Cầu Hiền Lương do người Pháp xây dựng năm 1952.",
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định (năm 1952 trên biển là năm xây cầu, KHÔNG phải năm chụp ảnh)",
+    "image_url": "/api/images/IMG038/file",
+    "medium_url": "/api/images/IMG038/file?size=medium",
+    "thumb_url": "/api/images/IMG038/file?size=thumb"
+   },
+   {
+    "image_id": "IMG001",
+    "title": "Đoàn người đi trên cầu, nhìn từ bờ cao xuống",
+    "title_en": "Group of people walking on the bridge, seen from above the bank",
+    "title_zh": "从高处俯视桥上行走的人群",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG001/file",
+    "medium_url": "/api/images/IMG001/file?size=medium",
+    "thumb_url": "/api/images/IMG001/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Cây cầu Hiền Lương đầu tiên được dựng năm 1928, dài 120 m, rộng 2 m. Năm 1952, công binh Pháp bắc lại cầu dài 178 m, gồm 7 nhịp dàn thép, mặt lát ván – chính là cây cầu chứng kiến cuộc chia cắt.",
+   "Sau Hiệp định Genève, cây cầu bị chia đôi ở chính giữa, mỗi bên dài 89 m: nửa phía Bắc có 450 tấm ván, nửa phía Nam 444 tấm. Biển tên cầu trong ảnh ghi chiều dài 183,8 m – khác với số liệu trong sách, có thể do cách đo khác nhau."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 183,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 184,
+    "provision": null
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 18"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "cau-hai-mau",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cây cầu hai màu sơn",
+  "image": {
+   "image_id": "BKFIG11",
+   "title": "Cây cầu Hiền Lương có hai màu",
+   "title_en": "The two-coloured Hien Luong bridge",
+   "title_zh": "两种颜色的贤良桥",
+   "caption": "Cây cầu Hiền Lương có hai màu (Nguồn: http://s1150.photobucket.com)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG11/file",
+   "medium_url": "/api/images/BKFIG11/file?size=medium",
+   "thumb_url": "/api/images/BKFIG11/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG11",
+    "title": "Cây cầu Hiền Lương có hai màu",
+    "title_en": "The two-coloured Hien Luong bridge",
+    "title_zh": "两种颜色的贤良桥",
+    "caption": "Cây cầu Hiền Lương có hai màu (Nguồn: http://s1150.photobucket.com)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG11/file",
+    "medium_url": "/api/images/BKFIG11/file?size=medium",
+    "thumb_url": "/api/images/BKFIG11/file?size=thumb"
+   },
+   {
+    "image_id": "IMG034",
+    "title": "Toàn cảnh cầu, xe jeep và đoàn người ở đầu cầu; chòi nhỏ bên phải",
+    "title_en": "Wide view of the bridge, jeeps and a group at the near end; small hut at right",
+    "title_zh": "大桥全景，桥头吉普车与人群，右侧小亭",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG034/file",
+    "medium_url": "/api/images/IMG034/file?size=medium",
+    "thumb_url": "/api/images/IMG034/file?size=thumb"
+   },
+   {
+    "image_id": "IMG045",
+    "title": "Cầu Hiền Lương hai màu nhìn từ trên cao (ảnh hiện đại)",
+    "title_en": "Aerial view of the two-coloured Hien Luong bridge (contemporary photo)",
+    "title_zh": "俯瞰双色贤良桥（当代照片）",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu chụp trên cao); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG045/file",
+    "medium_url": "/api/images/IMG045/file?size=medium",
+    "thumb_url": "/api/images/IMG045/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Cuối năm 1958, phía Bắc đề nghị hai bên sơn cầu cùng một màu nhưng không được đáp lại. Ngày 9-11-1958, Đội sơn cầu 337 bắt đầu sơn nửa phía Bắc; cuối tháng 12 phía Nam đưa 45 thợ ra sơn nửa của mình một màu khác. Ngày 16-1-1959 phía Nam sơn xong – từ đó cây cầu mang hai màu.",
+   "Theo lời kể của bà Nguyễn Thị Hương, đội trưởng đội sơn cầu, hai bên thay nhau sơn cho đến năm 1960 thì giữ nguyên hai màu: nửa Bắc màu xanh, nửa Nam màu vàng. Ngày nay cây cầu phục chế cũng được sơn lại hai màu xanh – vàng để nhắc nhớ giai đoạn ấy. (Sách “Đôi bờ giới tuyến” ghi màu sơn năm 1958–1959 khác với lời kể này.)"
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 185,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 186,
+    "provision": null
+   },
+   {
+    "source_id": "SRC004",
+    "source_title": "Những màn chọi cờ, đấu loa mang khát vọng hòa bình ở vĩ tuyến 17 (phóng sự có lời kể nhân chứng)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 25"
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 38"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "toan-canh-1959",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Toàn cảnh cầu Hiền Lương (2-9-1959)",
+  "image": {
+   "image_id": "IMG044",
+   "title": "Toàn cảnh cầu Hiền Lương ngày 2-9-1959",
+   "title_en": "Panorama of Hien Luong bridge, 2 September 1959",
+   "title_zh": "贤良桥全景（1959年9月2日）",
+   "caption": "Toàn cảnh Cầu Hiền Lương (ảnh chụp ngày 2-9-1959)",
+   "kind": "archive_photo",
+   "time_period": "Theo chú thích trong bài SRC003: 2-9-1959 (chưa xác minh)",
+   "image_url": "/api/images/IMG044/file",
+   "medium_url": "/api/images/IMG044/file?size=medium",
+   "thumb_url": "/api/images/IMG044/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG044",
+    "title": "Toàn cảnh cầu Hiền Lương ngày 2-9-1959",
+    "title_en": "Panorama of Hien Luong bridge, 2 September 1959",
+    "title_zh": "贤良桥全景（1959年9月2日）",
+    "caption": "Toàn cảnh Cầu Hiền Lương (ảnh chụp ngày 2-9-1959)",
+    "kind": "archive_photo",
+    "time_period": "Theo chú thích trong bài SRC003: 2-9-1959 (chưa xác minh)",
+    "image_url": "/api/images/IMG044/file",
+    "medium_url": "/api/images/IMG044/file?size=medium",
+    "thumb_url": "/api/images/IMG044/file?size=thumb"
+   },
+   {
+    "image_id": "IMG029",
+    "title": "Toàn cảnh cây cầu dài bắc qua sông tới cổng chào và cột cờ",
+    "title_en": "Wide view of the long bridge across the river to the gateway and flagpole",
+    "title_zh": "长桥横跨河面直达牌楼与旗杆的全景",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG029/file",
+    "medium_url": "/api/images/IMG029/file?size=medium",
+    "thumb_url": "/api/images/IMG029/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Bức ảnh được bài viết của Minh Vượng chú thích là toàn cảnh cầu Hiền Lương chụp ngày 2-9-1959. Từ trên cao có thể thấy dòng sông, cây cầu dài chạy sang bờ bên kia nơi có cột cờ, và đám đông tập trung ở đầu cầu.",
+   "Hai đầu cầu khi ấy là hai đồn: đồn công an Hiền Lương ở bờ Bắc và đồn cảnh sát Xuân Hòa ở bờ Nam. Hai đồn trao đổi thư từ, bưu thiếp và kiểm soát người qua cầu."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 22"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 98,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "nam-bac-mot-nha",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "“Nam Bắc là một nhà”",
+  "image": {
+   "image_id": "IMG036",
+   "title": "Cầu Hiền Lương phía bờ Bắc với khẩu hiệu 'Nam Bắc là một nhà' (1956–1964)",
+   "title_en": "Hien Luong bridge, northern bank, with the slogan 'North and South are one family' (1956–1964)",
+   "title_zh": "贤良桥北岸与“南北一家”标语（1956–1964）",
+   "caption": "Cầu Hiền Lương (1956-1964) phía bờ Bắc với những khẩu hiệu thể hiện khát vọng thống nhất Tổ quốc.",
+   "kind": "archive_photo",
+   "time_period": "Theo chú thích trong bài SRC003: 1956-1964 (chưa xác minh)",
+   "image_url": "/api/images/IMG036/file",
+   "medium_url": "/api/images/IMG036/file?size=medium",
+   "thumb_url": "/api/images/IMG036/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG036",
+    "title": "Cầu Hiền Lương phía bờ Bắc với khẩu hiệu 'Nam Bắc là một nhà' (1956–1964)",
+    "title_en": "Hien Luong bridge, northern bank, with the slogan 'North and South are one family' (1956–1964)",
+    "title_zh": "贤良桥北岸与“南北一家”标语（1956–1964）",
+    "caption": "Cầu Hiền Lương (1956-1964) phía bờ Bắc với những khẩu hiệu thể hiện khát vọng thống nhất Tổ quốc.",
+    "kind": "archive_photo",
+    "time_period": "Theo chú thích trong bài SRC003: 1956-1964 (chưa xác minh)",
+    "image_url": "/api/images/IMG036/file",
+    "medium_url": "/api/images/IMG036/file?size=medium",
+    "thumb_url": "/api/images/IMG036/file?size=thumb"
+   },
+   {
+    "image_id": "IMG024",
+    "title": "Biển 'Nam Bắc là một nhà…' cùng cụm loa trên cột, cầu thép phía trước",
+    "title_en": "Sign 'North and South are one family…' with loudspeakers on a post; steel bridge in front",
+    "title_zh": "“南北是一家……”标牌与杆上扬声器，前景为钢桥",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG024/file",
+    "medium_url": "/api/images/IMG024/file?size=medium",
+    "thumb_url": "/api/images/IMG024/file?size=thumb"
+   },
+   {
+    "image_id": "IMG012",
+    "title": "Khẩu hiệu 'Nam Bắc một nhà' bên kia sông, người mặc cảnh phục trên cầu thép",
+    "title_en": "Slogan 'North and South are one family' across the river; man in uniform on a steel bridge",
+    "title_zh": "对岸标语“南北一家”，钢桥上身着制服者",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG012/file",
+    "medium_url": "/api/images/IMG012/file?size=medium",
+    "thumb_url": "/api/images/IMG012/file?size=thumb"
+   },
+   {
+    "image_id": "IMG021",
+    "title": "Khẩu hiệu 'Nam Bắc một nhà' trên tường, người kéo xe và đàn trâu",
+    "title_en": "'North and South are one family' wall slogan, cart-pullers and buffalo",
+    "title_zh": "墙上标语“南北一家”，拉车人和水牛",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG021/file",
+    "medium_url": "/api/images/IMG021/file?size=medium",
+    "thumb_url": "/api/images/IMG021/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Phía sau nhịp cầu thép là tấm biển lớn bờ Bắc: “Nam Bắc là một nhà – Không một lực lượng nào có thể chia cắt được”, bên cạnh cột gắn loa phóng thanh. Bài viết của Minh Vượng chú thích ảnh này là cầu Hiền Lương phía bờ Bắc (1956–1964) với những khẩu hiệu thể hiện khát vọng thống nhất.",
+   "Bờ Nam cũng dựng băng-rôn, panô của mình. Hai bờ sông trở thành nơi đối thoại bằng khẩu hiệu, cờ và loa – một cuộc đấu tranh chính trị diễn ra hằng ngày ngay trước mắt người dân hai miền."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 28"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 114,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "cau-bi-sap",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cây cầu bị đánh sập",
+  "image": {
+   "image_id": "IMG037",
+   "title": "Cầu Hiền Lương bị bom Mỹ đánh sập (1967)",
+   "title_en": "Hien Luong bridge destroyed by US bombing (1967)",
+   "title_zh": "被美军炸毁的贤良桥（1967）",
+   "caption": "Cầu Hiền Lương bị bom Mỹ đánh sập năm 1967.",
+   "kind": "archive_photo",
+   "time_period": "Theo chú thích trong bài SRC003: 1967 (chưa xác minh; sách SRC001 tr.183 ghi cầu bị đánh sập 9-1966)",
+   "image_url": "/api/images/IMG037/file",
+   "medium_url": "/api/images/IMG037/file?size=medium",
+   "thumb_url": "/api/images/IMG037/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG037",
+    "title": "Cầu Hiền Lương bị bom Mỹ đánh sập (1967)",
+    "title_en": "Hien Luong bridge destroyed by US bombing (1967)",
+    "title_zh": "被美军炸毁的贤良桥（1967）",
+    "caption": "Cầu Hiền Lương bị bom Mỹ đánh sập năm 1967.",
+    "kind": "archive_photo",
+    "time_period": "Theo chú thích trong bài SRC003: 1967 (chưa xác minh; sách SRC001 tr.183 ghi cầu bị đánh sập 9-1966)",
+    "image_url": "/api/images/IMG037/file",
+    "medium_url": "/api/images/IMG037/file?size=medium",
+    "thumb_url": "/api/images/IMG037/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Những nhịp cầu dàn thép gãy đổ xuống mặt sông. Các nguồn ghi khác nhau về thời điểm: sách “Đôi bờ giới tuyến” viết cầu bị đánh sập tháng 9-1966, còn các bài viết (trong đó có chú thích của bức ảnh này) ghi năm 1967.",
+   "Sau chiến tranh, năm 1974 một cây cầu bê tông được xây; năm 2001 cầu được phục chế theo nguyên mẫu, mặt lát gỗ lim, và đến nay đang tiếp tục được tu bổ."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 183,
+    "provision": null
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 34"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 193,
+    "provision": null
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 36"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "loa-bo-bac",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Cụm loa phát thanh bờ Bắc",
+  "image": {
+   "image_id": "IMG041",
+   "title": "Cụm loa phát thanh bên bờ Bắc",
+   "title_en": "Loudspeaker cluster on the northern bank",
+   "title_zh": "北岸扩音器组",
+   "caption": "Cụm loa phát thanh bên bờ Bắc.",
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG041/file",
+   "medium_url": "/api/images/IMG041/file?size=medium",
+   "thumb_url": "/api/images/IMG041/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG041",
+    "title": "Cụm loa phát thanh bên bờ Bắc",
+    "title_en": "Loudspeaker cluster on the northern bank",
+    "title_zh": "北岸扩音器组",
+    "caption": "Cụm loa phát thanh bên bờ Bắc.",
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG041/file",
+    "medium_url": "/api/images/IMG041/file?size=medium",
+    "thumb_url": "/api/images/IMG041/file?size=thumb"
+   },
+   {
+    "image_id": "IMG047",
+    "title": "Cụm loa phóng thanh của Đài Truyền thanh Vĩnh Linh ở bờ Bắc sông Bến Hải",
+    "title_en": "Vinh Linh radio loudspeaker array on the northern bank of the Ben Hai",
+    "title_zh": "边海河北岸永灵广播站扩音器阵列",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định – ảnh không cho biết giàn loa là nguyên bản hay phục dựng",
+    "image_url": "/api/images/IMG047/file",
+    "medium_url": "/api/images/IMG047/file?size=medium",
+    "thumb_url": "/api/images/IMG047/file?size=thumb"
+   },
+   {
+    "image_id": "IMG049",
+    "title": "Cụm loa phóng thanh ở bờ Bắc sông Bến Hải",
+    "title_en": "Loudspeaker array on the northern bank of the Ben Hai",
+    "title_zh": "边海河北岸扩音器阵列",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG049/file",
+    "medium_url": "/api/images/IMG049/file?size=medium",
+    "thumb_url": "/api/images/IMG049/file?size=thumb"
+   },
+   {
+    "image_id": "BKFIG08",
+    "title": "Sơ đồ hệ thống phóng thanh Bến Hải (2 bờ Nam Bắc)",
+    "title_en": "Diagram of the Ben Hai broadcasting system (both banks)",
+    "title_zh": "边海河广播系统示意图（南北两岸）",
+    "caption": "Sơ đồ hệ thống loa phát thanh ở đôi bờ Hiền Lương (Nguồn: Trung tâm Lưu trữ Quốc gia … – chú thích bị cắt trong OCR)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG08/file",
+    "medium_url": "/api/images/BKFIG08/file?size=medium",
+    "thumb_url": "/api/images/BKFIG08/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ban đầu bờ Bắc có 5 cụm loa trải dài 1.500 m, mỗi cụm 24 loa 25W; sau bổ sung thêm 8 loa 50W và một loa 250W do Liên Xô sản xuất. Để nuôi dàn loa, có một đường dây điện dài gần 10 km và một trạm tăng âm cách cầu 2,5 km.",
+   "Chương trình gồm tin tức, ca nhạc, ngâm thơ, kịch, dân ca. Một báo cáo của chính phía Sài Gòn mà sách trích lại phải thừa nhận: từ ngày 2-9-1956, dọc bờ Bắc có tới 5 chỗ phóng thanh, máy được che kín trong bụi cây."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 56"
+   },
+   {
+    "source_id": "SRC005",
+    "source_title": "Hệ thống loa phóng thanh bên bờ Bắc cầu Hiền Lương (bài viết nhân kỷ niệm 47 năm giải phóng miền Nam, 30/4/2022)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 18"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 114,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "loa-bo-nam",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Cụm loa phát thanh bờ Nam",
+  "image": {
+   "image_id": "IMG042",
+   "title": "Cụm loa phát thanh bên bờ Nam",
+   "title_en": "Loudspeaker cluster on the southern bank",
+   "title_zh": "南岸扩音器组",
+   "caption": "Cụm loa phát thanh bên bờ Nam.",
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG042/file",
+   "medium_url": "/api/images/IMG042/file?size=medium",
+   "thumb_url": "/api/images/IMG042/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG042",
+    "title": "Cụm loa phát thanh bên bờ Nam",
+    "title_en": "Loudspeaker cluster on the southern bank",
+    "title_zh": "南岸扩音器组",
+    "caption": "Cụm loa phát thanh bên bờ Nam.",
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG042/file",
+    "medium_url": "/api/images/IMG042/file?size=medium",
+    "thumb_url": "/api/images/IMG042/file?size=thumb"
+   },
+   {
+    "image_id": "IMG030",
+    "title": "Tháp mái ngói và cột giàn nhiều loa phóng thanh giữa đồng cỏ",
+    "title_en": "Tiled-roof tower and a mast with many loudspeaker horns over a grazing field",
+    "title_zh": "草地上的瓦顶塔楼与多喇叭扩音塔架",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG030/file",
+    "medium_url": "/api/images/IMG030/file?size=medium",
+    "thumb_url": "/api/images/IMG030/file?size=thumb"
+   },
+   {
+    "image_id": "IMG048",
+    "title": "Cụm loa phóng thanh phục dựng phía bờ Nam, khu di tích Đôi bờ Hiền Lương – Bến Hải",
+    "title_en": "Reconstructed loudspeaker cluster on the southern bank, Hien Luong–Ben Hai relic site",
+    "title_zh": "贤良—边海遗迹南岸复建扩音器组",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (hiện vật phục dựng – chưa xác minh); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG048/file",
+    "medium_url": "/api/images/IMG048/file?size=medium",
+    "thumb_url": "/api/images/IMG048/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ở bờ Nam, theo một văn bản năm 1962 của Bộ Công dân vụ Sài Gòn mà sách trích dẫn, hệ thống phóng thanh được thiết lập năm 1956 với 3 trạm: Võ Xá, Hiền Lương, Cát Sơn.",
+   "Sách cho biết hệ thống phát thanh của bờ Bắc vượt trội về công suất, khiến loa bờ Nam nhiều lúc không thể hoạt động được. Cuộc đấu kéo dài đến năm 1965, khi chiến tranh lan tới vùng giới tuyến."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 119,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 131,
+    "provision": null
+   },
+   {
+    "source_id": "SRC004",
+    "source_title": "Những màn chọi cờ, đấu loa mang khát vọng hòa bình ở vĩ tuyến 17 (phóng sự có lời kể nhân chứng)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 48"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "loa-500w",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Chiếc loa 500W",
+  "image": {
+   "image_id": "IMG046",
+   "title": "Chiếc loa ở giới tuyến Hiền Lương – Bến Hải trưng bày tại gian VOV, Trung tâm Triển lãm Quốc gia",
+   "title_en": "Loudspeaker from the Hien Luong–Ben Hai line on display at the VOV booth, National Exhibition Center",
+   "title_zh": "国家展览中心VOV展区展出的贤良—边海分界线扩音器",
+   "caption": null,
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (ảnh màu chụp hiện vật trưng bày); năm chụp chưa xác định",
+   "image_url": "/api/images/IMG046/file",
+   "medium_url": "/api/images/IMG046/file?size=medium",
+   "thumb_url": "/api/images/IMG046/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG046",
+    "title": "Chiếc loa ở giới tuyến Hiền Lương – Bến Hải trưng bày tại gian VOV, Trung tâm Triển lãm Quốc gia",
+    "title_en": "Loudspeaker from the Hien Luong–Ben Hai line on display at the VOV booth, National Exhibition Center",
+    "title_zh": "国家展览中心VOV展区展出的贤良—边海分界线扩音器",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu chụp hiện vật trưng bày); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG046/file",
+    "medium_url": "/api/images/IMG046/file?size=medium",
+    "thumb_url": "/api/images/IMG046/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Năm 1960, phía Bắc trang bị một chiếc loa đường kính 1,72 m, công suất 500W, đặt trên xe để di chuyển dọc bờ sông. Các bài viết kể khi thuận gió tiếng loa vang xa hơn 10 km.",
+   "Nơi lưu giữ chiếc loa hiện nay được các nguồn ghi khác nhau: trước Bảo tàng Vĩnh Linh, Nhà trưng bày “Vĩ tuyến 17 và khát vọng thống nhất”, Bảo tàng Báo chí Việt Nam; bức ảnh này ghi là chiếc loa của giới tuyến Hiền Lương – Bến Hải trưng bày ở gian Đài Tiếng nói Việt Nam."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 116,
+    "provision": null
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 58"
+   },
+   {
+    "source_id": "SRC005",
+    "source_title": "Hệ thống loa phóng thanh bên bờ Bắc cầu Hiền Lương (bài viết nhân kỷ niệm 47 năm giải phóng miền Nam, 30/4/2022)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 20"
+   },
+   {
+    "source_id": "WEB002",
+    "source_title": "“Tiếng nói” từ tọa độ lửa (Báo Thanh tra)",
+    "source_type": "WEB_ARTICLE",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "Báo Thanh tra, 2025-06-20",
+    "url": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/tieng-noi-tu-toa-do-lua-5ae8642cc.html"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "o-nhan",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "O Nhạn – giọng nói qua sông",
+  "image": {
+   "image_id": "IMG043",
+   "title": "O Nhạn – phát thanh viên chính của Đài Truyền thanh Vĩnh Linh thời đấu loa",
+   "title_en": "'O Nhạn', chief announcer of Vinh Linh radio during the loudspeaker contest",
+   "title_zh": "“娥雁”——对喊时期永灵广播站主要播音员",
+   "caption": "O Nhạn- phát thanh viên chính của Đài Truyền thanh Vĩnh Linh trong thời kỳ đấu loa ở cầu Hiền Lương.",
+   "kind": "archive_photo",
+   "time_period": "Thời kỳ đấu loa (chưa xác minh)",
+   "image_url": "/api/images/IMG043/file",
+   "medium_url": "/api/images/IMG043/file?size=medium",
+   "thumb_url": "/api/images/IMG043/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG043",
+    "title": "O Nhạn – phát thanh viên chính của Đài Truyền thanh Vĩnh Linh thời đấu loa",
+    "title_en": "'O Nhạn', chief announcer of Vinh Linh radio during the loudspeaker contest",
+    "title_zh": "“娥雁”——对喊时期永灵广播站主要播音员",
+    "caption": "O Nhạn- phát thanh viên chính của Đài Truyền thanh Vĩnh Linh trong thời kỳ đấu loa ở cầu Hiền Lương.",
+    "kind": "archive_photo",
+    "time_period": "Thời kỳ đấu loa (chưa xác minh)",
+    "image_url": "/api/images/IMG043/file",
+    "medium_url": "/api/images/IMG043/file?size=medium",
+    "thumb_url": "/api/images/IMG043/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Bài viết của Minh Vượng chú thích ảnh này là O Nhạn – phát thanh viên chính của Đài Truyền thanh Vĩnh Linh trong thời kỳ đấu loa ở cầu Hiền Lương. (“O” là cách gọi các cô gái ở Quảng Trị.)",
+   "Đài Truyền thanh Vĩnh Linh thành lập tháng 7-1955. Những phát thanh viên như O Nhạn đọc tin, ngâm thơ, hát qua dàn loa hướng về bờ Nam – bài viết kể có binh sĩ bên kia thuộc lòng những bài thơ phát qua loa."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 62"
+   },
+   {
+    "source_id": "WEB002",
+    "source_title": "“Tiếng nói” từ tọa độ lửa (Báo Thanh tra)",
+    "source_type": "WEB_ARTICLE",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "Báo Thanh tra, 2025-06-20",
+    "url": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/tieng-noi-tu-toa-do-lua-5ae8642cc.html"
+   },
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 58"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "hai-cot-co",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Hai cột cờ đối mặt",
+  "image": {
+   "image_id": "IMG019",
+   "title": "Hai cột cờ phía sau đàn trâu",
+   "title_en": "Two flagpoles behind a herd of buffalo",
+   "title_zh": "水牛群后的两根旗杆",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG019/file",
+   "medium_url": "/api/images/IMG019/file?size=medium",
+   "thumb_url": "/api/images/IMG019/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG019",
+    "title": "Hai cột cờ phía sau đàn trâu",
+    "title_en": "Two flagpoles behind a herd of buffalo",
+    "title_zh": "水牛群后的两根旗杆",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG019/file",
+    "medium_url": "/api/images/IMG019/file?size=medium",
+    "thumb_url": "/api/images/IMG019/file?size=thumb"
+   },
+   {
+    "image_id": "IMG015",
+    "title": "Hai cột cờ trên đồng ruộng: cờ đỏ sao vàng và cột cờ cao hơn",
+    "title_en": "Two flagpoles over farmland: a red flag with star and a taller mast",
+    "title_zh": "田野上的两根旗杆：金星红旗与更高旗杆",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG015/file",
+    "medium_url": "/api/images/IMG015/file?size=medium",
+    "thumb_url": "/api/images/IMG015/file?size=thumb"
+   },
+   {
+    "image_id": "IMG018",
+    "title": "Hai cột cờ cận hơn, tháp canh bên phải",
+    "title_en": "Closer view of the two flagpoles with a watchtower at right",
+    "title_zh": "更近的两根旗杆，右侧有瞭望塔",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG018/file",
+    "medium_url": "/api/images/IMG018/file?size=medium",
+    "thumb_url": "/api/images/IMG018/file?size=thumb"
+   },
+   {
+    "image_id": "IMG020",
+    "title": "Cận cảnh hai lá cờ và cột cờ cao (khổ dọc)",
+    "title_en": "Close view of two flags and the tall mast (portrait crop)",
+    "title_zh": "两面旗帜与高旗杆特写（竖幅）",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG020/file",
+    "medium_url": "/api/images/IMG020/file?size=medium",
+    "thumb_url": "/api/images/IMG020/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ngày 8-10-1954, phía Bắc dựng cột cờ đầu tiên cao 12 m; bên kia, cờ được cắm trên lô cốt Xuân Hòa cao 15 m. Hai bờ thi nhau nâng cột: 18 m, rồi 25 m (bờ Nam, 1956), 32 m (bờ Bắc, 1957), 35 m (bờ Nam, 1961).",
+   "Năm 1962, phía Bắc dựng trụ thép ống cao 38,6 m; sách kể đồng bào bờ Nam ở Dốc Miếu, Kinh Môn cách 6–8 km vẫn nhìn thấy lá cờ."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 188,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 188,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 189,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "me-vinh-linh-va-co",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Mẹ Vĩnh Linh vá cờ",
+  "image": {
+   "image_id": "IMG050",
+   "title": "Mẹ Diệm vá cờ Tổ quốc",
+   "title_en": "Mother Diệm mending the national flag",
+   "title_zh": "“阿嬷艳”缝补国旗",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG050/file",
+   "medium_url": "/api/images/IMG050/file?size=medium",
+   "thumb_url": "/api/images/IMG050/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG050",
+    "title": "Mẹ Diệm vá cờ Tổ quốc",
+    "title_en": "Mother Diệm mending the national flag",
+    "title_zh": "“阿嬷艳”缝补国旗",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG050/file",
+    "medium_url": "/api/images/IMG050/file?size=medium",
+    "thumb_url": "/api/images/IMG050/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Lá cờ lớn trên cột cao luôn hứng gió biển; sách kể thường mỗi tháng thay cờ một lần nhưng phải vá năm bảy lần. Những bà mẹ Vĩnh Linh đã ngày đêm khâu vá để lá cờ không ngừng bay.",
+   "Tiêu biểu là mẹ Ngô Thị Diệm ở thôn Hiền Lương: tuổi cao sức yếu nhưng không chịu đi sơ tán, ngày ngày khâu vá lại từng lá cờ khi cờ mới chưa kịp đưa vào. Ngày 6-12-2007, mẹ được phong tặng danh hiệu Anh hùng Lực lượng vũ trang nhân dân."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 189,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 192,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 192,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "nguoi-may-co",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "122 mét vuông vải đỏ",
+  "image": {
+   "image_id": "IMG013",
+   "title": "Cột cờ cao nhìn dưới mái hiên",
+   "title_en": "Tall flagpole seen from beneath an awning",
+   "title_zh": "从檐下望见的高旗杆",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG013/file",
+   "medium_url": "/api/images/IMG013/file?size=medium",
+   "thumb_url": "/api/images/IMG013/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG013",
+    "title": "Cột cờ cao nhìn dưới mái hiên",
+    "title_en": "Tall flagpole seen from beneath an awning",
+    "title_zh": "从檐下望见的高旗杆",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG013/file",
+    "medium_url": "/api/images/IMG013/file?size=medium",
+    "thumb_url": "/api/images/IMG013/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ông Nguyễn Đức Lãng, người may cờ cho cột cờ Hiền Lương từ năm 1959, kể một lá cờ rộng khoảng 96 m² cần 122 m² vải đỏ và gần 12 m² vải vàng; mỗi năm ông may gần 30 lá, có lúc phải may trong hầm.",
+   "Từ ngày 19-5-1956 đến 8-10-1967, phía Bắc đã dùng tổng cộng 267 lá cờ các loại."
+  ],
+  "citations": [
+   {
+    "source_id": "WEB003",
+    "source_title": "Người may cờ kết nối hàng triệu trái tim (Báo Văn Hóa)",
+    "source_type": "WEB_ARTICLE",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "Báo Văn Hóa, 2025-05-04",
+    "url": "https://baovanhoa.vn/doi-song/nguoi-may-co-ket-noi-hang-trieu-trai-tim-130750.html"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 189,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "buu-thiep",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Bưu thiếp năm dòng",
+  "image": {
+   "image_id": "BKFIG10",
+   "title": "Bưu thiếp trao đổi giữa nhân dân hai miền Nam – Bắc (1955–1965)",
+   "title_en": "Postcards exchanged between people of the two zones (1955–1965)",
+   "title_zh": "南北两地人民交换的明信片（1955–1965）",
+   "caption": "Một bưu thiếp trao đổi giữa nhân dân hai miền Nam – Bắc trong những năm 1955 – 1965 (Nguồn: Tư liệu của Nhà sưu tập tem Trần Trọng Khải, ở Thành phố Hồ Chí Minh gửi cho tác giả)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG10/file",
+   "medium_url": "/api/images/BKFIG10/file?size=medium",
+   "thumb_url": "/api/images/BKFIG10/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG10",
+    "title": "Bưu thiếp trao đổi giữa nhân dân hai miền Nam – Bắc (1955–1965)",
+    "title_en": "Postcards exchanged between people of the two zones (1955–1965)",
+    "title_zh": "南北两地人民交换的明信片（1955–1965）",
+    "caption": "Một bưu thiếp trao đổi giữa nhân dân hai miền Nam – Bắc trong những năm 1955 – 1965 (Nguồn: Tư liệu của Nhà sưu tập tem Trần Trọng Khải, ở Thành phố Hồ Chí Minh gửi cho tác giả)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG10/file",
+    "medium_url": "/api/images/BKFIG10/file?size=medium",
+    "thumb_url": "/api/images/BKFIG10/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Từ ngày 15-5-1955, nhân dân hai miền được trao đổi bưu thiếp qua giới tuyến – nhưng mọi tin tức chỉ được viết trong năm dòng và giới hạn trong chuyện gia đình.",
+   "Bưu thiếp đi qua cầu Hiền Lương, nơi hai đồn trao đổi thư từ. Với những gia đình bị chia cắt, mấy dòng chữ ngắn ngủi ấy là một trong số ít cách biết người thân bên kia sông còn bình an."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 155,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 155,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 98,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "doi-bo",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Gác chung một cây cầu",
+  "image": {
+   "image_id": "IMG010",
+   "title": "Nhóm cảnh sát đứng cạnh thanh chắn, biển 12T và panô",
+   "title_en": "Group of policemen standing by the barrier, with the 12T sign and poster",
+   "title_zh": "栏杆旁一群警察，旁有12T标牌与宣传画",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG010/file",
+   "medium_url": "/api/images/IMG010/file?size=medium",
+   "thumb_url": "/api/images/IMG010/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG010",
+    "title": "Nhóm cảnh sát đứng cạnh thanh chắn, biển 12T và panô",
+    "title_en": "Group of policemen standing by the barrier, with the 12T sign and poster",
+    "title_zh": "栏杆旁一群警察，旁有12T标牌与宣传画",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG010/file",
+    "medium_url": "/api/images/IMG010/file?size=medium",
+    "thumb_url": "/api/images/IMG010/file?size=thumb"
+   },
+   {
+    "image_id": "IMG033",
+    "title": "Nhóm cảnh sát đứng cạnh thanh chắn (bản khác)",
+    "title_en": "Group of policemen at the barrier (variant)",
+    "title_zh": "栏杆旁一群警察（另一版本）",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG033/file",
+    "medium_url": "/api/images/IMG033/file?size=medium",
+    "thumb_url": "/api/images/IMG033/file?size=thumb"
+   },
+   {
+    "image_id": "BKFIG05",
+    "title": "Kiểm soát liên hợp tại Cửa Tùng",
+    "title_en": "Joint inspection at Cua Tung",
+    "title_zh": "在松口（Cửa Tùng）的联合检查",
+    "caption": "Kiểm soát liên hợp tại Cửa Tùng (Nguồn: dulichquangtri.gov.vn)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG05/file",
+    "medium_url": "/api/images/BKFIG05/file?size=medium",
+    "thumb_url": "/api/images/BKFIG05/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Mỗi bên có hai đồn ở giới tuyến, mỗi đồn không quá 20 người. Hằng tháng vào ngày chẵn, một tổ ba người phía Bắc mang sổ trực sang bờ Nam, ngày lẻ thì tổ phía Nam sang bờ Bắc.",
+   "Ngày ngày gặp nhau, phía Bắc tìm cách vận động cảnh sát bên kia – đến mức chỉ huy các đồn Cát Sơn, Xuân Hòa cấm cảnh sát của mình tiếp xúc, trò chuyện với chiến sĩ bờ Bắc ngoài việc ký biên bản hằng ngày."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC003",
+    "source_title": "Về lịch sử cầu Hiền Lương (bài viết nhân dịp kỷ niệm 40 năm giải phóng miền Nam)",
+    "source_type": "SECONDARY_ARTICLE",
+    "verified_anchor": true,
+    "printed_page": null,
+    "provision": "dòng 44"
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 99,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "kien-nghi",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Gửi kiến nghị cho Tổ Quốc tế",
+  "image": {
+   "image_id": "BKFIG07",
+   "title": "Nhân dân Vĩnh Linh gửi kiến nghị cho Tổ Quốc tế 76",
+   "title_en": "People of Vinh Linh hand petitions to International Team 76",
+   "title_zh": "永灵人民向国际监察第76小组递交请愿书",
+   "caption": "Nhân dân Vĩnh Linh gửi kiến nghị cho Tổ Quốc tế 76 (Nguồn: Tư liệu của ông Huỳnh … – chú thích bị cắt trong OCR)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG07/file",
+   "medium_url": "/api/images/BKFIG07/file?size=medium",
+   "thumb_url": "/api/images/BKFIG07/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG07",
+    "title": "Nhân dân Vĩnh Linh gửi kiến nghị cho Tổ Quốc tế 76",
+    "title_en": "People of Vinh Linh hand petitions to International Team 76",
+    "title_zh": "永灵人民向国际监察第76小组递交请愿书",
+    "caption": "Nhân dân Vĩnh Linh gửi kiến nghị cho Tổ Quốc tế 76 (Nguồn: Tư liệu của ông Huỳnh … – chú thích bị cắt trong OCR)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG07/file",
+    "medium_url": "/api/images/BKFIG07/file?size=medium",
+    "thumb_url": "/api/images/BKFIG07/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Những ngày có phái đoàn quốc tế đi kiểm tra, học sinh và nhân dân Vĩnh Linh tập trung về cầu Hiền Lương để đưa kiến nghị, gửi thư vào Nam đòi thi hành Hiệp định Genève.",
+   "Sách kể các trường còn tổ chức cho học sinh gửi thư vào Nam đòi duy trì mối quan hệ ruột thịt giữa hai miền."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 88,
+    "provision": null
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "verified_anchor": true,
+    "printed_page": 87,
+    "provision": null
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "cot-co-ngay-nay",
+  "group": "ngay-nay",
+  "group_title": "Di tích ngày nay",
+  "title": "Kỳ đài Hiền Lương ngày nay",
+  "image": {
+   "image_id": "IMG040",
+   "title": "Cột cờ tại cầu Hiền Lương ngày nay",
+   "title_en": "The flagpole at Hien Luong bridge today",
+   "title_zh": "今日贤良桥旗杆",
+   "caption": "Cột cờ tại cầu Hiền Lương ngày nay.",
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (ảnh màu) – năm chụp chưa xác định",
+   "image_url": "/api/images/IMG040/file",
+   "medium_url": "/api/images/IMG040/file?size=medium",
+   "thumb_url": "/api/images/IMG040/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG040",
+    "title": "Cột cờ tại cầu Hiền Lương ngày nay",
+    "title_en": "The flagpole at Hien Luong bridge today",
+    "title_zh": "今日贤良桥旗杆",
+    "caption": "Cột cờ tại cầu Hiền Lương ngày nay.",
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu) – năm chụp chưa xác định",
+    "image_url": "/api/images/IMG040/file",
+    "medium_url": "/api/images/IMG040/file?size=medium",
+    "thumb_url": "/api/images/IMG040/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Cột cờ hiện nay được xây theo mẫu thiết kế năm 1962, cao 38,6 m, bên dưới bổ sung phần đài. Hằng năm, Lễ thượng cờ “Thống nhất non sông” được tổ chức tại đây.",
+   "Năm 2025, kỳ đài cùng cầu Hiền Lương và Nhà liên hợp được tu bổ trong dự án Công viên Thống nhất."
+  ],
+  "citations": [
+   {
+    "source_id": "WEB004",
+    "source_title": "Cầu Hiền Lương sau trùng tu (VnExpress, phóng sự ảnh)",
+    "source_type": "WEB_ARTICLE",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "VnExpress, Chưa xác định",
+    "url": "https://vnexpress.net/cau-hien-luong-sau-trung-tu-5041222.html"
+   },
+   {
+    "source_id": "WEB005",
+    "source_title": "Đầu tư, bảo tồn Công viên Thống nhất ở đôi bờ Hiền Lương–Bến Hải (Báo Nhân Dân)",
+    "source_type": "WEB_ARTICLE",
+    "verified_anchor": null,
+    "printed_page": null,
+    "provision": "Báo Nhân Dân, Chưa xác định (2025)",
+    "url": "https://nhandan.vn/dau-tu-bao-ton-cong-vien-thong-nhat-o-doi-bo-hien-luong-ben-hai-post909599.html"
+   }
+  ],
+  "curated": true
+ },
+ {
+  "id": "bkfig02",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Toàn cảnh Hội nghị Genève 1954",
+  "image": {
+   "image_id": "BKFIG02",
+   "title": "Toàn cảnh Hội nghị Genève 1954",
+   "title_en": "Overview of the 1954 Geneva Conference",
+   "title_zh": "1954年日内瓦会议全景",
+   "caption": "Toàn cảnh Hội nghị Genève 1954 (Ảnh: Freddy Bertrand)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG02/file",
+   "medium_url": "/api/images/BKFIG02/file?size=medium",
+   "thumb_url": "/api/images/BKFIG02/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG02",
+    "title": "Toàn cảnh Hội nghị Genève 1954",
+    "title_en": "Overview of the 1954 Geneva Conference",
+    "title_zh": "1954年日内瓦会议全景",
+    "caption": "Toàn cảnh Hội nghị Genève 1954 (Ảnh: Freddy Bertrand)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG02/file",
+    "medium_url": "/api/images/BKFIG02/file?size=medium",
+    "thumb_url": "/api/images/BKFIG02/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng chụp từ trên cao một hội trường lớn: các đại biểu ngồi quanh bàn hội nghị hình chữ U/bán nguyệt, nhiều người ở hàng ghế sau và ban công.",
+   "Hình in trong chương 'Hội nghị Genève (1954)…' của sách; chú thích sách ghi tác giả ảnh Freddy Bertrand."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 19,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig03",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Ngã ba sông Hiền Lương nhìn từ không ảnh bờ Nam",
+  "image": {
+   "image_id": "BKFIG03",
+   "title": "Ngã ba sông Hiền Lương nhìn từ không ảnh bờ Nam",
+   "title_en": "The Hien Luong river junction in an aerial photo from the south bank",
+   "title_zh": "从南岸航拍的贤良河三岔口",
+   "caption": "Ngã ba sông Hiền Lương nhìn từ không ảnh bờ Nam (Nguồn: www.panoramio.com)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG03/file",
+   "medium_url": "/api/images/BKFIG03/file?size=medium",
+   "thumb_url": "/api/images/BKFIG03/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG03",
+    "title": "Ngã ba sông Hiền Lương nhìn từ không ảnh bờ Nam",
+    "title_en": "The Hien Luong river junction in an aerial photo from the south bank",
+    "title_zh": "从南岸航拍的贤良河三岔口",
+    "caption": "Ngã ba sông Hiền Lương nhìn từ không ảnh bờ Nam (Nguồn: www.panoramio.com)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG03/file",
+    "medium_url": "/api/images/BKFIG03/file?size=medium",
+    "thumb_url": "/api/images/BKFIG03/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng chụp từ trên cao: dòng sông rộng chảy rẽ ngã ba, ruộng đồng ở bờ gần, một cây cầu mảnh ở góc phải.",
+   "Hình in trong chương 'Những tên gọi của một dòng sông lịch sử'."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 37,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig04",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Bản đồ khu phi quân sự – Vĩ tuyến 17 năm 1957",
+  "image": {
+   "image_id": "BKFIG04",
+   "title": "Bản đồ khu phi quân sự – Vĩ tuyến 17 năm 1957",
+   "title_en": "Map of the demilitarized zone – 17th parallel, 1957",
+   "title_zh": "1957年十七度线非军事区地图",
+   "caption": "Bản đồ khu phi quân sự – Vĩ tuyến 17 năm 1957 (Nguồn: Trung tâm Lưu trữ Quốc gia II, Tp. Hồ Chí Minh, kí hiệu TĐB 664/4; đọc từ chữ dọc cạnh bản đồ, có thể chưa đầy đủ)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG04/file",
+   "medium_url": "/api/images/BKFIG04/file?size=medium",
+   "thumb_url": "/api/images/BKFIG04/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG04",
+    "title": "Bản đồ khu phi quân sự – Vĩ tuyến 17 năm 1957",
+    "title_en": "Map of the demilitarized zone – 17th parallel, 1957",
+    "title_zh": "1957年十七度线非军事区地图",
+    "caption": "Bản đồ khu phi quân sự – Vĩ tuyến 17 năm 1957 (Nguồn: Trung tâm Lưu trữ Quốc gia II, Tp. Hồ Chí Minh, kí hiệu TĐB 664/4; đọc từ chữ dọc cạnh bản đồ, có thể chưa đầy đủ)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG04/file",
+    "medium_url": "/api/images/BKFIG04/file?size=medium",
+    "thumb_url": "/api/images/BKFIG04/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Bản đồ nét đen trên nền trắng: đường ranh giới khu phi quân sự, sông ngòi và nhiều địa danh viết tay nhỏ, chữ dọc ở cạnh phải.",
+   "Hình in trong chương 'Sự thiết lập khu phi quân sự – Vĩ tuyến 17…'."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 53,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig05",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Kiểm soát liên hợp tại Cửa Tùng",
+  "image": {
+   "image_id": "BKFIG05",
+   "title": "Kiểm soát liên hợp tại Cửa Tùng",
+   "title_en": "Joint inspection at Cua Tung",
+   "title_zh": "在松口（Cửa Tùng）的联合检查",
+   "caption": "Kiểm soát liên hợp tại Cửa Tùng (Nguồn: dulichquangtri.gov.vn)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG05/file",
+   "medium_url": "/api/images/BKFIG05/file?size=medium",
+   "thumb_url": "/api/images/BKFIG05/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG05",
+    "title": "Kiểm soát liên hợp tại Cửa Tùng",
+    "title_en": "Joint inspection at Cua Tung",
+    "title_zh": "在松口（Cửa Tùng）的联合检查",
+    "caption": "Kiểm soát liên hợp tại Cửa Tùng (Nguồn: dulichquangtri.gov.vn)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG05/file",
+    "medium_url": "/api/images/BKFIG05/file?size=medium",
+    "thumb_url": "/api/images/BKFIG05/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng: một chiếc thuyền buồm kéo lên bãi cát, vài người mặc quần áo sáng màu đứng cạnh thuyền, rừng cây phía sau.",
+   "Hình in trong chương 'Lực lượng Công an bảo vệ giới tuyến quân sự tạm thời'."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 61,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig06",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Âm mưu chia cắt đất nước của Ngô Đình Diệm",
+  "image": {
+   "image_id": "BKFIG06",
+   "title": "Âm mưu chia cắt đất nước của Ngô Đình Diệm",
+   "title_en": "Ngo Dinh Diem's scheme to divide the country",
+   "title_zh": "吴廷琰分裂国家的图谋",
+   "caption": "Âm mưu chia cắt đất nước của Ngô Đình Diệm (Nguồn: http://s1150.photobucket.com)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG06/file",
+   "medium_url": "/api/images/BKFIG06/file?size=medium",
+   "thumb_url": "/api/images/BKFIG06/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG06",
+    "title": "Âm mưu chia cắt đất nước của Ngô Đình Diệm",
+    "title_en": "Ngo Dinh Diem's scheme to divide the country",
+    "title_zh": "吴廷琰分裂国家的图谋",
+    "caption": "Âm mưu chia cắt đất nước của Ngô Đình Diệm (Nguồn: http://s1150.photobucket.com)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG06/file",
+    "medium_url": "/api/images/BKFIG06/file?size=medium",
+    "thumb_url": "/api/images/BKFIG06/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng: băng-rôn 'MUỐN THỐNG NHẤT LÃNH THỔ PHẢI CÓ TỔNG THỐNG NGÔ ĐÌNH DIỆM' trên hai cột, một người mặc cảnh phục đứng ở chòi gác, dốc cầu và thanh chắn, biển '12T'.",
+   "Hình in ở tr.81, chương 'Đấu tranh thực hiện Hiệp định Genève ở khu phi quân sự'. Trùng với IMG007/IMG032 trong bộ ảnh ZIP."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 81,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig08",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Sơ đồ hệ thống phóng thanh Bến Hải (2 bờ Nam Bắc)",
+  "image": {
+   "image_id": "BKFIG08",
+   "title": "Sơ đồ hệ thống phóng thanh Bến Hải (2 bờ Nam Bắc)",
+   "title_en": "Diagram of the Ben Hai broadcasting system (both banks)",
+   "title_zh": "边海河广播系统示意图（南北两岸）",
+   "caption": "Sơ đồ hệ thống loa phát thanh ở đôi bờ Hiền Lương (Nguồn: Trung tâm Lưu trữ Quốc gia … – chú thích bị cắt trong OCR)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG08/file",
+   "medium_url": "/api/images/BKFIG08/file?size=medium",
+   "thumb_url": "/api/images/BKFIG08/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG08",
+    "title": "Sơ đồ hệ thống phóng thanh Bến Hải (2 bờ Nam Bắc)",
+    "title_en": "Diagram of the Ben Hai broadcasting system (both banks)",
+    "title_zh": "边海河广播系统示意图（南北两岸）",
+    "caption": "Sơ đồ hệ thống loa phát thanh ở đôi bờ Hiền Lương (Nguồn: Trung tâm Lưu trữ Quốc gia … – chú thích bị cắt trong OCR)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG08/file",
+    "medium_url": "/api/images/BKFIG08/file?size=medium",
+    "thumb_url": "/api/images/BKFIG08/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Sơ đồ nét đen: dòng sông uốn khúc, nhiều điểm đánh dấu địa danh hai bờ, ô chú giải ở góc dưới phải, tiêu đề 'HỆ THỐNG PHÓNG THANH BẾN HẢI (2 bờ Nam Bắc)'.",
+   "Hình in trong chương 'Hệ thống phát thanh tại khu phi quân sự' (tr.112)."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 112,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig09",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Đoàn quân nhạc hướng về bờ Nam kỷ niệm 10 năm Hiệp định Genève",
+  "image": {
+   "image_id": "BKFIG09",
+   "title": "Đoàn quân nhạc hướng về bờ Nam kỷ niệm 10 năm Hiệp định Genève",
+   "title_en": "A military band facing the south bank on the 10th anniversary of the Geneva Agreement",
+   "title_zh": "日内瓦协定签署十周年时面向南岸演奏的军乐队",
+   "caption": "Đoàn quân nhạc hướng về bờ Nam biểu diễn nhân dịp kỷ niệm 10 năm ngày ký kết Hiệp định Genève (20-7-1964). Nguồn: tuoitre.vn",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG09/file",
+   "medium_url": "/api/images/BKFIG09/file?size=medium",
+   "thumb_url": "/api/images/BKFIG09/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG09",
+    "title": "Đoàn quân nhạc hướng về bờ Nam kỷ niệm 10 năm Hiệp định Genève",
+    "title_en": "A military band facing the south bank on the 10th anniversary of the Geneva Agreement",
+    "title_zh": "日内瓦协定签署十周年时面向南岸演奏的军乐队",
+    "caption": "Đoàn quân nhạc hướng về bờ Nam biểu diễn nhân dịp kỷ niệm 10 năm ngày ký kết Hiệp định Genève (20-7-1964). Nguồn: tuoitre.vn",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG09/file",
+    "medium_url": "/api/images/BKFIG09/file?size=medium",
+    "thumb_url": "/api/images/BKFIG09/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng: một đoàn người mặc quân phục sáng đứng thành hàng trên bãi cỏ, có bục/hàng rào ở phía xa.",
+   "Hình in trong chương 'Hệ thống phát thanh…' (tr.135); chú thích sách nêu ngày 20-7-1964."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 135,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig12",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Đón tiếp ba nhân sĩ trí thức phong trào hòa bình",
+  "image": {
+   "image_id": "BKFIG12",
+   "title": "Đón tiếp ba nhân sĩ trí thức phong trào hòa bình",
+   "title_en": "Welcoming three intellectuals of the peace movement",
+   "title_zh": "迎接和平运动的三位知识界人士",
+   "caption": "Đón tiếp ba nhân sĩ trí thức tham gia phong trào hòa bình, bị chính quyền Sài Gòn … (chú thích bị cắt trong OCR)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG12/file",
+   "medium_url": "/api/images/BKFIG12/file?size=medium",
+   "thumb_url": "/api/images/BKFIG12/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG12",
+    "title": "Đón tiếp ba nhân sĩ trí thức phong trào hòa bình",
+    "title_en": "Welcoming three intellectuals of the peace movement",
+    "title_zh": "迎接和平运动的三位知识界人士",
+    "caption": "Đón tiếp ba nhân sĩ trí thức tham gia phong trào hòa bình, bị chính quyền Sài Gòn … (chú thích bị cắt trong OCR)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG12/file",
+    "medium_url": "/api/images/BKFIG12/file?size=medium",
+    "thumb_url": "/api/images/BKFIG12/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng: một nhóm người, nhiều người mặc vest và quân phục, bước đi về phía máy ảnh trên mặt cầu.",
+   "Hình in trong chương 'Vụ tống triệt ba nhân vật hòa bình qua cầu Hiền Lương ngày 19-3-1965' (tr.197). Chú thích bị cắt nên không nêu tên người."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 197,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "bkfig13",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Nhân dân Vĩnh Linh đón học sinh sơ tán theo kế hoạch K.8 trở về",
+  "image": {
+   "image_id": "BKFIG13",
+   "title": "Nhân dân Vĩnh Linh đón học sinh sơ tán theo kế hoạch K.8 trở về",
+   "title_en": "Vinh Linh people welcome back schoolchildren evacuated under Plan K.8",
+   "title_zh": "永灵人民迎接按K.8计划疏散的学生返乡",
+   "caption": "Nhân dân Vĩnh Linh đón học sinh được sơ tán theo kế hoạch K.8 trở về quê hương (chú thích bị cắt trong OCR)",
+   "kind": "book_figure",
+   "time_period": "Theo chú thích sách (nếu có)",
+   "image_url": "/api/images/BKFIG13/file",
+   "medium_url": "/api/images/BKFIG13/file?size=medium",
+   "thumb_url": "/api/images/BKFIG13/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "BKFIG13",
+    "title": "Nhân dân Vĩnh Linh đón học sinh sơ tán theo kế hoạch K.8 trở về",
+    "title_en": "Vinh Linh people welcome back schoolchildren evacuated under Plan K.8",
+    "title_zh": "永灵人民迎接按K.8计划疏散的学生返乡",
+    "caption": "Nhân dân Vĩnh Linh đón học sinh được sơ tán theo kế hoạch K.8 trở về quê hương (chú thích bị cắt trong OCR)",
+    "kind": "book_figure",
+    "time_period": "Theo chú thích sách (nếu có)",
+    "image_url": "/api/images/BKFIG13/file",
+    "medium_url": "/api/images/BKFIG13/file?size=medium",
+    "thumb_url": "/api/images/BKFIG13/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng: đông người trong công viên/bãi cây, một số người đội nón lá, xe chở đồ đạc.",
+   "Hình in trong chương 'Giải phóng khu phi quân sự Nam…' (tr.241)."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 241,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích sách (nếu có)"
+ },
+ {
+  "id": "img001",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Đoàn người đi trên cầu, nhìn từ bờ cao xuống",
+  "image": {
+   "image_id": "IMG001",
+   "title": "Đoàn người đi trên cầu, nhìn từ bờ cao xuống",
+   "title_en": "Group of people walking on the bridge, seen from above the bank",
+   "title_zh": "从高处俯视桥上行走的人群",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG001/file",
+   "medium_url": "/api/images/IMG001/file?size=medium",
+   "thumb_url": "/api/images/IMG001/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG001",
+    "title": "Đoàn người đi trên cầu, nhìn từ bờ cao xuống",
+    "title_en": "Group of people walking on the bridge, seen from above the bank",
+    "title_zh": "从高处俯视桥上行走的人群",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG001/file",
+    "medium_url": "/api/images/IMG001/file?size=medium",
+    "thumb_url": "/api/images/IMG001/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu khổ dọc, chụp từ vị trí cao nhìn xuống đầu cầu và nhịp cầu dài bắc qua mặt nước. Nhiều người (mặc thường phục, quân phục/cảnh phục sáng màu) đi trên mặt đường dốc dẫn lên cầu; bên trái có công sự bê tông thấp và bãi cỏ. Ở cuối cầu có cột cờ với lá cờ màu đỏ.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img002",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Ba người bước xuống dốc cầu, cạnh biển 'Giới tuyến quân sự tạm thời'",
+  "image": {
+   "image_id": "IMG002",
+   "title": "Ba người bước xuống dốc cầu, cạnh biển 'Giới tuyến quân sự tạm thời'",
+   "title_en": "Three men walking down the bridge ramp beside the 'Provisional military demarcation line' sign",
+   "title_zh": "三人走下桥头坡道，旁有“临时军事分界线”牌",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG002/file",
+   "medium_url": "/api/images/IMG002/file?size=medium",
+   "thumb_url": "/api/images/IMG002/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG002",
+    "title": "Ba người bước xuống dốc cầu, cạnh biển 'Giới tuyến quân sự tạm thời'",
+    "title_en": "Three men walking down the bridge ramp beside the 'Provisional military demarcation line' sign",
+    "title_zh": "三人走下桥头坡道，旁有“临时军事分界线”牌",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG002/file",
+    "medium_url": "/api/images/IMG002/file?size=medium",
+    "thumb_url": "/api/images/IMG002/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu. Ba người đàn ông đi xuống mặt dốc bê tông/đất của đầu cầu: một người mặc áo sơ mi trắng, một người mặc quân phục màu kaki đội mũ kê-pi, một người đội mũ nồi đỏ, mặc quần soóc. Phía trước là thanh chắn sơn đỏ-trắng đang nâng lên. Bên phải có tấm biển trắng song ngữ. Phía sau là dàn vì kèo thép của cầu và cây thông.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Giới tuyến quân sự tạm thời được nêu ở Chương I, Điều 1 của Hiệp định đình chỉ chiến sự 20-7-1954 (DOC001); Tuyên bố cuối cùng 21-7-1954 (đoạn 6) nói đường phân định là tạm thời, không phải ranh giới chính trị hay lãnh thổ (DOC002) — nguồn ngoài, chưa đọc toàn văn. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img003",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Thanh chắn và biển giới tuyến ở đầu cầu",
+  "image": {
+   "image_id": "IMG003",
+   "title": "Thanh chắn và biển giới tuyến ở đầu cầu",
+   "title_en": "Barrier arm and demarcation sign at the bridge approach",
+   "title_zh": "桥头栏杆与分界线牌",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG003/file",
+   "medium_url": "/api/images/IMG003/file?size=medium",
+   "thumb_url": "/api/images/IMG003/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG003",
+    "title": "Thanh chắn và biển giới tuyến ở đầu cầu",
+    "title_en": "Barrier arm and demarcation sign at the bridge approach",
+    "title_zh": "桥头栏杆与分界线牌",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG003/file",
+    "medium_url": "/api/images/IMG003/file?size=medium",
+    "thumb_url": "/api/images/IMG003/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu khổ dọc. Mặt dốc đầu cầu màu nâu, thanh chắn sơn đỏ-trắng nằm ngang phía trước, một cột gỗ có dây điện/dây thép, tấm biển trắng song ngữ bên phải. Bầu trời nhiều mây; phía xa có dàn vì cầu thép. Góc trên trái có băng-rôn màu xanh với chữ viết tay chỉ đọc được một phần.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Giới tuyến quân sự tạm thời được nêu ở Chương I, Điều 1 của Hiệp định đình chỉ chiến sự 20-7-1954 (DOC001); Tuyên bố cuối cùng 21-7-1954 (đoạn 6) nói đường phân định là tạm thời, không phải ranh giới chính trị hay lãnh thổ (DOC002) — nguồn ngoài, chưa đọc toàn văn. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img004",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Toàn cảnh cầu bắc qua sông, xe jeep và đoàn người ở đầu cầu",
+  "image": {
+   "image_id": "IMG004",
+   "title": "Toàn cảnh cầu bắc qua sông, xe jeep và đoàn người ở đầu cầu",
+   "title_en": "View of the bridge across the river with jeeps and a group at the near end",
+   "title_zh": "俯瞰跨河大桥，桥头有吉普车和人群",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG004/file",
+   "medium_url": "/api/images/IMG004/file?size=medium",
+   "thumb_url": "/api/images/IMG004/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG004",
+    "title": "Toàn cảnh cầu bắc qua sông, xe jeep và đoàn người ở đầu cầu",
+    "title_en": "View of the bridge across the river with jeeps and a group at the near end",
+    "title_zh": "俯瞰跨河大桥，桥头有吉普车和人群",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG004/file",
+    "medium_url": "/api/images/IMG004/file?size=medium",
+    "thumb_url": "/api/images/IMG004/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu khổ dọc. Góc nhìn từ cao xuống: cây cầu dài bắc qua mặt nước xanh, ở xa có cổng/nhà thấp và cột cờ với lá cờ đỏ. Ở đầu cầu gần camera có nhiều xe jeep (một xe trắng) và một nhóm người đứng; con đường đất dẫn tới cầu, bãi cỏ và cây dừa nhỏ.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img005",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Nhịp cầu gỗ bờ Bắc, nhà mái ngói và băng-rôn 'Toàn dân chống Mỹ cứu nước'",
+  "image": {
+   "image_id": "IMG005",
+   "title": "Nhịp cầu gỗ bờ Bắc, nhà mái ngói và băng-rôn 'Toàn dân chống Mỹ cứu nước'",
+   "title_en": "Timber-deck bridge span, tiled-roof building and banner 'The whole people fight the Americans to save the nation'",
+   "title_zh": "木面桥段、瓦顶建筑与“全民抗美救国”横幅",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG005/file",
+   "medium_url": "/api/images/IMG005/file?size=medium",
+   "thumb_url": "/api/images/IMG005/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG005",
+    "title": "Nhịp cầu gỗ bờ Bắc, nhà mái ngói và băng-rôn 'Toàn dân chống Mỹ cứu nước'",
+    "title_en": "Timber-deck bridge span, tiled-roof building and banner 'The whole people fight the Americans to save the nation'",
+    "title_zh": "木面桥段、瓦顶建筑与“全民抗美救国”横幅",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG005/file",
+    "medium_url": "/api/images/IMG005/file?size=medium",
+    "thumb_url": "/api/images/IMG005/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu. Cầu có mặt lát ván gỗ và lan can thép nhẹ chạy chéo từ góc trái xuống; phía trước mặt nước xanh. Bên phải là ngôi nhà mái ngói đỏ có huy hiệu trang trí trên đầu hồi, hàng rào gỗ; phía trên bên trái có băng-rôn chữ đỏ.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img006",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cảnh sát tại thanh chắn, băng-rôn và panô 'Hai miền hai chế độ'",
+  "image": {
+   "image_id": "IMG006",
+   "title": "Cảnh sát tại thanh chắn, băng-rôn và panô 'Hai miền hai chế độ'",
+   "title_en": "Police at the barrier, banner and poster 'Two zones, two regimes'",
+   "title_zh": "栏杆旁的警察、横幅与“两个地区两种制度”宣传画",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG006/file",
+   "medium_url": "/api/images/IMG006/file?size=medium",
+   "thumb_url": "/api/images/IMG006/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG006",
+    "title": "Cảnh sát tại thanh chắn, băng-rôn và panô 'Hai miền hai chế độ'",
+    "title_en": "Police at the barrier, banner and poster 'Two zones, two regimes'",
+    "title_zh": "栏杆旁的警察、横幅与“两个地区两种制度”宣传画",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG006/file",
+    "medium_url": "/api/images/IMG006/file?size=medium",
+    "thumb_url": "/api/images/IMG006/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng (cắt cận). Phía trên là băng-rôn chữ lớn bị cắt ('…G NHẤT LÃNH THỔ / …THỐNG NGÔ ĐÌNH DIỆM'). Một panô tranh cổ động có hình người và cờ, dòng chữ dưới 'HAI MIỀN HAI CHẾ ĐỘ'. Biển tròn '12T'. Bên phải có biển 'TOÀN DÂN ĐOÀN KẾT…' (bị cắt). Phía trước có mấy người mặc cảnh phục, đội mũ kê-pi, đứng cạnh thanh chắn.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Hình in tương ứng trong sách (tr.81) có chú thích 'Âm mưu chia cắt đất nước của Ngô Đình Diệm' thuộc chương nói về cuộc đấu tranh thực hiện Hiệp định Genève ở khu phi quân sự (7/1954–7/1956 là phạm vi chương). Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img007",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Băng-rôn 'Muốn thống nhất lãnh thổ phải có Tổng thống Ngô Đình Diệm' ở đầu cầu",
+  "image": {
+   "image_id": "IMG007",
+   "title": "Băng-rôn 'Muốn thống nhất lãnh thổ phải có Tổng thống Ngô Đình Diệm' ở đầu cầu",
+   "title_en": "Banner 'To unify the territory, we must have President Ngo Dinh Diem' at the bridge approach",
+   "title_zh": "桥头横幅“要统一领土必须有吴廷琰总统”",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG007/file",
+   "medium_url": "/api/images/IMG007/file?size=medium",
+   "thumb_url": "/api/images/IMG007/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG007",
+    "title": "Băng-rôn 'Muốn thống nhất lãnh thổ phải có Tổng thống Ngô Đình Diệm' ở đầu cầu",
+    "title_en": "Banner 'To unify the territory, we must have President Ngo Dinh Diem' at the bridge approach",
+    "title_zh": "桥头横幅“要统一领土必须有吴廷琰总统”",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG007/file",
+    "medium_url": "/api/images/IMG007/file?size=medium",
+    "thumb_url": "/api/images/IMG007/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Băng-rôn lớn căng ngang trên hai cột. Bên trái có chòi gác mái che, một người mặc cảnh phục cầm súng đứng gác. Giữa ảnh là dốc cầu rải đá/nhựa, hai bên viền trắng; thanh chắn đỏ-trắng; biển tròn '12T' bên phải; mặt sông phía sau.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Hình in tương ứng trong sách (tr.81) có chú thích 'Âm mưu chia cắt đất nước của Ngô Đình Diệm' thuộc chương nói về cuộc đấu tranh thực hiện Hiệp định Genève ở khu phi quân sự (7/1954–7/1956 là phạm vi chương). Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img008",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cổng chào có huy hiệu và băng-rôn bên bờ đối diện",
+  "image": {
+   "image_id": "IMG008",
+   "title": "Cổng chào có huy hiệu và băng-rôn bên bờ đối diện",
+   "title_en": "Gateway arch with emblem seen beyond the bridge, with banner in the foreground",
+   "title_zh": "桥对岸带徽章的牌楼与前景横幅",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG008/file",
+   "medium_url": "/api/images/IMG008/file?size=medium",
+   "thumb_url": "/api/images/IMG008/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG008",
+    "title": "Cổng chào có huy hiệu và băng-rôn bên bờ đối diện",
+    "title_en": "Gateway arch with emblem seen beyond the bridge, with banner in the foreground",
+    "title_zh": "桥对岸带徽章的牌楼与前景横幅",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG008/file",
+    "medium_url": "/api/images/IMG008/file?size=medium",
+    "thumb_url": "/api/images/IMG008/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng, hơi mờ. Phía trước bên trái có băng-rôn ('…LÀNH THỔ / …GÔ ĐÌNH DIỆM') và biển tròn '12'. Ở giữa là cổng chào màu trắng có huy hiệu trên đỉnh và dòng chữ chạy ngang; lan can cầu bằng thép tối màu dẫn tới cổng; hàng rào trắng phía dưới.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Sách (tr.188) nhắc việc năm 1962 sửa lại 'cổng chào' và đồn công an Hiền Lương bị hư hoại do bão. Ảnh không cho phép gắn với năm cụ thể. Hình in tương ứng trong sách (tr.81) có chú thích 'Âm mưu chia cắt đất nước của Ngô Đình Diệm' thuộc chương nói về cuộc đấu tranh thực hiện Hiệp định Genève ở khu phi quân sự (7/1954–7/1956 là phạm vi chương). Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img009",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cảnh sát và hai người đội mũ cối/mũ rơm gần cổng chào (góc thấp)",
+  "image": {
+   "image_id": "IMG009",
+   "title": "Cảnh sát và hai người đội mũ cối/mũ rơm gần cổng chào (góc thấp)",
+   "title_en": "Policeman and two figures in helmets near the gateway (low angle)",
+   "title_zh": "低角度：警察与两名戴帽者靠近牌楼",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG009/file",
+   "medium_url": "/api/images/IMG009/file?size=medium",
+   "thumb_url": "/api/images/IMG009/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG009",
+    "title": "Cảnh sát và hai người đội mũ cối/mũ rơm gần cổng chào (góc thấp)",
+    "title_en": "Policeman and two figures in helmets near the gateway (low angle)",
+    "title_zh": "低角度：警察与两名戴帽者靠近牌楼",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG009/file",
+    "medium_url": "/api/images/IMG009/file?size=medium",
+    "thumb_url": "/api/images/IMG009/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng, chụp góc thấp sát mặt đường, nền trước mờ. Một người mặc cảnh phục sáng màu (nét mờ) đứng bên trái; ở giữa một người đội mũ cối, mặc quân phục tiến lại; bên phải một người khoác áo mưa/áo choàng đội mũ. Phía sau là vòm cổng chào trắng, cột điện.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Sách (tr.188) nhắc việc năm 1962 sửa lại 'cổng chào' và đồn công an Hiền Lương bị hư hoại do bão. Ảnh không cho phép gắn với năm cụ thể. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img011",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Hàng xe jeep và người dân gần đầu cầu",
+  "image": {
+   "image_id": "IMG011",
+   "title": "Hàng xe jeep và người dân gần đầu cầu",
+   "title_en": "Line of jeeps and people near the bridge approach",
+   "title_zh": "桥头附近的吉普车队和人群",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG011/file",
+   "medium_url": "/api/images/IMG011/file?size=medium",
+   "thumb_url": "/api/images/IMG011/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG011",
+    "title": "Hàng xe jeep và người dân gần đầu cầu",
+    "title_en": "Line of jeeps and people near the bridge approach",
+    "title_zh": "桥头附近的吉普车队和人群",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG011/file",
+    "medium_url": "/api/images/IMG011/file?size=medium",
+    "thumb_url": "/api/images/IMG011/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Một dãy xe jeep đỗ ở góc trái, vài người lớn mặc quân phục/thường phục và hai em nhỏ đi trên đường. Ở giữa phía xa là dốc cầu và nhóm người đi trên cầu, cột cờ có lá cờ ở bên trái, cổng có tấm biển chữ nhỏ; lá cây cọ che một phần phía trước.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img012",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Khẩu hiệu 'Nam Bắc một nhà' bên kia sông, người mặc cảnh phục trên cầu thép",
+  "image": {
+   "image_id": "IMG012",
+   "title": "Khẩu hiệu 'Nam Bắc một nhà' bên kia sông, người mặc cảnh phục trên cầu thép",
+   "title_en": "Slogan 'North and South are one family' across the river; man in uniform on a steel bridge",
+   "title_zh": "对岸标语“南北一家”，钢桥上身着制服者",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG012/file",
+   "medium_url": "/api/images/IMG012/file?size=medium",
+   "thumb_url": "/api/images/IMG012/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG012",
+    "title": "Khẩu hiệu 'Nam Bắc một nhà' bên kia sông, người mặc cảnh phục trên cầu thép",
+    "title_en": "Slogan 'North and South are one family' across the river; man in uniform on a steel bridge",
+    "title_zh": "对岸标语“南北一家”，钢桥上身着制服者",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG012/file",
+    "medium_url": "/api/images/IMG012/file?size=medium",
+    "thumb_url": "/api/images/IMG012/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng khổ dọc. Trên cùng là bức tường trắng có chữ lớn. Giữa là mặt sông phẳng. Phía dưới, một người mặc cảnh phục sáng màu và đội mũ kê-pi đứng sau lan can dàn thép của cây cầu.",
+   "Chưa tìm thấy đoạn sách tương ứng trực tiếp với khẩu hiệu/tranh tường này nên không gán bối cảnh lịch sử cụ thể. Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img014",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Cổng chào có huy hiệu và dòng chữ 'Việt Nam hòa bình thống nhất…'",
+  "image": {
+   "image_id": "IMG014",
+   "title": "Cổng chào có huy hiệu và dòng chữ 'Việt Nam hòa bình thống nhất…'",
+   "title_en": "Gateway arch with emblem and the inscription 'Vietnam peaceful unification…'",
+   "title_zh": "带徽章牌楼与“越南和平统一……”字样",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG014/file",
+   "medium_url": "/api/images/IMG014/file?size=medium",
+   "thumb_url": "/api/images/IMG014/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG014",
+    "title": "Cổng chào có huy hiệu và dòng chữ 'Việt Nam hòa bình thống nhất…'",
+    "title_en": "Gateway arch with emblem and the inscription 'Vietnam peaceful unification…'",
+    "title_zh": "带徽章牌楼与“越南和平统一……”字样",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG014/file",
+    "medium_url": "/api/images/IMG014/file?size=medium",
+    "thumb_url": "/api/images/IMG014/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Chính giữa là cổng chào màu trắng hình vòm, trên đỉnh có huy hiệu tròn; dải chữ ngang có hai ngôi sao hai đầu. Hai bên là lan can cầu bằng thép tối màu hội tụ về phía cổng; bên phải một người mặc cảnh phục, đội mũ kê-pi quay nghiêng.",
+   "Sách (tr.188) nhắc việc năm 1962 sửa lại 'cổng chào' và đồn công an Hiền Lương bị hư hoại do bão. Ảnh không cho phép gắn với năm cụ thể. Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img015",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Hai cột cờ trên đồng ruộng: cờ đỏ sao vàng và cột cờ cao hơn",
+  "image": {
+   "image_id": "IMG015",
+   "title": "Hai cột cờ trên đồng ruộng: cờ đỏ sao vàng và cột cờ cao hơn",
+   "title_en": "Two flagpoles over farmland: a red flag with star and a taller mast",
+   "title_zh": "田野上的两根旗杆：金星红旗与更高旗杆",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG015/file",
+   "medium_url": "/api/images/IMG015/file?size=medium",
+   "thumb_url": "/api/images/IMG015/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG015",
+    "title": "Hai cột cờ trên đồng ruộng: cờ đỏ sao vàng và cột cờ cao hơn",
+    "title_en": "Two flagpoles over farmland: a red flag with star and a taller mast",
+    "title_zh": "田野上的两根旗杆：金星红旗与更高旗杆",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG015/file",
+    "medium_url": "/api/images/IMG015/file?size=medium",
+    "thumb_url": "/api/images/IMG015/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Bên trái là cột thấp hơn treo cờ nền sẫm có ngôi sao ở giữa; bên phải là cột cao (có các đốt/sàn và dây chằng) treo cờ có các sọc ngang. Phía dưới là đồng ruộng, một người đang làm việc, vài con trâu, hàng cây phi lao và nhà dân.",
+   "Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img016",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Hai cột cờ phía xa, ruộng và trâu",
+  "image": {
+   "image_id": "IMG016",
+   "title": "Hai cột cờ phía xa, ruộng và trâu",
+   "title_en": "Two distant flagpoles, fields and buffalo",
+   "title_zh": "远处两根旗杆、田地与水牛",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG016/file",
+   "medium_url": "/api/images/IMG016/file?size=medium",
+   "thumb_url": "/api/images/IMG016/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG016",
+    "title": "Hai cột cờ phía xa, ruộng và trâu",
+    "title_en": "Two distant flagpoles, fields and buffalo",
+    "title_zh": "远处两根旗杆、田地与水牛",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG016/file",
+    "medium_url": "/api/images/IMG016/file?size=medium",
+    "thumb_url": "/api/images/IMG016/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng, góc rộng hơn: cột thấp bên trái treo cờ có sao; cột cao bên phải treo cờ sọc ngang. Phía dưới là ruộng, bụi cây, trâu và vài người nhỏ; xa hơn là các mái nhà.",
+   "Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img017",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Hai cột cờ và trạm nhỏ bên đường",
+  "image": {
+   "image_id": "IMG017",
+   "title": "Hai cột cờ và trạm nhỏ bên đường",
+   "title_en": "Two flagpoles and a small hut by the road",
+   "title_zh": "两根旗杆与路旁小亭",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG017/file",
+   "medium_url": "/api/images/IMG017/file?size=medium",
+   "thumb_url": "/api/images/IMG017/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG017",
+    "title": "Hai cột cờ và trạm nhỏ bên đường",
+    "title_en": "Two flagpoles and a small hut by the road",
+    "title_zh": "两根旗杆与路旁小亭",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG017/file",
+    "medium_url": "/api/images/IMG017/file?size=medium",
+    "thumb_url": "/api/images/IMG017/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Cột thấp bên trái có cờ sao; cột cao bên phải có cờ sọc. Phía trước có mặt nước, một trạm/chòi nhỏ màu trắng bên trái, vài người đi bộ trên đường; xa hơn là nhà và cây.",
+   "Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img018",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Hai cột cờ cận hơn, tháp canh bên phải",
+  "image": {
+   "image_id": "IMG018",
+   "title": "Hai cột cờ cận hơn, tháp canh bên phải",
+   "title_en": "Closer view of the two flagpoles with a watchtower at right",
+   "title_zh": "更近的两根旗杆，右侧有瞭望塔",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG018/file",
+   "medium_url": "/api/images/IMG018/file?size=medium",
+   "thumb_url": "/api/images/IMG018/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG018",
+    "title": "Hai cột cờ cận hơn, tháp canh bên phải",
+    "title_en": "Closer view of the two flagpoles with a watchtower at right",
+    "title_zh": "更近的两根旗杆，右侧有瞭望塔",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG018/file",
+    "medium_url": "/api/images/IMG018/file?size=medium",
+    "thumb_url": "/api/images/IMG018/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Hai cột cờ gần hơn: cờ sao ở cột thấp bên trái, cờ sọc ở cột cao. Bên phải có một công trình hai tầng mái nhọn giống tháp canh; ruộng, vài con trâu và bụi cây phía dưới.",
+   "Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img020",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Cận cảnh hai lá cờ và cột cờ cao (khổ dọc)",
+  "image": {
+   "image_id": "IMG020",
+   "title": "Cận cảnh hai lá cờ và cột cờ cao (khổ dọc)",
+   "title_en": "Close view of two flags and the tall mast (portrait crop)",
+   "title_zh": "两面旗帜与高旗杆特写（竖幅）",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG020/file",
+   "medium_url": "/api/images/IMG020/file?size=medium",
+   "thumb_url": "/api/images/IMG020/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG020",
+    "title": "Cận cảnh hai lá cờ và cột cờ cao (khổ dọc)",
+    "title_en": "Close view of two flags and the tall mast (portrait crop)",
+    "title_zh": "两面旗帜与高旗杆特写（竖幅）",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG020/file",
+    "medium_url": "/api/images/IMG020/file?size=medium",
+    "thumb_url": "/api/images/IMG020/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng khổ dọc, cắt cận. Cờ có sao ở cột thấp bên trái; cờ sọc ngang ở đỉnh cột cao có sàn và dây chằng; cây cối phía dưới.",
+   "Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img021",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Khẩu hiệu 'Nam Bắc một nhà' trên tường, người kéo xe và đàn trâu",
+  "image": {
+   "image_id": "IMG021",
+   "title": "Khẩu hiệu 'Nam Bắc một nhà' trên tường, người kéo xe và đàn trâu",
+   "title_en": "'North and South are one family' wall slogan, cart-pullers and buffalo",
+   "title_zh": "墙上标语“南北一家”，拉车人和水牛",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG021/file",
+   "medium_url": "/api/images/IMG021/file?size=medium",
+   "thumb_url": "/api/images/IMG021/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG021",
+    "title": "Khẩu hiệu 'Nam Bắc một nhà' trên tường, người kéo xe và đàn trâu",
+    "title_en": "'North and South are one family' wall slogan, cart-pullers and buffalo",
+    "title_zh": "墙上标语“南北一家”，拉车人和水牛",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG021/file",
+    "medium_url": "/api/images/IMG021/file?size=medium",
+    "thumb_url": "/api/images/IMG021/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Bức tường trắng dài có chữ lớn; trước tường là hàng rào gỗ trắng, hai người kéo xe cải tiến chở đồ, một người đi bên phải, đàn trâu gặm cỏ, mặt nước phản chiếu và một đoạn dàn cầu thép ở mép dưới.",
+   "Chưa tìm thấy đoạn sách tương ứng trực tiếp với khẩu hiệu/tranh tường này nên không gán bối cảnh lịch sử cụ thể. Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img022",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Khẩu hiệu 'Để Quốc Mỹ cút khỏi miền Nam Việt Nam' bên bờ sông",
+  "image": {
+   "image_id": "IMG022",
+   "title": "Khẩu hiệu 'Để Quốc Mỹ cút khỏi miền Nam Việt Nam' bên bờ sông",
+   "title_en": "Slogan 'Let the American imperialists get out of South Vietnam' by the river",
+   "title_zh": "河岸标语“让美帝国主义滚出越南南方”",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG022/file",
+   "medium_url": "/api/images/IMG022/file?size=medium",
+   "thumb_url": "/api/images/IMG022/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG022",
+    "title": "Khẩu hiệu 'Để Quốc Mỹ cút khỏi miền Nam Việt Nam' bên bờ sông",
+    "title_en": "Slogan 'Let the American imperialists get out of South Vietnam' by the river",
+    "title_zh": "河岸标语“让美帝国主义滚出越南南方”",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG022/file",
+    "medium_url": "/api/images/IMG022/file?size=medium",
+    "thumb_url": "/api/images/IMG022/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng, có vệt tối ở mép trái (che bởi vật chắn). Bức tường trắng có chữ lớn đặt trên bờ cao ven sông; cây cối hai bên; mặt sông phía trước.",
+   "Chưa tìm thấy đoạn sách tương ứng trực tiếp với khẩu hiệu/tranh tường này nên không gán bối cảnh lịch sử cụ thể. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img023",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Tranh tường 'Hãy vì mùa xuân của con em chúng ta' bên bờ sông",
+  "image": {
+   "image_id": "IMG023",
+   "title": "Tranh tường 'Hãy vì mùa xuân của con em chúng ta' bên bờ sông",
+   "title_en": "Wall mural 'For the spring of our children' on the riverbank",
+   "title_zh": "河岸壁画“为了我们孩子的春天”",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG023/file",
+   "medium_url": "/api/images/IMG023/file?size=medium",
+   "thumb_url": "/api/images/IMG023/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG023",
+    "title": "Tranh tường 'Hãy vì mùa xuân của con em chúng ta' bên bờ sông",
+    "title_en": "Wall mural 'For the spring of our children' on the riverbank",
+    "title_zh": "河岸壁画“为了我们孩子的春天”",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG023/file",
+    "medium_url": "/api/images/IMG023/file?size=medium",
+    "thumb_url": "/api/images/IMG023/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Trên bờ sông có bức tường thấp trắng vẽ tranh nhiều người (phụ nữ, trẻ em) trong tư thế vui vẻ, phía dưới là dòng chữ; sau đó là những thửa ruộng ngập nước, đồi mờ phía xa.",
+   "Chưa tìm thấy đoạn sách tương ứng trực tiếp với khẩu hiệu/tranh tường này nên không gán bối cảnh lịch sử cụ thể. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img024",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Biển 'Nam Bắc là một nhà…' cùng cụm loa trên cột, cầu thép phía trước",
+  "image": {
+   "image_id": "IMG024",
+   "title": "Biển 'Nam Bắc là một nhà…' cùng cụm loa trên cột, cầu thép phía trước",
+   "title_en": "Sign 'North and South are one family…' with loudspeakers on a post; steel bridge in front",
+   "title_zh": "“南北是一家……”标牌与杆上扬声器，前景为钢桥",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG024/file",
+   "medium_url": "/api/images/IMG024/file?size=medium",
+   "thumb_url": "/api/images/IMG024/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG024",
+    "title": "Biển 'Nam Bắc là một nhà…' cùng cụm loa trên cột, cầu thép phía trước",
+    "title_en": "Sign 'North and South are one family…' with loudspeakers on a post; steel bridge in front",
+    "title_zh": "“南北是一家……”标牌与杆上扬声器，前景为钢桥",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG024/file",
+    "medium_url": "/api/images/IMG024/file?size=medium",
+    "thumb_url": "/api/images/IMG024/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng. Biển chữ lớn trên cột; dưới biển có ba loa phóng thanh gắn trên một cột; hàng rào trắng chạy dài; phía trước là dàn cầu thép nhiều thanh giằng, một người đội mũ cối đứng trên cầu; chân trụ cầu bê tông dưới nước.",
+   "Sách có chương 'Hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 những năm 1956–1962' (tr.109–142), mô tả cuộc 'đấu loa' hai bờ Bến Hải. Chưa tìm thấy đoạn sách tương ứng trực tiếp với khẩu hiệu/tranh tường này nên không gán bối cảnh lịch sử cụ thể. Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img025",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Người đội mũ cối đứng trên dàn cầu thép",
+  "image": {
+   "image_id": "IMG025",
+   "title": "Người đội mũ cối đứng trên dàn cầu thép",
+   "title_en": "Man in a pith helmet standing on the steel bridge",
+   "title_zh": "戴盔帽者站在钢桥上",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG025/file",
+   "medium_url": "/api/images/IMG025/file?size=medium",
+   "thumb_url": "/api/images/IMG025/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG025",
+    "title": "Người đội mũ cối đứng trên dàn cầu thép",
+    "title_en": "Man in a pith helmet standing on the steel bridge",
+    "title_zh": "戴盔帽者站在钢桥上",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG025/file",
+    "medium_url": "/api/images/IMG025/file?size=medium",
+    "thumb_url": "/api/images/IMG025/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng cận dàn cầu thép nhiều thanh chéo; ở giữa phía trên một người mặc quân phục, đội mũ cối đứng trên mặt cầu; nền là cây và công trình mờ. Có chữ LIFE bị lật ngược ở góc trên trái.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img029",
+  "group": "gioi-tuyen",
+  "group_title": "Giới tuyến & cây cầu",
+  "title": "Toàn cảnh cây cầu dài bắc qua sông tới cổng chào và cột cờ",
+  "image": {
+   "image_id": "IMG029",
+   "title": "Toàn cảnh cây cầu dài bắc qua sông tới cổng chào và cột cờ",
+   "title_en": "Wide view of the long bridge across the river to the gateway and flagpole",
+   "title_zh": "长桥横跨河面直达牌楼与旗杆的全景",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG029/file",
+   "medium_url": "/api/images/IMG029/file?size=medium",
+   "thumb_url": "/api/images/IMG029/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG029",
+    "title": "Toàn cảnh cây cầu dài bắc qua sông tới cổng chào và cột cờ",
+    "title_en": "Wide view of the long bridge across the river to the gateway and flagpole",
+    "title_zh": "长桥横跨河面直达牌楼与旗杆的全景",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG029/file",
+    "medium_url": "/api/images/IMG029/file?size=medium",
+    "thumb_url": "/api/images/IMG029/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng, góc rộng. Cây cầu thép dài trên nhiều trụ bê tông bắc qua mặt nước rộng, đầu bên kia có cổng chào trắng và một cột/ăng-ten mảnh dựng cao; nhà mái ngói và hàng cây phi lao ở bờ xa; thuyền nhỏ ở góc dưới.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img030",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Tháp mái ngói và cột giàn nhiều loa phóng thanh giữa đồng cỏ",
+  "image": {
+   "image_id": "IMG030",
+   "title": "Tháp mái ngói và cột giàn nhiều loa phóng thanh giữa đồng cỏ",
+   "title_en": "Tiled-roof tower and a mast with many loudspeaker horns over a grazing field",
+   "title_zh": "草地上的瓦顶塔楼与多喇叭扩音塔架",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG030/file",
+   "medium_url": "/api/images/IMG030/file?size=medium",
+   "thumb_url": "/api/images/IMG030/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG030",
+    "title": "Tháp mái ngói và cột giàn nhiều loa phóng thanh giữa đồng cỏ",
+    "title_en": "Tiled-roof tower and a mast with many loudspeaker horns over a grazing field",
+    "title_zh": "草地上的瓦顶塔楼与多喇叭扩音塔架",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG030/file",
+    "medium_url": "/api/images/IMG030/file?size=medium",
+    "thumb_url": "/api/images/IMG030/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu. Một tòa tháp nhiều tầng, mái ngói đỏ nhiều lớp, tường vàng nhạt, bên trái. Bên phải là cột giàn thang đứng gắn nhiều loa phóng thanh hình loa kèn hướng về nhiều phía. Đồng cỏ xanh có đàn bò gặm cỏ và vài người; một tấm bảng lớn gần tháp; phía xa là mặt nước và mái nhà.",
+   "Sách có chương 'Hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 những năm 1956–1962' (tr.109–142), mô tả cuộc 'đấu loa' hai bờ Bến Hải. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img033",
+  "group": "doi-song",
+  "group_title": "Đời sống hai bờ",
+  "title": "Nhóm cảnh sát đứng cạnh thanh chắn (bản khác)",
+  "image": {
+   "image_id": "IMG033",
+   "title": "Nhóm cảnh sát đứng cạnh thanh chắn (bản khác)",
+   "title_en": "Group of policemen at the barrier (variant)",
+   "title_zh": "栏杆旁一群警察（另一版本）",
+   "caption": null,
+   "kind": "archive_photo",
+   "time_period": "Chưa xác định",
+   "image_url": "/api/images/IMG033/file",
+   "medium_url": "/api/images/IMG033/file?size=medium",
+   "thumb_url": "/api/images/IMG033/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG033",
+    "title": "Nhóm cảnh sát đứng cạnh thanh chắn (bản khác)",
+    "title_en": "Group of policemen at the barrier (variant)",
+    "title_zh": "栏杆旁一群警察（另一版本）",
+    "caption": null,
+    "kind": "archive_photo",
+    "time_period": "Chưa xác định",
+    "image_url": "/api/images/IMG033/file",
+    "medium_url": "/api/images/IMG033/file?size=medium",
+    "thumb_url": "/api/images/IMG033/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Giống IMG010: nhóm người mặc cảnh phục đứng cạnh thanh chắn, biển 12T, panô và băng-rôn 'TOÀN DÂN ĐOÀN KẾT CHỐNG…' bị cắt, người mặc áo vest và đội mũ nồi ở trái, người đội mũ nồi mờ ở phải.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Sách có chương về công tác tranh thủ cảnh sát Sài Gòn của đồn công an Cửa Tùng, Hiền Lương (tr.97–108) và chương về lực lượng công an bảo vệ giới tuyến (tr.59–68). Ảnh không cho biết các nhân vật thuộc bên nào. Ảnh không có đủ bằng chứng để gắn với một sự kiện hay năm cụ thể."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC002",
+    "source_title": "Archive 2 – bộ ảnh tư liệu giới tuyến Hiền Lương (34 file ảnh)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Chưa xác định"
+ },
+ {
+  "id": "img039",
+  "group": "la-co",
+  "group_title": "Lá cờ trên vĩ tuyến",
+  "title": "Cầu Hiền Lương nhìn từ phía Nam (1964)",
+  "image": {
+   "image_id": "IMG039",
+   "title": "Cầu Hiền Lương nhìn từ phía Nam (1964)",
+   "title_en": "Hien Luong bridge seen from the south (1964)",
+   "title_zh": "从南岸看贤良桥（1964）",
+   "caption": "Cầu Hiền Lương nhìn từ phía Nam, năm 1964.",
+   "kind": "archive_photo",
+   "time_period": "Theo chú thích trong bài SRC003: 1964 (chưa xác minh)",
+   "image_url": "/api/images/IMG039/file",
+   "medium_url": "/api/images/IMG039/file?size=medium",
+   "thumb_url": "/api/images/IMG039/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG039",
+    "title": "Cầu Hiền Lương nhìn từ phía Nam (1964)",
+    "title_en": "Hien Luong bridge seen from the south (1964)",
+    "title_zh": "从南岸看贤良桥（1964）",
+    "caption": "Cầu Hiền Lương nhìn từ phía Nam, năm 1964.",
+    "kind": "archive_photo",
+    "time_period": "Theo chú thích trong bài SRC003: 1964 (chưa xác minh)",
+    "image_url": "/api/images/IMG039/file",
+    "medium_url": "/api/images/IMG039/file?size=medium",
+    "thumb_url": "/api/images/IMG039/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh đen trắng khổ dọc, chụp từ trên cao: dốc đầu cầu có thanh chắn sơn sọc, bốn người đi bộ ở tiền cảnh; cầu dàn thép dài bắc qua sông tới bờ bên kia, nơi có cổng, nhà mái và cột cờ cao.",
+   "Ảnh có chú thích trong bài SRC003 (Minh Vượng, dòng 73): \"Cầu Hiền Lương nhìn từ phía Nam, năm 1964.\" – chú thích của một bài báo thứ cấp, chưa đối chiếu hồ sơ gốc của ảnh. Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. Theo sách (tr.187–192), tại đầu cầu Hiền Lương hai bên thi nhau nâng cao cột cờ: lá cờ đỏ sao vàng của phía Bắc và lá cờ vàng ba sọc đỏ của phía Nam; năm 1961 phía Nam nâng cột lên 35 m, năm 1962 phía Bắc dựng trụ 38,6 m và phía Nam không nâng thêm; cột cờ bị đánh gãy ngày 2-8-1967. Chung khung cảnh với IMG004/IMG034 (Archive_2) nhưng là khoảnh khắc khác. Hướng nhìn 'từ phía Nam' và năm 1964 theo chú thích bài báo, chưa xác minh."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC006",
+    "source_title": "Archive_4.zip – ảnh bổ sung (16 ảnh duy nhất; kèm 'Archive 3.zip' lồng bên trong chứa 10 bản trùng byte)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Theo chú thích trong bài SRC003: 1964 (chưa xác minh)"
+ },
+ {
+  "id": "img045",
+  "group": "ngay-nay",
+  "group_title": "Di tích ngày nay",
+  "title": "Cầu Hiền Lương hai màu nhìn từ trên cao (ảnh hiện đại)",
+  "image": {
+   "image_id": "IMG045",
+   "title": "Cầu Hiền Lương hai màu nhìn từ trên cao (ảnh hiện đại)",
+   "title_en": "Aerial view of the two-coloured Hien Luong bridge (contemporary photo)",
+   "title_zh": "俯瞰双色贤良桥（当代照片）",
+   "caption": null,
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (ảnh màu chụp trên cao); năm chụp chưa xác định",
+   "image_url": "/api/images/IMG045/file",
+   "medium_url": "/api/images/IMG045/file?size=medium",
+   "thumb_url": "/api/images/IMG045/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG045",
+    "title": "Cầu Hiền Lương hai màu nhìn từ trên cao (ảnh hiện đại)",
+    "title_en": "Aerial view of the two-coloured Hien Luong bridge (contemporary photo)",
+    "title_zh": "俯瞰双色贤良桥（当代照片）",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu chụp trên cao); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG045/file",
+    "medium_url": "/api/images/IMG045/file?size=medium",
+    "thumb_url": "/api/images/IMG045/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu chụp thẳng từ trên cao (giống ảnh flycam): mặt cầu lát ván gỗ chạy ngang khung hình trên mặt nước; lan can/dầm hai bên nửa trái sơn xanh, nửa phải sơn vàng.",
+   "Theo sách (tr.183–184), cầu Hiền Lương ở Km735 Quốc lộ 1; sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m; sau tháng 7-1956 cầu trở thành 'chứng nhân' của sự chia cắt đất nước. Sách (tr.185–186) kể cuộc 'chiến sơn cầu' (11-1958 – 1-1959) khiến cầu có hai màu. SRC003 dòng 38 và SRC004 dòng 31 nói cầu được phục hồi 2 màu sơn xanh–vàng năm 2014 – bối cảnh, không dùng để định niên đại ảnh."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC006",
+    "source_title": "Archive_4.zip – ảnh bổ sung (16 ảnh duy nhất; kèm 'Archive 3.zip' lồng bên trong chứa 10 bản trùng byte)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Thời nay (ảnh màu chụp trên cao); năm chụp chưa xác định"
+ },
+ {
+  "id": "img047",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Cụm loa phóng thanh của Đài Truyền thanh Vĩnh Linh ở bờ Bắc sông Bến Hải",
+  "image": {
+   "image_id": "IMG047",
+   "title": "Cụm loa phóng thanh của Đài Truyền thanh Vĩnh Linh ở bờ Bắc sông Bến Hải",
+   "title_en": "Vinh Linh radio loudspeaker array on the northern bank of the Ben Hai",
+   "title_zh": "边海河北岸永灵广播站扩音器阵列",
+   "caption": null,
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định – ảnh không cho biết giàn loa là nguyên bản hay phục dựng",
+   "image_url": "/api/images/IMG047/file",
+   "medium_url": "/api/images/IMG047/file?size=medium",
+   "thumb_url": "/api/images/IMG047/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG047",
+    "title": "Cụm loa phóng thanh của Đài Truyền thanh Vĩnh Linh ở bờ Bắc sông Bến Hải",
+    "title_en": "Vinh Linh radio loudspeaker array on the northern bank of the Ben Hai",
+    "title_zh": "边海河北岸永灵广播站扩音器阵列",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định – ảnh không cho biết giàn loa là nguyên bản hay phục dựng",
+    "image_url": "/api/images/IMG047/file",
+    "medium_url": "/api/images/IMG047/file?size=medium",
+    "thumb_url": "/api/images/IMG047/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu chụp ngược lên: hai trụ bê tông/kim loại cao song song; trụ trái gắn một cột 5 loa tròn, khung bên phải gắn hàng chục loa phễu xếp dọc; xung quanh là tre và cây xanh, trời trắng.",
+   "Sách có chương 'Hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 những năm 1956–1962' (tr.109–142), mô tả cuộc 'đấu loa' hai bờ Bến Hải. SRC005 dòng 20 và SRC004 dòng 42 nói dàn loa phóng thanh đã được phục dựng tại khu di tích – bối cảnh, không dùng để xác định giàn trong ảnh."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC006",
+    "source_title": "Archive_4.zip – ảnh bổ sung (16 ảnh duy nhất; kèm 'Archive 3.zip' lồng bên trong chứa 10 bản trùng byte)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định – ảnh không cho biết giàn loa là nguyên bản hay phục dựng"
+ },
+ {
+  "id": "img048",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Cụm loa phóng thanh phục dựng phía bờ Nam, khu di tích Đôi bờ Hiền Lương – Bến Hải",
+  "image": {
+   "image_id": "IMG048",
+   "title": "Cụm loa phóng thanh phục dựng phía bờ Nam, khu di tích Đôi bờ Hiền Lương – Bến Hải",
+   "title_en": "Reconstructed loudspeaker cluster on the southern bank, Hien Luong–Ben Hai relic site",
+   "title_zh": "贤良—边海遗迹南岸复建扩音器组",
+   "caption": null,
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (hiện vật phục dựng – chưa xác minh); năm chụp chưa xác định",
+   "image_url": "/api/images/IMG048/file",
+   "medium_url": "/api/images/IMG048/file?size=medium",
+   "thumb_url": "/api/images/IMG048/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG048",
+    "title": "Cụm loa phóng thanh phục dựng phía bờ Nam, khu di tích Đôi bờ Hiền Lương – Bến Hải",
+    "title_en": "Reconstructed loudspeaker cluster on the southern bank, Hien Luong–Ben Hai relic site",
+    "title_zh": "贤良—边海遗迹南岸复建扩音器组",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (hiện vật phục dựng – chưa xác minh); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG048/file",
+    "medium_url": "/api/images/IMG048/file?size=medium",
+    "thumb_url": "/api/images/IMG048/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu: cột thép dạng thang sơn đỏ, gắn chín loa phễu màu xám chĩa nhiều hướng; nền trời sáng, ngọn cây ở góc dưới.",
+   "Sách có chương 'Hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 những năm 1956–1962' (tr.109–142), mô tả cuộc 'đấu loa' hai bờ Bến Hải. 'Phục dựng' theo mô tả đi kèm ảnh; ảnh không tự cho thấy điều đó."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC006",
+    "source_title": "Archive_4.zip – ảnh bổ sung (16 ảnh duy nhất; kèm 'Archive 3.zip' lồng bên trong chứa 10 bản trùng byte)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Thời nay (hiện vật phục dựng – chưa xác minh); năm chụp chưa xác định"
+ },
+ {
+  "id": "img049",
+  "group": "dau-loa",
+  "group_title": "Cuộc chiến âm thanh",
+  "title": "Cụm loa phóng thanh ở bờ Bắc sông Bến Hải",
+  "image": {
+   "image_id": "IMG049",
+   "title": "Cụm loa phóng thanh ở bờ Bắc sông Bến Hải",
+   "title_en": "Loudspeaker array on the northern bank of the Ben Hai",
+   "title_zh": "边海河北岸扩音器阵列",
+   "caption": null,
+   "kind": "contemporary_photo",
+   "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định",
+   "image_url": "/api/images/IMG049/file",
+   "medium_url": "/api/images/IMG049/file?size=medium",
+   "thumb_url": "/api/images/IMG049/file?size=thumb"
+  },
+  "images": [
+   {
+    "image_id": "IMG049",
+    "title": "Cụm loa phóng thanh ở bờ Bắc sông Bến Hải",
+    "title_en": "Loudspeaker array on the northern bank of the Ben Hai",
+    "title_zh": "边海河北岸扩音器阵列",
+    "caption": null,
+    "kind": "contemporary_photo",
+    "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định",
+    "image_url": "/api/images/IMG049/file",
+    "medium_url": "/api/images/IMG049/file?size=medium",
+    "thumb_url": "/api/images/IMG049/file?size=thumb"
+   }
+  ],
+  "paragraphs": [
+   "Ảnh màu toàn cảnh: hai trụ cao gắn một cột loa tròn và khung loa phễu xếp dọc, có thanh chống xiên; xung quanh là bãi cỏ có đèn chiếu đất, bụi tre và cây lớn; logo VOV ở góc trên trái.",
+   "Sách có chương 'Hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 những năm 1956–1962' (tr.109–142), mô tả cuộc 'đấu loa' hai bờ Bến Hải. Có thể cùng giàn loa với IMG047 (so sánh bằng mắt, chưa xác nhận)."
+  ],
+  "citations": [
+   {
+    "source_id": "SRC006",
+    "source_title": "Archive_4.zip – ảnh bổ sung (16 ảnh duy nhất; kèm 'Archive 3.zip' lồng bên trong chứa 10 bản trùng byte)",
+    "source_type": "ARCHIVAL_PHOTO",
+    "printed_page": null,
+    "provision": null,
+    "verified_anchor": null
+   }
+  ],
+  "curated": false,
+  "time_period": "Thời nay (ảnh màu); năm chụp chưa xác định"
+ }
+]

@@ -1,0 +1,346 @@
+/* ================= Nhà trưng bày số (phòng có hiện vật bấm được) + các thành phần dùng chung mới ================= */
+.hall-page { --hall-bottom: 178px; display: block; padding: 0; height: 100vh; height: 100dvh; min-height: 520px; background: #06171d; }
+.hall-viewport { position: absolute; inset: 0 0 var(--hall-bottom) 0; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #1d2a2b, #050e12 75%); touch-action: pan-y; }
+.hall-viewport.can-pan { cursor: grab; }
+.hall-viewport.dragging { cursor: grabbing; }
+.hall-stage { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+.hall-bg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; user-select: none; -webkit-user-drag: none; }
+.hall-page.is-detail .hall-bg { filter: saturate(1.05); }
+.hall-viewport::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, #03111699 0%, transparent 18%, transparent 78%, #031116 100%); }
+
+/* -------- ghim hiện vật -------- */
+.hall-pins { position: absolute; inset: 0 0 var(--hall-bottom) 0; z-index: 6; overflow: hidden; pointer-events: none; }
+.hall-pins.hidden .hall-pin { opacity: 0; visibility: hidden; transition: none; }
+.hall-pin { position: absolute; transform: translate(-17px, -50%); display: flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; cursor: pointer; color: #ffe6ad; pointer-events: auto;
+  animation: pin-drop .7s cubic-bezier(.22, 1, .36, 1) backwards; transition: opacity .45s ease; }
+.hall-pin.left { flex-direction: row-reverse; transform: translate(calc(-100% + 17px), -50%); }
+@keyframes pin-drop { from { opacity: 0; translate: 0 -24px; } to { opacity: 1; translate: 0 0; } }
+.hall-pin-icon { position: relative; z-index: 1; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50% 50% 50% 4px; transform: rotate(-45deg);
+  background: radial-gradient(circle at 35% 35%, #ffe9b0, #c9932f 70%); color: #2b1d05; box-shadow: 0 0 0 3px #0a2a33cc, 0 6px 14px #000a; transition: transform .25s ease, box-shadow .25s ease; }
+.hall-pin-icon svg { transform: rotate(45deg); }
+.hall-pin-glow { position: absolute; left: 17px; top: 17px; width: 34px; height: 34px; margin: -17px; border-radius: 50%; border: 2px solid #ffd98a; opacity: 0; animation: pin-pulse 2.6s ease-out infinite; }
+.hall-pin:nth-child(odd) .hall-pin-glow { animation-delay: 1.3s; }
+@keyframes pin-pulse { 0% { transform: scale(.7); opacity: .9 } 100% { transform: scale(2.6); opacity: 0 } }
+.hall-pin-label { padding: 6px 13px; border-radius: 999px; border: 1px solid #e3c27e99; background: linear-gradient(180deg, #0c3a46f0, #062430f0); color: #fff4d8; font-size: 14px; line-height: 1.2; white-space: nowrap;
+  box-shadow: 0 6px 16px #000a; backdrop-filter: blur(4px); transition: transform .25s ease, background .25s ease, border-color .25s; }
+.hall-pin:hover .hall-pin-icon, .hall-pin.hover .hall-pin-icon, .hall-pin:focus-visible .hall-pin-icon { transform: rotate(-45deg) scale(1.15); box-shadow: 0 0 0 3px #ffd98a, 0 0 28px #ffd98aaa; }
+.hall-pin:hover .hall-pin-label, .hall-pin.hover .hall-pin-label, .hall-pin:focus-visible .hall-pin-label { transform: translateY(-2px); background: linear-gradient(180deg, #145061, #0a3542); border-color: #ffd98a; }
+.hall-pin:focus-visible { outline: none; }
+.hall-pin:focus-visible .hall-pin-label { outline: 2px solid #ffd98a; outline-offset: 2px; }
+.hall-vignette { position: absolute; inset: 0; pointer-events: none; z-index: 3; background: radial-gradient(circle at var(--fx) var(--fy), transparent 0, transparent 16vmin, #020b0f8c 46vmin, #020b0fd0 85vmin);
+  animation: veil-in .9s ease both; }
+@keyframes veil-in { from { opacity: 0 } to { opacity: 1 } }
+
+/* -------- khung trên -------- */
+.hall-header { position: absolute; top: 12px; left: 18px; right: 18px; z-index: 10; flex-direction: row !important; align-items: flex-start; }
+.hall-back { position: absolute; top: 96px; left: 18px; z-index: 10; }
+.hall-hint { position: absolute; z-index: 6; left: 50%; top: 92px; transform: translateX(-50%); margin: 0; padding: 7px 16px; border-radius: 999px; background: #04161dcc; border: 1px solid #e3c27e66;
+  color: #f6e7c4; font-size: 13.5px; display: flex; align-items: center; gap: 7px; animation: hint-in 1s .6s ease both, hint-out .8s 9s ease forwards; pointer-events: none; }
+@keyframes hint-in { from { opacity: 0; transform: translate(-50%, -8px) } to { opacity: 1; transform: translate(-50%, 0) } }
+@keyframes hint-out { to { opacity: 0 } }
+
+/* -------- người hướng dẫn trong phòng -------- */
+.hall-guide { position: absolute; z-index: 5; left: calc(-6vh - 10px); bottom: var(--hall-bottom); height: min(calc((100% - var(--hall-bottom)) * .56), 44vw); aspect-ratio: 1417 / 1110; pointer-events: none;
+  transition: height .9s cubic-bezier(.65, 0, .35, 1), left .9s cubic-bezier(.65, 0, .35, 1), opacity .5s; }
+.hall-guide .soldier-guide { width: 100%; margin: 0; }
+.hall-guide.small { height: min(calc((100% - var(--hall-bottom)) * .34), 26vw); left: -1vh; }
+.hall-bubble { position: absolute; z-index: 7; left: 18px; bottom: calc(var(--hall-bottom) + min((100% - var(--hall-bottom)) * .56, 44vw) - 20px); width: min(330px, 34vw); }
+.hall-bubble.guide-bubble::before { left: 64px; top: auto; bottom: -9px; transform: rotate(-45deg); }
+.hall-bubble.guide-bubble-min { width: auto; }
+
+/* bong bóng lời hướng dẫn (dùng chung) */
+.guide-bubble { padding: 14px 16px 10px; border-radius: 20px; border: 1px solid #79d7d8; background: linear-gradient(170deg, #07323fee, #052530f0); color: #fff; box-shadow: 0 12px 30px #00131dcc; backdrop-filter: blur(8px);
+  font-size: clamp(13px, .95vw, 15.5px); line-height: 1.45; animation: bubble-in .6s .25s cubic-bezier(.22, 1.3, .36, 1) both; }
+.guide-bubble::before { content: ""; position: absolute; left: -9px; top: 38px; width: 16px; height: 16px; background: #062b37; border-left: 1px solid #79d7d8; border-bottom: 1px solid #79d7d8; transform: rotate(45deg); }
+@keyframes bubble-in { from { opacity: 0; transform: scale(.85) translateY(10px); transform-origin: 0 60%; } to { opacity: 1; transform: none; } }
+.guide-bubble p { margin: 0 0 8px; min-height: 3.2em; }
+.guide-caret { color: #79d7d8; transition: opacity .3s; }
+.guide-bubble-actions { display: flex; align-items: center; gap: 8px; }
+.guide-bubble-actions button { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 999px; border: 1px solid #79d7d877; background: #0a3b47; color: #dff6f6; font-size: 12px; cursor: pointer; }
+.guide-bubble-actions button:hover { border-color: #b6eeee; background: #0f4b59; }
+.guide-bubble-close { margin-left: auto; padding: 4px !important; }
+.guide-sound { display: inline-flex; align-items: center; gap: 3px; height: 16px; }
+.guide-sound i { width: 3px; height: 30%; border-radius: 2px; background: #79d7d8; }
+.guide-bubble.is-speaking .guide-sound i { animation: home-sound-wave .7s ease-in-out infinite alternate; }
+.guide-bubble.is-speaking .guide-sound i:nth-child(2) { animation-delay: .15s } .guide-bubble.is-speaking .guide-sound i:nth-child(3) { animation-delay: .3s } .guide-bubble.is-speaking .guide-sound i:nth-child(4) { animation-delay: .45s }
+@keyframes home-sound-wave { from { height: 25% } to { height: 100% } }
+.guide-bubble-min { display: inline-flex; align-items: center; gap: 6px; padding: 10px; border-radius: 50%; border: 1px solid #79d7d8; background: #052835ee; color: #dff6f6; cursor: pointer; box-shadow: 0 8px 20px #000a; animation: bubble-in .4s ease both; }
+.guide-dots { display: inline-flex; gap: 3px; } .guide-dots i { width: 4px; height: 4px; border-radius: 50%; background: #79d7d8; animation: dot 1s infinite; } .guide-dots i:nth-child(2) { animation-delay: .15s } .guide-dots i:nth-child(3) { animation-delay: .3s }
+@keyframes dot { 0%, 100% { opacity: .3 } 50% { opacity: 1 } }
+
+/* -------- biển tên hiện vật khi xem chi tiết -------- */
+.hall-plaque { position: absolute; z-index: 6; bottom: calc(var(--hall-bottom) + 22px); transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 26px 9px;
+  border-radius: 10px; border: 2px solid #c9a35a; background: linear-gradient(180deg, #4a2f17, #2c1a0b); box-shadow: inset 0 0 0 3px #2a180a, inset 0 0 0 4px #c9a35a77, 0 14px 30px #000c;
+  color: #ffe8b5; font-family: Georgia, serif; text-align: center; animation: plaque-in .7s .55s cubic-bezier(.22, 1.2, .36, 1) both; max-width: 52vw; }
+.hall-plaque strong { font-size: clamp(17px, 1.6vw, 25px); font-weight: 500; }
+.hall-plaque small { font-family: system-ui, sans-serif; font-size: 12px; letter-spacing: .08em; color: #e9cf96; opacity: .85; }
+@keyframes plaque-in { from { opacity: 0; transform: translate(-50%, 20px) scale(.9) } to { opacity: 1; transform: translate(-50%, 0) } }
+
+/* -------- panel câu chuyện -------- */
+.hall-panel { position: absolute; z-index: 8; top: 84px; right: 18px; bottom: calc(var(--hall-bottom) + 12px); width: min(34vw, 470px); display: flex; flex-direction: column; gap: 12px;
+  padding: 18px 20px 14px; border-radius: 22px; border: 1.5px solid var(--gold); background: linear-gradient(160deg, #0d3a47f4, #062631f7); box-shadow: 0 0 0 4px #0b2d38, 0 20px 50px #000b;
+  color: var(--ink); animation: panel-in .7s .35s cubic-bezier(.22, 1, .36, 1) both; }
+.hall-panel .exhibit-panel-head { position: relative; padding-right: 74px; }
+.hall-panel .exhibit-panel-head h1 { font-size: clamp(22px, 1.9vw, 30px); }
+.hall-panel-nav { position: absolute; right: 0; top: 2px; display: flex; gap: 6px; }
+.hall-panel-nav button { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--gold-soft); background: #04161d; color: var(--gold); display: grid; place-items: center; cursor: pointer; }
+.hall-panel-nav button:hover { border-color: var(--gold); }
+.hall-panel-body { flex: 1; min-height: 0; overflow-y: auto; padding-right: 6px; scrollbar-width: thin; scrollbar-color: #e3c27e66 transparent; display: flex; flex-direction: column; gap: 10px; }
+.hall-panel .exhibit-text p { font-size: 15.5px; line-height: 1.6; }
+.read-more { align-self: flex-start; display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--gold-soft); background: #04161d99; color: var(--gold); font-size: 13px; cursor: pointer; }
+.read-more:hover { border-color: var(--gold); }
+.panel-h2 { margin: 6px 0 0; display: flex; align-items: center; gap: 7px; font: 600 13px/1.2 system-ui, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #f0d79e; }
+.panel-empty { margin: 0; font-size: 13px; color: #b9c9c7; font-style: italic; }
+.tr-note { margin: 0; font-size: 11.5px; color: #9fb3b1; line-height: 1.45; }
+
+/* -------- lưới ảnh (dùng chung) -------- */
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.photo-grid.small { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
+.photo-grid button { position: relative; display: flex; flex-direction: column; padding: 0; border: 1px solid #e3c27e55; border-radius: 12px; overflow: hidden; background: #04161d; color: #f3e8cf; cursor: zoom-in; text-align: left;
+  animation: text-in .45s ease both; transition: transform .2s, border-color .2s, box-shadow .2s; }
+.photo-grid button:hover, .photo-grid button:focus-visible { transform: translateY(-3px); border-color: var(--gold); box-shadow: 0 10px 22px #000a; outline: none; }
+.photo-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: #0b2a33; }
+.photo-cap { padding: 6px 8px 8px; font-size: 12px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.photo-grid.small .photo-cap { font-size: 11px; padding: 4px 6px 6px; }
+.photo-zoom { position: absolute; top: 6px; right: 6px; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: #031116bb; color: #ffe6ad; opacity: 0; transition: opacity .2s; }
+.photo-grid button:hover .photo-zoom { opacity: 1; }
+
+/* -------- đáy: nút + chat + dải hiện vật -------- */
+.hall-bottom { position: absolute; z-index: 9; left: 0; right: 0; bottom: 0; height: var(--hall-bottom); padding: 10px 18px 12px; display: flex; flex-direction: column; gap: 10px;
+  background: linear-gradient(180deg, #031116e6, #031116); border-top: 1px solid #e3c27e33; }
+.hall-actions { display: grid; grid-template-columns: minmax(160px, 260px) minmax(0, 1fr) minmax(160px, 260px); gap: 18px; align-items: end; }
+.hall-action { display: flex; align-items: center; justify-content: center; gap: 12px; height: 52px; border-radius: 999px; border: 1.5px solid #c9a35a; background: linear-gradient(180deg, #0c3540, #071f27); color: #fff0cf;
+  font-size: 16px; cursor: pointer; box-shadow: inset 0 0 0 3px #04161d, 0 6px 18px #000a; transition: transform .2s, box-shadow .2s, border-color .2s; }
+.hall-action:hover { transform: translateY(-2px); border-color: #ffd98a; box-shadow: inset 0 0 0 3px #04161d, 0 0 22px #e3c27e55; }
+.hall-chat { position: relative; min-width: 0; }
+.hall-strip { display: flex; align-items: center; gap: 8px; min-height: 0; }
+.hall-strip-row { flex: 1; display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; padding: 3px 2px; }
+.hall-strip-row::-webkit-scrollbar { display: none; }
+.hall-card { flex: 0 0 auto; scroll-snap-align: center; display: flex; align-items: center; gap: 10px; width: 196px; height: 70px; padding: 5px 12px 5px 5px; border-radius: 12px; border: 1px solid #e3c27e55;
+  background: linear-gradient(180deg, #0a2b35, #061c24); color: #f4e9d0; font-size: 13.5px; line-height: 1.25; text-align: left; cursor: pointer; animation: text-in .45s ease both; transition: transform .2s, border-color .2s, box-shadow .2s; }
+.hall-card img { width: 82px; height: 58px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+.hall-card span { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; hyphens: auto; }
+.hall-card:hover { transform: translateY(-3px); border-color: var(--gold); }
+.hall-card[aria-current="true"] { border: 2px solid #ffd98a; box-shadow: 0 0 0 3px #e3c27e33, 0 0 22px #e3c27e66; background: linear-gradient(180deg, #11414e, #0a2a33); }
+.strip-arrow { flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--gold-soft); background: #04161d; color: var(--gold); display: grid; place-items: center; cursor: pointer; }
+
+/* ================= Thanh chat mới (dùng chung) ================= */
+.chat-dock2 { position: relative; display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.chat-form2 { display: flex; align-items: center; gap: 8px; height: 52px; padding: 0 6px; border-radius: 999px; border: 1.5px solid #c9a35a; background: linear-gradient(180deg, #0a2f3a, #061e26);
+  box-shadow: inset 0 0 0 3px #04161d, 0 6px 18px #000a; transition: border-color .2s, box-shadow .2s; }
+.chat-form2:focus-within { border-color: #ffd98a; box-shadow: inset 0 0 0 3px #04161d, 0 0 0 4px #e3c27e33; }
+.chat-form2 input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: #fff4dc; font-size: 16px; padding: 0 6px; }
+.chat-form2 input::placeholder { color: #c9bfa6; }
+.chat-mic, .chat-send { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; border: 0; }
+.chat-mic { background: #0d3f4c; color: #ffe6ad; }
+.chat-send { background: radial-gradient(circle at 35% 30%, #fff1c4, var(--gold)); color: #15333d; transition: transform .2s, opacity .2s; }
+.chat-send:disabled { opacity: .45; cursor: default; }
+.chat-send:not(:disabled):hover { transform: scale(1.07); }
+.chat-suggest { display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none; white-space: nowrap; }
+.chat-suggest::-webkit-scrollbar { display: none; }
+.chat-suggest span { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); flex-shrink: 0; }
+.chat-suggest button { flex-shrink: 0; padding: 4px 11px; border-radius: 999px; border: 1px solid #e3c27e55; background: #04161dcc; color: #f2e6cc; font-size: 12.5px; cursor: pointer; transition: border-color .2s, background .2s; }
+.chat-suggest button:hover { border-color: var(--gold); background: #0a2f3a; }
+.chat-panel { position: absolute; left: 0; right: 0; bottom: calc(100% + 8px); z-index: 20; border-radius: 18px; border: 1px solid #e3c27e88; background: linear-gradient(180deg, #072a35f7, #04191ff9); box-shadow: 0 -10px 40px #000b;
+  backdrop-filter: blur(10px); overflow: hidden; animation: chat-up .45s cubic-bezier(.22, 1, .36, 1) both; }
+@keyframes chat-up { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+.chat-panel-head { display: flex; justify-content: space-between; align-items: center; padding: 8px 10px 8px 14px; font-size: 13px; color: #f0d79e; border-bottom: 1px solid #e3c27e33; }
+.chat-panel-head > span { display: inline-flex; align-items: center; gap: 6px; }
+.chat-panel-head small { color: #b8c7c5; }
+.chat-panel-tools button { width: 30px; height: 30px; border-radius: 50%; border: 1px solid #e3c27e44; background: #04161d; color: #f0d79e; display: inline-grid; place-items: center; margin-left: 6px; cursor: pointer; }
+.chat-history2 { max-height: min(46vh, 460px); overflow-y: auto; padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 10px; scrollbar-width: thin; scrollbar-color: #e3c27e66 transparent; }
+.chat-msg { max-width: 92%; padding: 10px 13px; border-radius: 16px; font-size: 14.5px; line-height: 1.55; animation: msg-in .35s ease both; }
+@keyframes msg-in { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+.chat-msg p { margin: 0; white-space: pre-wrap; }
+.chat-msg.user { align-self: flex-end; background: linear-gradient(180deg, #e3c27e, #c99d4b); color: #1c1608; border-bottom-right-radius: 4px; }
+.chat-msg.assistant { align-self: flex-start; background: #0c3843; border: 1px solid #79d7d844; color: #f3eedf; border-bottom-left-radius: 4px; }
+.chat-msg.error { border-color: #e98d7a88; background: #3a1d1a; }
+.chat-msg.typing { display: flex; align-items: center; gap: 8px; color: #cfe3e3; font-size: 13px; }
+.typing-dots { display: inline-flex; gap: 4px; } .typing-dots i { width: 6px; height: 6px; border-radius: 50%; background: #79d7d8; animation: dot 1s infinite; } .typing-dots i:nth-child(2) { animation-delay: .15s } .typing-dots i:nth-child(3) { animation-delay: .3s }
+.chat-src { display: block; margin-top: 7px; font-size: 11.5px; color: #b3c3c1; line-height: 1.4; }
+.chat-gallery { margin-top: 9px; }
+.chat-gallery > small { display: block; font-size: 11px; color: #9fd6d6; margin-bottom: 5px; }
+.chat-gallery-grid { display: grid; gap: 8px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.chat-gallery-grid.n1 { grid-template-columns: minmax(0, 320px); }
+.chat-gallery-grid.n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.chat-gallery-grid button { position: relative; padding: 0; border: 1px solid #e3c27e66; border-radius: 10px; overflow: hidden; background: #031116; cursor: zoom-in; color: #f3e8cf; text-align: left; transition: transform .2s, border-color .2s; }
+.chat-gallery-grid button:hover, .chat-gallery-grid button:focus-visible { transform: scale(1.02); border-color: var(--gold); outline: none; }
+.chat-gallery-grid img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.chat-img-cap { display: block; padding: 4px 7px 6px; font-size: 11.5px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.chat-img-zoom { position: absolute; top: 5px; right: 5px; width: 24px; height: 24px; border-radius: 50%; background: #031116cc; color: #ffe6ad; display: grid; place-items: center; }
+
+/* ================= Lightbox mới ================= */
+.lightbox.lb2 { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; padding: 64px 70px 24px; background: #020a0deb; backdrop-filter: blur(6px); animation: veil-in .3s ease both; }
+.lb2 figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 12px; max-width: 100%; max-height: 100%; animation: lb-in .4s cubic-bezier(.22, 1, .36, 1) both; }
+@keyframes lb-in { from { opacity: 0; transform: scale(.94) } to { opacity: 1; transform: none } }
+.lb-img-wrap { position: relative; overflow: hidden; border-radius: 12px; border: 1px solid #e3c27e66; box-shadow: 0 30px 80px #000; background: #04161d; display: grid; place-items: center; touch-action: none; cursor: zoom-in; }
+.lb-img-wrap.zoomed { cursor: grab; }
+.lb-img-wrap img { display: block; max-width: min(88vw, 1400px); max-height: calc(100vh - 210px); object-fit: contain; transition: transform .15s ease-out, opacity .3s; transform-origin: center; user-select: none; }
+.lb-spinner { position: absolute; }
+.lb2 figcaption { max-width: min(88vw, 900px); text-align: center; color: #f6ecd6; display: flex; flex-direction: column; gap: 3px; }
+.lb2 figcaption strong { font-family: Georgia, serif; font-weight: 500; font-size: 18px; color: #ffe2a3; }
+.lb2 figcaption span { font-size: 14px; color: #e3dccb; }
+.lb2 figcaption small { font-size: 12px; color: #9fb3b1; }
+.lb-top { position: absolute; top: 14px; left: 18px; right: 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #f0d79e; }
+.lb-count { font-variant-numeric: tabular-nums; font-size: 14px; }
+.lb-zoom { display: flex; align-items: center; gap: 6px; margin: 0 auto; padding: 4px; border-radius: 999px; border: 1px solid #e3c27e55; background: #04161dcc; }
+.lb-zoom span { min-width: 48px; text-align: center; font-size: 13px; font-variant-numeric: tabular-nums; }
+.lb-zoom button, .lb2 .lightbox-close { width: 36px; height: 36px; border-radius: 50%; border: 1px solid #e3c27e55; background: #0a2f3a; color: #ffe6ad; display: grid; place-items: center; cursor: pointer; }
+.lb-zoom button:disabled { opacity: .4; cursor: default; }
+.lb2 .lightbox-close { position: static; width: 42px; height: 42px; }
+.lb-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 50px; height: 50px; border-radius: 50%; border: 1px solid #e3c27e77; background: #04161dcc; color: #ffe6ad; display: grid; place-items: center; cursor: pointer; transition: background .2s, transform .2s; }
+.lb-nav:hover { background: #0e3c48; transform: translateY(-50%) scale(1.06); }
+.lb-nav.prev { left: 14px; } .lb-nav.next { right: 14px; }
+
+/* ================= Hộp thoại nổi ================= */
+.modal-veil { position: fixed; inset: 0; z-index: 150; display: grid; place-items: center; padding: 24px; background: #020a0dcc; backdrop-filter: blur(5px); animation: veil-in .3s ease both; }
+.modal-card { width: min(720px, 100%); max-height: min(86vh, 900px); display: flex; flex-direction: column; border-radius: 22px; border: 1.5px solid var(--gold); background: linear-gradient(165deg, #0d3a47fa, #052530fb);
+  box-shadow: 0 0 0 4px #0b2d38, 0 30px 80px #000c; color: var(--ink); overflow: hidden; animation: modal-in .45s cubic-bezier(.22, 1.15, .36, 1) both; }
+.modal-card.wide { width: min(1080px, 100%); }
+@keyframes modal-in { from { opacity: 0; transform: translateY(24px) scale(.96) } to { opacity: 1; transform: none } }
+.modal-head { display: flex; align-items: center; gap: 12px; padding: 14px 16px 12px 20px; border-bottom: 1px solid #e3c27e44; color: var(--gold); }
+.modal-head h2 { flex: 1; margin: 0; font-family: Georgia, serif; font-weight: 500; font-size: 22px; }
+.modal-head button { width: 38px; height: 38px; border-radius: 50%; border: 1px solid #e3c27e66; background: #04161d; color: #ffe6ad; display: grid; place-items: center; cursor: pointer; }
+.modal-body { overflow-y: auto; padding: 16px 20px 20px; scrollbar-width: thin; scrollbar-color: #e3c27e66 transparent; }
+.story-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.story-tile { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 14px; border: 1px solid #e3c27e44; background: #04161d99; color: #f4e9d0; text-align: left; cursor: pointer; animation: text-in .45s ease both; transition: border-color .2s, transform .2s; }
+.story-tile:hover { border-color: var(--gold); transform: translateY(-2px); }
+.story-tile img { width: 86px; height: 66px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
+.story-tile > span { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.story-tile small { color: var(--gold); font-size: 11.5px; letter-spacing: .06em; }
+.story-tile strong { font-family: Georgia, serif; font-weight: 500; font-size: 16px; }
+.story-tile em { font-style: normal; font-size: 12.5px; color: #c8d3d0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.story-read { display: flex; flex-direction: column; gap: 10px; }
+.story-read h3 { margin: 0; font-family: Georgia, serif; font-weight: 500; font-size: 26px; color: var(--gold); }
+.story-read > small { color: var(--gold); letter-spacing: .08em; }
+.story-back { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--gold-soft); background: transparent; color: #f0d79e; cursor: pointer; }
+
+/* ================= Menu ngôn ngữ + thông báo ================= */
+.lang-switch { position: relative; display: inline-flex; }
+.lang-switch > button { position: relative; }
+.lang-short { position: absolute; right: 2px; bottom: 1px; font-weight: 800; font-size: 9.5px; line-height: 1; padding: 2px 3px; border-radius: 5px; background: var(--gold); color: #10313b; }
+.lang-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 60; min-width: 176px; padding: 6px; border-radius: 14px; border: 1px solid var(--gold); background: #062631f8; box-shadow: 0 16px 40px #000b;
+  display: flex; flex-direction: column; animation: modal-in .25s ease both; }
+.lang-menu button { display: flex !important; align-items: center; gap: 10px; width: 100% !important; height: auto !important; padding: 9px 12px !important; border: 0 !important; border-radius: 10px !important; background: transparent !important; color: #f4e9d0 !important; font-size: 14px; cursor: pointer; justify-content: flex-start !important; }
+.lang-menu button b { width: 26px; color: var(--gold); }
+.lang-menu button svg { margin-left: auto; width: 15px !important; height: 15px !important; color: var(--gold); }
+.lang-menu button:hover, .lang-menu button.on { background: #0e3c48 !important; }
+.notice.toast { position: fixed; z-index: 300; left: 50%; top: 18px; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--gold);
+  background: #062631f2; color: #fff1d4; box-shadow: 0 12px 30px #000b; font-size: 14px; cursor: pointer; animation: toast-in .45s cubic-bezier(.22, 1.3, .36, 1) both; }
+@keyframes toast-in { from { opacity: 0; transform: translate(-50%, -14px) } to { opacity: 1; transform: translate(-50%, 0) } }
+.spin { animation: spin 1s linear infinite; }
+.narration-bar.compact { padding: 8px 10px; }
+.narration-note.subtle { color: #a9bcba; font-size: 11.5px; }
+.narration-note { font-size: 12px; color: #f0d79e; }
+
+/* ================= Người hướng dẫn ở các khu khác ================= */
+.zone-page.guided { padding-bottom: 16px; }
+.zone-guide { position: absolute; z-index: 3; left: -1vw; bottom: 86px; width: clamp(200px, 21vw, 330px); pointer-events: none; }
+.zone-guide .soldier-guide { width: 100%; margin: 0; }
+.zone-bubble { position: absolute; z-index: 4; left: clamp(150px, 15vw, 250px); bottom: calc(86px + clamp(120px, 12vw, 200px)); max-width: min(300px, 26vw); }
+.zone-bubble.guide-bubble-min { max-width: none; }
+.story-photo-chip { position: absolute; z-index: 4; right: 22px; bottom: 96px; display: none; }
+
+/* home: thanh chat phủ đúng lên thanh chat vẽ sẵn trong ảnh bản đồ */
+.home-page .chat-dock2.home-chat { position: absolute; z-index: 6; left: 25%; bottom: 2%; width: 50%; }
+.home-page .home-chat .chat-form2 { height: 7.2vh; min-height: 56px; border-radius: 40px; }
+/* nhãn hai nút đáy vẽ sẵn bằng tiếng Việt: khi đổi ngôn ngữ thì phủ nhãn đã dịch lên */
+.home-bottom-hitboxes button > * { opacity: 0; }
+.home-page.tr .home-bottom-hitboxes button { position: relative; }
+.home-page.tr .home-bottom-hitboxes button > span { opacity: 1; position: absolute; top: 16%; bottom: 16%; display: flex; align-items: center; justify-content: center; padding: 0 8px; border-radius: 10px;
+  background: #0a2b36; color: #fff1d2; font-size: clamp(12px, 1.05vw, 17px); pointer-events: none; }
+.home-page.tr .home-bottom-hitboxes button:first-child > span { left: 30%; right: 5%; }
+.home-page.tr .home-bottom-hitboxes button:last-child > span { left: 4%; right: 30%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hall-pin, .hall-pin-glow, .hall-plaque, .hall-panel, .guide-bubble, .modal-card, .chat-panel, .lb2 figure, .hall-hint, .hall-card, .photo-grid button { animation: none !important; }
+  .hall-guide { transition: none; }
+}
+
+/* ================= Điện thoại / màn hẹp ================= */
+@media (max-width: 1100px) {
+  .hall-actions { grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; }
+  .hall-action span { display: none; }
+  .hall-action { width: 52px; padding: 0; }
+}
+@media (max-width: 760px) {
+  .hall-page { --hall-bottom: 196px; }
+  .hall-header { top: 8px; left: 8px; right: 8px; flex-direction: row; align-items: center; gap: 8px; }
+  .hall-header .zone-brand { min-width: 0; flex: 1; }
+  .hall-header .zone-logo { display: none; }
+  .hall-header .zone-crumb { font-size: 11.5px; padding: 5px 10px; flex-wrap: nowrap; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+  .hall-header .zone-crumb > * { display: inline; }
+  .hall-header .tool-buttons { position: static; transform: none; padding: 3px; gap: 2px; }
+  .hall-header .tool-buttons > button:nth-child(4), .hall-header .tool-buttons > button:nth-child(5) { display: none; }
+  .hall-back { top: 54px; left: 8px; }
+  .hall-back .zone-back { padding: 7px 14px; font-size: 13.5px; }
+  .hall-hint { display: none; }
+  .hall-guide { height: calc((100% - var(--hall-bottom)) * .36); left: -6vw; }
+  .hall-guide.small { height: 15%; left: -6vw; bottom: 62%; }
+  .hall-bubble { left: 10px; right: 10px; width: auto; bottom: calc(var(--hall-bottom) + (100% - var(--hall-bottom)) * .36 - 4px); max-width: none; padding: 10px 12px 8px; font-size: 13px; }
+  .hall-bubble.guide-bubble-min { right: auto; }
+  .guide-bubble p { min-height: 0; }
+  .hall-pin-label { font-size: 12px; padding: 5px 10px; }
+  .hall-pin-icon { width: 28px; height: 28px; }
+  .hall-panel { top: 38%; left: 6px; right: 6px; width: auto; bottom: calc(var(--hall-bottom) + 4px); padding: 12px 12px 10px; gap: 8px; border-radius: 18px; animation-name: sheet-in; }
+  .hall-panel .exhibit-panel-head { padding-bottom: 8px; }
+  .hall-panel .exhibit-panel-head > svg { display: none; }
+  .hall-panel .exhibit-panel-head h1 { font-size: 20px; }
+  .hall-panel .exhibit-text p { font-size: 14.5px; }
+  .hall-panel .narration-bar { padding: 6px 8px; gap: 8px; flex-wrap: nowrap; }
+  .hall-panel .narration-play { width: 38px; height: 38px; }
+  .hall-panel .narration-wave { height: 24px; min-width: 60px; }
+  .hall-panel .narration-mute { width: 34px; height: 34px; }
+  .hall-panel .narration-time { font-size: 12px; }
+  .hall-panel .narration-note { display: none; }
+  @keyframes sheet-in { from { opacity: 0; transform: translateY(40px) } to { opacity: 1; transform: none } }
+  .hall-plaque { display: none; }
+  .hall-bottom { padding: 8px 8px 10px; }
+  .hall-card { width: 158px; height: 60px; font-size: 12px; }
+  .hall-card img { width: 64px; height: 48px; }
+  .strip-arrow { display: none; }
+  .chat-history2 { max-height: 44vh; }
+  .hall-page .chat-panel { position: fixed; left: 6px; right: 6px; bottom: calc(var(--hall-bottom) + 4px); }
+  .zone-page:not(.hall-page) .chat-panel, .home-page .chat-panel { position: fixed; left: 6px; right: 6px; bottom: auto; top: 64px; max-height: calc(100vh - 220px); }
+  .zone-page:not(.hall-page) .chat-history2, .home-page .chat-history2 { max-height: calc(100vh - 280px); }
+  .lightbox.lb2 { padding: 64px 8px 16px; }
+  .lb-nav { width: 40px; height: 40px; top: auto; bottom: 18px; transform: none; }
+  .lb-nav:hover { transform: none; }
+  .lb-img-wrap img { max-width: 96vw; max-height: calc(100vh - 230px); }
+  .modal-veil { padding: 8px; }
+  .modal-card { max-height: 92vh; }
+  .story-grid { grid-template-columns: 1fr; }
+  .zone-guide { width: 34vw; bottom: auto; top: 120px; left: auto; right: -4vw; }
+  .zone-bubble { display: none; }
+  .home-page .chat-dock2.home-chat { left: 20%; width: 60%; bottom: 7px; }
+  .home-page .home-chat .chat-form2 { height: 52px; min-height: 0; }
+}
+
+/* Khu Cầu / Kỳ đài: người hướng dẫn đứng góc dưới phải (dưới danh sách câu chuyện), quay về phía đoạn văn */
+.story-zone .zone-guide { left: auto; right: -0.5vw; bottom: 84px; width: clamp(190px, 17vw, 280px); }
+.story-zone .zone-guide .soldier-guide { transform: scaleX(-1); }
+.story-zone .zone-bubble { left: auto; right: clamp(140px, 13.5vw, 230px); bottom: calc(84px + clamp(120px, 11vw, 190px)); max-width: min(290px, 22vw); }
+.story-zone .zone-bubble.guide-bubble::before { left: auto; right: -9px; top: 30px; transform: rotate(225deg); }
+.story-zone .story-list-panel { max-height: calc(100vh - 500px); min-height: 200px; overflow-y: auto; }
+.story-zone .story-reader { max-width: 760px; }
+/* Tượng đài / Nhà liên hợp: bong bóng gọn hơn */
+.place-zone .zone-bubble { max-width: min(260px, 20vw); }
+@media (max-width: 760px) {
+  .zone-page.guided .zone-guide { position: fixed; z-index: 30; left: auto; right: 10px; top: auto; bottom: 92px; width: 78px; height: 78px; border-radius: 50%; overflow: hidden;
+    border: 2px solid var(--gold); background: radial-gradient(circle at 50% 30%, #1b5a68, #062631); box-shadow: 0 8px 22px #000b; }
+  .zone-page.guided .zone-guide .soldier-guide { position: absolute; width: 250px; max-width: none; left: -64px; top: -2px; transform: none; }
+  .story-zone .story-list-panel { max-height: none; }
+}
+
+.home-top-hitboxes .lang-short { display: none; }
+.home-top-hitboxes .lang-switch { display: flex; min-width: 0; }
+.home-top-hitboxes .lang-switch > button { width: 100%; }
+.home-top-hitboxes .lang-menu button > * { display: inline !important; }
+
+/* Thanh thuyết minh trong panel hiện vật: luôn một dòng để chừa chỗ cho phần chữ */
+.hall-panel .narration-bar { flex-wrap: nowrap; gap: 10px; padding: 8px 10px; }
+.hall-panel .narration-play { width: 42px; height: 42px; flex-shrink: 0; }
+.hall-panel .narration-wave { min-width: 40px; height: 28px; }
+.hall-panel .narration-mute { flex-shrink: 0; width: 36px; height: 36px; }
+.hall-panel .narration-time { white-space: nowrap; font-size: 13px; }
+.hall-panel .narration-note { display: none; }

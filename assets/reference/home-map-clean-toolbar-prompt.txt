@@ -1,0 +1,13 @@
+11/11/2026 — Remove the painted top toolbar from the homepage map.
+Input: frontend/public/home-map-open-forecourt-sharp.png
+Output: frontend/public/home-map-clean-toolbar.png (1672 × 941)
+Tool: built-in image_gen, precise object-removal edit.
+
+Remove ONLY the baked-in dark rounded toolbar in the upper-right corner
+(approximately x=1000..1652, y=10..90), including gold outline, icons,
+separators and Vietnamese labels. Reconstruct the distant landscape behind
+the panel. Preserve the remaining landmarks, geometry, labels, colors,
+left title plaque, bottom toolbar and original image dimensions.
+
+The original asset is retained as a reference. MapCamera uses the new asset
+so the interactive HTML toolbar no longer overlaps a painted toolbar.

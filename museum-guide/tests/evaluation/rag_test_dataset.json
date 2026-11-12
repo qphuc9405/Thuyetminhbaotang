@@ -1,0 +1,1498 @@
+{
+ "meta": {
+  "_comment": "Bộ câu hỏi đánh giá RAG độc lập. Đáp án tham chiếu được biên soạn từ văn bản sách (đối chiếu OCR trang in nêu trong expected_pages) và tóm tắt văn kiện ngoài, KHÔNG lấy từ trí nhớ LLM. Trang là trang IN của sách. Chưa được chuyên gia lịch sử kiểm duyệt độc lập (xem PROJECT_STATUS.md).",
+  "version": 2,
+  "n_answerable": 49,
+  "n_unanswerable": 11,
+  "_fields": "test_id, question, language, expected_source_ids, expected_pages (trang IN), expected_chunk_ids, must_include (thông tin bắt buộc), must_not_guess (tuyệt đối không suy đoán), reference_answer, answerable, category"
+ },
+ "items": [
+  {
+   "test_id": "RAG-001",
+   "question": "Cầu Hiền Lương nằm ở đâu và năm 1928 có sự kiện gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    183
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "Km735",
+    "1928",
+    "120m"
+   ],
+   "reference_answer": "Theo sách (tr.183), cầu Hiền Lương nằm ở Km735 Quốc lộ 1; năm 1928 cây cầu đầu tiên được xây do Tri phủ Vĩnh Linh huy động sức dân, kết cấu cọc sắt và gỗ, dài 120 m, rộng 2 m.",
+   "answerable": true,
+   "category": "bridge",
+   "must_include": [
+    "Km735",
+    "1928",
+    "120m"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-002",
+   "question": "Sau Hiệp định Genève cầu Hiền Lương bị chia đôi, mỗi bên dài bao nhiêu mét?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    184
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "89m",
+    "chia đôi"
+   ],
+   "reference_answer": "Theo sách (tr.184), sau Hiệp định Genève (21-7-1954) cầu bị chia đôi, mỗi bên dài 89 m (bờ Bắc 450 tấm gỗ, bờ Nam 444 tấm).",
+   "answerable": true,
+   "category": "bridge",
+   "must_include": [
+    "89m",
+    "chia đôi"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-003",
+   "question": "Cuộc chiến sơn cầu ở Hiền Lương diễn ra như thế nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    185,
+    186
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "sơn cầu",
+    "hai màu"
+   ],
+   "reference_answer": "Theo sách (tr.185–186), phía Bắc bắt đầu sơn nửa cầu từ 9-11-1958 bằng màu nâu đỏ; phía Sài Gòn sơn nửa cầu phía Nam màu xanh và hoàn thành ngày 16-1-1959, nên cầu có hai màu.",
+   "answerable": true,
+   "category": "bridge_paint",
+   "must_include": [
+    "sơn cầu",
+    "hai màu"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-004",
+   "question": "Ngày 8-10-1954 phía Bắc dựng cột cờ đầu tiên cao bao nhiêu mét?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "12m",
+    "8-10-1954"
+   ],
+   "reference_answer": "Theo sách (tr.188), ngày 8-10-1954 phía Bắc dựng cột cờ đầu tiên cao 12 m ở sát đầu cầu Hiền Lương, lá cờ rộng 24 m².",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "12m",
+    "8-10-1954"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-005",
+   "question": "Năm 1962 phía Bắc dựng trụ cờ cao bao nhiêu và phía Nam làm gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188,
+    189
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "38,6m",
+    "1962"
+   ],
+   "reference_answer": "Theo sách (tr.188–189), năm 1962 phía Bắc dựng trụ cờ thép ống cao 38,6 m, lá cờ rộng 134 m²; phía Nam dừng lại, không nâng cột cờ thêm.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "38,6m",
+    "1962"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-006",
+   "question": "Cột cờ Hiền Lương bị đánh gãy khi nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    191
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "2-8-1967",
+    "cột cờ"
+   ],
+   "reference_answer": "Theo sách (tr.191), ngày 2-8-1967 Mỹ huy động pháo binh, không quân, hải quân đánh gãy cột cờ của phía Bắc; ngay trong đêm đó phía Bắc đặt bộc phá đánh sập cột cờ ở bờ Nam.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "2-8-1967",
+    "cột cờ"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-007",
+   "question": "Mẹ Ngô Thị Diệm đã làm gì để bảo vệ lá cờ ở Hiền Lương?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    192
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "Ngô Thị Diệm",
+    "khâu vá"
+   ],
+   "reference_answer": "Theo sách (tr.192), mẹ Ngô Thị Diệm ở thôn Hiền Lương không chịu sơ tán mà ở lại bám trụ, hằng ngày khâu vá lại từng lá cờ khi cờ mới chưa kịp đưa vào.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "Ngô Thị Diệm",
+    "khâu vá"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-008",
+   "question": "Vụ tống triệt ngày 19-3-1965 là gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    194,
+    195,
+    196
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "19-3-1965",
+    "Hòa bình"
+   ],
+   "reference_answer": "Theo sách (tr.194), ngày 19-3-1965 hồi 12 giờ một buổi lễ được tổ chức ở Bến Hải để tống xuất ba nhân vật trong Ủy ban Vận động Hòa bình qua cầu Hiền Lương (theo công điện phía Sài Gòn); chú thích tr.185 nêu ba người là bác sĩ Phạm Văn Huyến, GS Tôn Thất Dương Kỵ và nhà báo Cao Minh Chiếm.",
+   "answerable": true,
+   "category": "tong_triet",
+   "must_include": [
+    "19-3-1965",
+    "Hòa bình"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-009",
+   "question": "Hiệp định Genève quy định thời hạn tổng tuyển cử là bao lâu?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001",
+    "DOC002"
+   ],
+   "expected_pages": [
+    15
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "2 năm",
+    "tổng tuyển cử"
+   ],
+   "reference_answer": "Theo sách (tr.15), tại Hội nghị Genève 1954 Việt Nam phải chấp nhận lấy vĩ tuyến 17 làm giới tuyến quân sự tạm thời và thời hạn tổng tuyển cử tái thống nhất đất nước là 2 năm.",
+   "answerable": true,
+   "category": "geneva_agreement",
+   "must_include": [
+    "2 năm",
+    "tổng tuyển cử"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-010",
+   "question": "Quyết định số 01 ngày 13-8-1954 của Ủy ban Liên hiệp Trung ương quy định gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    45
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "Quyết định số 01",
+    "13-8-1954"
+   ],
+   "reference_answer": "Theo sách (tr.45), Quyết định số 01 (13-8-1954) quy định việc vạch giới hạn thực tế của khu phi quân sự, số lượng công an mỗi bên trong khu phi quân sự và việc ra vào khu phi quân sự.",
+   "answerable": true,
+   "category": "dmz",
+   "must_include": [
+    "Quyết định số 01",
+    "13-8-1954"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-011",
+   "question": "Quyết định số 11/QĐ ngày 15-9-1954 nói về nội dung gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    46
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "11/QĐ",
+    "15-9-1954"
+   ],
+   "reference_answer": "Theo sách (tr.46), ngày 15-9-1954 Ủy ban Liên hiệp Trung ương ra Quyết định số 11/QĐ quy định giới hạn của khu phi quân sự ở hai bên giới tuyến quân sự tạm thời.",
+   "answerable": true,
+   "category": "dmz",
+   "must_include": [
+    "11/QĐ",
+    "15-9-1954"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-012",
+   "question": "Tuyên bố cuối cùng của Hội nghị Genève được công bố lúc nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001",
+    "DOC002",
+    "DOC006"
+   ],
+   "expected_pages": [
+    43
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "21-7-1954",
+    "Tuyên bố cuối cùng"
+   ],
+   "reference_answer": "Theo sách (tr.43), lúc 15 giờ ngày 21-7-1954 Bản Tuyên bố cuối cùng của Hội nghị Genève được công bố.",
+   "answerable": true,
+   "category": "geneva_agreement",
+   "must_include": [
+    "21-7-1954",
+    "Tuyên bố cuối cùng"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-013",
+   "question": "Trao đổi bưu thiếp giữa hai miền được thiết lập vào thời điểm nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    150
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "5-1955",
+    "bưu thiếp"
+   ],
+   "reference_answer": "Theo sách (tr.150), trao đổi bưu thiếp được thiết lập vào tháng 5-1955 như hình thức liên lạc giữa nhân dân hai miền khi đất nước bị chia cắt sau Hiệp định Genève.",
+   "answerable": true,
+   "category": "postcard",
+   "must_include": [
+    "5-1955",
+    "bưu thiếp"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-014",
+   "question": "Biên bản về việc trao đổi bưu thiếp gia đình giữa hai đoàn chuyên viên bưu điện được lập ngày nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    154
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "12-4-1955"
+   ],
+   "reference_answer": "Theo sách (tr.154), biên bản được lập ngày 12-4-1955.",
+   "answerable": true,
+   "category": "postcard",
+   "must_include": [
+    "12-4-1955"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-015",
+   "question": "Vì sao nước Pháp tìm kiếm lối thoát năm 1953?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    15
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "19 lần",
+    "5 Cao ủy"
+   ],
+   "reference_answer": "Theo sách (tr.15), đến giữa 1953 Pháp sa lầy trên chiến trường và khủng hoảng nội bộ: trong 1945–1953 Pháp 19 lần thay đổi chính phủ, thay 5 Cao ủy và 6 Tổng chỉ huy ở Đông Dương.",
+   "answerable": true,
+   "category": "geneva_background",
+   "must_include": [
+    "19 lần",
+    "5 Cao ủy"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-016",
+   "question": "Viện trợ Mỹ chiếm tỉ lệ bao nhiêu trong chi phí chiến tranh của Pháp ở Đông Dương?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    16
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "19,5%",
+    "73,9%"
+   ],
+   "reference_answer": "Theo chú thích sách (tr.16), tỉ lệ viện trợ tài chính của Mỹ tăng từ 19,5% (năm 1950) lên 73,9% (năm 1954).",
+   "answerable": true,
+   "category": "geneva_background",
+   "must_include": [
+    "19,5%",
+    "73,9%"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-017",
+   "question": "Ngày 17-9-1965 máy bay Mỹ ném bom vào đâu và hậu quả ra sao?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    190
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "17-9-1965",
+    "52 người"
+   ],
+   "reference_answer": "Theo sách (tr.190), ngày 17-9-1965 sáu máy bay AD.6 ném bom đồn Hiền Lương nhưng ném chệch xuống khu gia binh đồn cảnh sát Xuân Hòa, làm chết và bị thương 52 người.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "17-9-1965",
+    "52 người"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-018",
+   "question": "Đội sơn cầu 337 gồm bao nhiêu người và thuộc cơ quan nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    185
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "337",
+    "10 người"
+   ],
+   "reference_answer": "Theo sách (tr.185), Đội sơn cầu 337 thuộc Ty Giao thông Vĩnh Linh, gồm 10 người.",
+   "answerable": true,
+   "category": "bridge_paint",
+   "must_include": [
+    "337",
+    "10 người"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-019",
+   "question": "Cầu Hiền Lương bị đánh sập khi nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    183
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "9-1966",
+    "đánh sập"
+   ],
+   "reference_answer": "Theo sách (tr.183), cầu là cây cầu nối hai miền cho đến trước khi bị đánh sập vào tháng 9-1966.",
+   "answerable": true,
+   "category": "bridge",
+   "must_include": [
+    "9-1966",
+    "đánh sập"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-020",
+   "question": "Hằng ngày lá cờ của phía Bắc ở Hiền Lương được kéo lên từ mấy giờ đến mấy giờ?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    189
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "6",
+    "18",
+    "24/24"
+   ],
+   "reference_answer": "Theo sách (tr.189), hằng ngày lá cờ được kéo lên từ 6h30 đến 18h30; dịp lễ Tết hay Quốc khánh cờ được duy trì 24/24.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "6",
+    "18",
+    "24/24"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-021",
+   "question": "Từ 19-5-1956 đến 8-10-1967 phía Bắc đã dùng bao nhiêu lá cờ ở Hiền Lương?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    189
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "267"
+   ],
+   "reference_answer": "Theo sách (tr.189), từ 19-5-1956 đến 8-10-1967 phía Bắc sử dụng tổng cộng 267 lá cờ các loại.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "267"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-022",
+   "question": "What did the Final Declaration of the Geneva Conference say about the military demarcation line?",
+   "language": "en",
+   "expected_source_ids": [
+    "DOC002",
+    "SRC001"
+   ],
+   "expected_pages": [
+    43
+   ],
+   "expected_chunk_ids": [
+    "KX006"
+   ],
+   "expected_keywords": [
+    "provisional",
+    "political or territorial boundary"
+   ],
+   "reference_answer": "The Final Declaration (paragraph 6) says the military demarcation line is provisional and should not in any way be interpreted as a political or territorial boundary; the book (p.43) quotes Article 6.",
+   "answerable": true,
+   "category": "geneva_documents",
+   "must_include": [
+    "provisional",
+    "political or territorial boundary"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-023",
+   "question": "How wide was the demilitarized zone under the 20 July 1954 agreement?",
+   "language": "en",
+   "expected_source_ids": [
+    "DOC001"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "KX001",
+    "KX002"
+   ],
+   "expected_keywords": [
+    "5 km",
+    "buffer"
+   ],
+   "reference_answer": "Under Chapter I, Article 1 of the 20 July 1954 Agreement the DMZ extends no more than 5 km on either side of the provisional military demarcation line, as a buffer zone.",
+   "answerable": true,
+   "category": "geneva_documents",
+   "must_include": [
+    "5 km",
+    "buffer"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-024",
+   "question": "Was the Final Declaration of the Geneva Conference signed by the participants?",
+   "language": "en",
+   "expected_source_ids": [
+    "DOC006",
+    "REF001"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "KX007",
+    "KX008"
+   ],
+   "expected_keywords": [
+    "unsigned"
+   ],
+   "reference_answer": "No. An editorial note in FRUS records that the Final Declaration was unsigned; Britannica likewise says no party signed it.",
+   "answerable": true,
+   "category": "geneva_documents",
+   "must_include": [
+    "unsigned"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-025",
+   "question": "日内瓦协议规定的非军事区有多宽？",
+   "language": "zh",
+   "expected_source_ids": [
+    "DOC001"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "KX001",
+    "KX002"
+   ],
+   "expected_keywords": [
+    "5"
+   ],
+   "reference_answer": "根据1954年7月20日停战协定第一章第1条，非军事区在分界线两侧各不超过5公里，作为缓冲区。",
+   "answerable": true,
+   "category": "geneva_documents",
+   "must_include": [
+    "5"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-026",
+   "question": "When did the northern side raise its first flagpole at the Hien Luong bridge and how tall was it?",
+   "language": "en",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "12 m",
+    "8 October 1954"
+   ],
+   "reference_answer": "According to the book (p.188), on 8 October 1954 the northern side raised its first flagpole, 12 m tall, next to the bridgehead.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "12 m",
+    "8 October 1954"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-027",
+   "question": "What happened to the Hien Luong bridge paint in January 1959?",
+   "language": "en",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    186
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "16 January 1959",
+    "two colours"
+   ],
+   "reference_answer": "According to the book (p.186), on 16 January 1959 the Saigon authorities finished painting the southern half of the bridge in a different colour, so the bridge had two colours.",
+   "answerable": true,
+   "category": "bridge_paint",
+   "must_include": [
+    "16 January 1959",
+    "two colours"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-028",
+   "question": "贤良桥为什么有两种颜色？",
+   "language": "zh",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    185,
+    186,
+    187
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "两种颜色"
+   ],
+   "reference_answer": "根据书中（第185–187页），双方在1958–1959年间各自涂漆：北方涂原来的棕红色，西贡方面在南半桥涂不同颜色，因此桥呈两色。",
+   "answerable": true,
+   "category": "bridge_paint",
+   "must_include": [
+    "两种颜色"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-029",
+   "question": "Hệ thống phát thanh ở khu phi quân sự – Vĩ tuyến 17 nói đến những năm nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    109
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1956",
+    "1962"
+   ],
+   "reference_answer": "Theo tên chương sách (tr.109), hệ thống phát thanh tại khu phi quân sự – Vĩ tuyến 17 được trình bày cho những năm 1956–1962.",
+   "answerable": true,
+   "category": "broadcast",
+   "must_include": [
+    "1956",
+    "1962"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-030",
+   "question": "Nguyễn Chánh Thi gửi công văn cho ai về vụ ném bom ngày 13-11-1965?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    190,
+    191
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "Westmoreland",
+    "13-11-1965"
+   ],
+   "reference_answer": "Theo sách (tr.191), tướng Nguyễn Chánh Thi, Tư lệnh Quân đoàn I, gửi công văn cho Đại tướng Westmoreland nói về việc máy bay Mỹ ném nhầm hai quả bom xuống bờ Nam ngày 13-11-1965, làm chết một cảnh sát.",
+   "answerable": true,
+   "category": "flagpole",
+   "must_include": [
+    "Westmoreland",
+    "13-11-1965"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ]
+  },
+  {
+   "test_id": "RAG-U01",
+   "question": "Giá vé tham quan Bảo tàng Điện Biên Phủ hiện nay là bao nhiêu?",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U02",
+   "question": "Who won the 2018 football world cup?",
+   "language": "en",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U03",
+   "question": "请问北京故宫的开放时间是什么？",
+   "language": "zh",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U04",
+   "question": "Cuộc Tổng tiến công Mậu Thân 1968 diễn ra như thế nào?",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U05",
+   "question": "What is the recipe for traditional Vietnamese pho?",
+   "language": "en",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U06",
+   "question": "Hãy cho tôi số điện thoại của Tổng thống Mỹ hiện nay.",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U07",
+   "question": "Trận Đồng Xoài năm 1965 có bao nhiêu binh sĩ tham gia?",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-U08",
+   "question": "What is the current population of Hanoi?",
+   "language": "en",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "reference_answer": "(không có dữ liệu trong kho tri thức – hệ thống phải từ chối)",
+   "answerable": false,
+   "category": "unanswerable",
+   "must_include": [],
+   "must_not_guess": [
+    "mọi thông tin không có trong kho"
+   ]
+  },
+  {
+   "test_id": "RAG-031",
+   "question": "Hãy trình bày lịch sử cây cầu Hiền Lương từ năm 1928 đến 1966.",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    183,
+    184
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1928",
+    "1952",
+    "178",
+    "89",
+    "9-1966"
+   ],
+   "must_include": [
+    "1928",
+    "1952",
+    "178",
+    "89",
+    "9-1966"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách (tr.183–184): cầu đầu tiên năm 1928 dài 120 m; sửa 1931, nâng cấp 1945; đầu 1947 bị đánh sập; 1950 cầu bê tông 162 m tồn tại chưa đầy 2 năm; 1952 công binh Pháp bắc lại 178 m, 7 nhịp; sau Hiệp định Genève chia đôi mỗi bên 89 m; tr.183: bị đánh sập 9-1966.",
+   "answerable": true,
+   "category": "synthesis"
+  },
+  {
+   "test_id": "RAG-032",
+   "question": "Hãy kể câu chuyện cuộc đấu nâng cột cờ giữa hai bờ từ 1954 đến 1967.",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188,
+    189,
+    191,
+    192
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "12",
+    "25",
+    "32",
+    "35",
+    "38,6",
+    "2-8-1967"
+   ],
+   "must_include": [
+    "12",
+    "25",
+    "32",
+    "35",
+    "38,6",
+    "2-8-1967"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách: 8-10-1954 cột 12 m; sau đó nâng 18 m; 2-1956 phía Nam 25 m; 19-7-1957 phía Bắc 32 m; 1961 phía Nam 35 m; 1962 phía Bắc 38,6 m, phía Nam dừng; 2-8-1967 cột bị đánh gãy, đêm đó cột bờ Nam bị đánh sập; 3-8-1967 dựng cột gỗ.",
+   "answerable": true,
+   "category": "story"
+  },
+  {
+   "test_id": "RAG-033",
+   "question": "Việc bảo vệ lá cờ ở Hiền Lương khó khăn ra sao?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    189,
+    190,
+    192
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "267",
+    "192"
+   ],
+   "must_include": [
+    "267",
+    "192"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách: gió biển và hơi muối làm cờ chóng rách, dùng 267 lá cờ (1956–1967), có khi huy động cả tiểu đội kéo cờ; khu vực bị ném bom 192 lần; mẹ Ngô Thị Diệm khâu vá cờ.",
+   "answerable": true,
+   "category": "synthesis"
+  },
+  {
+   "test_id": "RAG-034",
+   "question": "Ủy ban Liên hiệp được thành lập khi nào và đã ra những quyết định gì về khu phi quân sự?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    44,
+    45,
+    46
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "3-8-1954",
+    "13-8-1954",
+    "15-9-1954"
+   ],
+   "must_include": [
+    "3-8-1954",
+    "13-8-1954",
+    "15-9-1954"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách: Hiệp nghị thành lập Ủy ban Liên hiệp ký 3-8-1954; Quyết định số 01 (13-8-1954) và Quyết định số 11/QĐ (15-9-1954) về giới hạn khu phi quân sự.",
+   "answerable": true,
+   "category": "synthesis"
+  },
+  {
+   "test_id": "RAG-035",
+   "question": "Tên của người mẹ khâu cờ ở Hiền Lương là Ngô Thị Diệm hay Nguyễn Thị Diệm?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    192
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "Ngô Thị Diệm",
+    "Nguyễn Thị Diệm"
+   ],
+   "must_include": [
+    "Ngô Thị Diệm",
+    "Nguyễn Thị Diệm"
+   ],
+   "must_not_guess": [
+    "không tự chọn một tên là đúng tuyệt đối mà không dẫn nguồn"
+   ],
+   "reference_answer": "Sách ghi là mẹ Ngô Thị Diệm và chú thích rằng nhiều sách báo trước đây (kể cả Lịch sử Đảng bộ Quảng Trị) viết là Nguyễn Thị Diệm; câu trả lời phải nêu cả hai và nguồn của từng cách ghi.",
+   "answerable": true,
+   "category": "conflicting_sources"
+  },
+  {
+   "test_id": "RAG-036",
+   "question": "Was the provisional demarcation line exactly on the 17th parallel?",
+   "language": "en",
+   "expected_source_ids": [
+    "REF002",
+    "SRC001"
+   ],
+   "expected_pages": [],
+   "expected_chunk_ids": [
+    "KX009"
+   ],
+   "expected_keywords": [
+    "Ben Hai",
+    "17th parallel"
+   ],
+   "must_include": [
+    "Ben Hai",
+    "17th parallel"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "A reference work says the line is commonly called the 17th parallel but follows the Ben Hai river for much of its course; the book uses the term 'vĩ tuyến 17'. The answer should present both and cite each.",
+   "answerable": true,
+   "category": "conflicting_sources"
+  },
+  {
+   "test_id": "RAG-037",
+   "question": "Ảnh băng-rôn 'Muốn thống nhất lãnh thổ phải có Tổng thống Ngô Đình Diệm' được in ở trang nào của sách và chú thích ra sao?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    81
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "81"
+   ],
+   "must_include": [
+    "81"
+   ],
+   "must_not_guess": [
+    "năm chụp",
+    "danh tính người gác"
+   ],
+   "reference_answer": "Hình in ở tr.81 với chú thích 'Âm mưu chia cắt đất nước của Ngô Đình Diệm' (nguồn photobucket).",
+   "answerable": true,
+   "category": "image"
+  },
+  {
+   "test_id": "RAG-038",
+   "question": "Bức ảnh cây cầu có hai màu được in ở trang nào và chú thích là gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    187
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "187",
+    "hai màu"
+   ],
+   "must_include": [
+    "187",
+    "hai màu"
+   ],
+   "must_not_guess": [
+    "năm chụp"
+   ],
+   "reference_answer": "Hình in ở tr.187, chú thích 'Cây cầu Hiền Lương có hai màu'.",
+   "answerable": true,
+   "category": "image"
+  },
+  {
+   "test_id": "RAG-039",
+   "question": "Bức ảnh hai cột cờ trên đồng ruộng (IMG015) được chụp năm nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "chưa xác định"
+   ],
+   "must_include": [
+    "chưa xác định"
+   ],
+   "must_not_guess": [
+    "năm chụp",
+    "bên nào sở hữu cột cờ trong ảnh"
+   ],
+   "reference_answer": "Năm chụp chưa xác định; ảnh không có bằng chứng thời gian. Sách (tr.188–192) mô tả cuộc đấu cờ nhưng không xác định ảnh này.",
+   "answerable": true,
+   "category": "image_unknown_date"
+  },
+  {
+   "test_id": "RAG-040",
+   "question": "Tell me the story of the Hien Luong bridge from 1954 to 1967.",
+   "language": "en",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    183,
+    184,
+    185,
+    186,
+    191
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "89",
+    "1959",
+    "1966"
+   ],
+   "must_include": [
+    "89",
+    "1959",
+    "1966"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "According to the book: split in two halves of 89 m after Geneva; painting contest 1958–1959 left it in two colours; flagpole contest; bombing from 1965; destroyed in September 1966; flagpole broken on 2 August 1967.",
+   "answerable": true,
+   "category": "story"
+  },
+  {
+   "test_id": "RAG-041",
+   "question": "贤良的北方旗杆在1962年有多高？",
+   "language": "zh",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    189
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "38"
+   ],
+   "must_include": [
+    "38"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "根据书中第189页，1962年北方建起高38.6米的钢管旗杆。",
+   "answerable": true,
+   "category": "flagpole"
+  },
+  {
+   "test_id": "RAG-042",
+   "question": "How did people in the two zones keep in touch while the country was divided?",
+   "language": "en",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    150
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "postcard",
+    "1955"
+   ],
+   "must_include": [
+    "postcard",
+    "1955"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "According to the book, from May 1955 postcard exchange was set up as a form of contact between people of the two zones.",
+   "answerable": true,
+   "category": "postcard"
+  },
+  {
+   "test_id": "RAG-043",
+   "question": "Cuộc 'đấu loa' ở hai bờ Bến Hải được sách trình bày trong những năm nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    109
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1956",
+    "1962"
+   ],
+   "must_include": [
+    "1956",
+    "1962"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Chương 'Hệ thống phát thanh tại khu phi quân sự' trình bày những năm 1956–1962.",
+   "answerable": true,
+   "category": "broadcast"
+  },
+  {
+   "test_id": "RAG-044",
+   "question": "Trước năm 1954 cây cầu Hiền Lương đã bị đánh sập những lần nào?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    184
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1947",
+    "1950"
+   ],
+   "must_include": [
+    "1947",
+    "1950"
+   ],
+   "must_not_guess": [
+    "ngày/năm cụ thể cầu 1950 bị đánh sập"
+   ],
+   "reference_answer": "Theo sách: đầu năm 1947 cầu bị đánh sập; cầu bê tông xây đầu năm 1950 tồn tại chưa được 2 năm thì bị du kích Vĩnh Linh đánh sập (sách không nêu ngày cụ thể).",
+   "answerable": true,
+   "category": "bridge"
+  },
+  {
+   "test_id": "RAG-045",
+   "question": "Cột cờ phía Bắc dựng năm 1957 có đặc điểm gì?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    188
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "32",
+    "108",
+    "1,2"
+   ],
+   "must_include": [
+    "32",
+    "108",
+    "1,2"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách: trụ thép ống cao 32 m, cách đầu cầu khoảng 50 m về phía Bắc, lá cờ rộng 108 m², cột sơn trắng, đỉnh gắn ngôi sao đồng đường kính 1,2 m có 15 bóng điện 50W.",
+   "answerable": true,
+   "category": "flagpole"
+  },
+  {
+   "test_id": "RAG-046",
+   "question": "Từ cuối năm 1965 đến đầu năm 1967, khu vực cầu và cột cờ Hiền Lương bị ném bom bao nhiêu lần?",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    190
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "192",
+    "B.52"
+   ],
+   "must_include": [
+    "192",
+    "B.52"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Theo sách: 192 lần (trong đó 6 lần dùng B.52), hơn 7.000 tấn bom đạn, hơn 2.000 quả đại bác trên diện tích chưa đến 1 ha.",
+   "answerable": true,
+   "category": "flagpole"
+  },
+  {
+   "test_id": "RAG-047",
+   "question": "Hãy giải thích cho một học sinh chưa biết lịch sử vì sao cầu Hiền Lương có hai màu.",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    185,
+    186
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "hai màu"
+   ],
+   "must_include": [
+    "hai màu"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "Như RAG-003, diễn đạt đơn giản: hai bên tự sơn nửa cầu của mình bằng hai màu khác nhau (1958–1959).",
+   "answerable": true,
+   "category": "bridge_paint"
+  },
+  {
+   "test_id": "RAG-048",
+   "question": "Ai là kỹ sư thiết kế cây cầu Hiền Lương năm 1952?",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "must_include": [],
+   "must_not_guess": [
+    "tên kỹ sư"
+   ],
+   "reference_answer": "(không có trong kho: sách chỉ nói công binh Pháp bắc lại cầu; hệ thống phải nói rõ không có tên người thiết kế)",
+   "answerable": false,
+   "category": "in_domain_unanswerable"
+  },
+  {
+   "test_id": "RAG-049",
+   "question": "Có bao nhiêu người đã vượt sông Bến Hải bằng thuyền trong năm 1960?",
+   "language": "vi",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "must_include": [],
+   "must_not_guess": [
+    "số người"
+   ],
+   "reference_answer": "(không có số liệu này trong kho)",
+   "answerable": false,
+   "category": "in_domain_unanswerable"
+  },
+  {
+   "test_id": "RAG-050",
+   "question": "What did Ho Chi Minh say when he visited the Hien Luong bridge?",
+   "language": "en",
+   "expected_source_ids": [],
+   "expected_pages": [],
+   "expected_chunk_ids": [],
+   "expected_keywords": [],
+   "must_include": [],
+   "must_not_guess": [
+    "any quotation"
+   ],
+   "reference_answer": "(no such visit or quotation in the archive; must not invent a quote)",
+   "answerable": false,
+   "category": "unanswerable"
+  },
+  {
+   "test_id": "RAG-051",
+   "question": "1965年3月19日在贤良桥发生了什么事？",
+   "language": "zh",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    194
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1965"
+   ],
+   "must_include": [
+    "1965"
+   ],
+   "must_not_guess": [
+    "ngày tháng, số liệu, tên người không có trong nguồn"
+   ],
+   "reference_answer": "根据书中第194页，1965年3月19日12时，西贡方面将“和平运动委员会”的三名人士经贤良桥送往北方。",
+   "answerable": true,
+   "category": "tong_triet"
+  },
+  {
+   "test_id": "RAG-052",
+   "question": "So sánh tình hình ở giới tuyến giai đoạn 1954–1956 và giai đoạn 1956–1967.",
+   "language": "vi",
+   "expected_source_ids": [
+    "SRC001"
+   ],
+   "expected_pages": [
+    79,
+    150,
+    188
+   ],
+   "expected_chunk_ids": [],
+   "expected_keywords": [
+    "1956"
+   ],
+   "must_include": [
+    "1956"
+   ],
+   "must_not_guess": [
+    "gán sự kiện 1965 vào 1954–1956"
+   ],
+   "reference_answer": "Phải tách: 7-1954–7-1956 đấu tranh thực hiện Hiệp định (chương 6, tr.79); sau 7-1956 tổng tuyển cử không diễn ra (tr.150) và các cuộc đấu sơn cầu/cột cờ/bom đạn thuộc giai đoạn sau.",
+   "answerable": true,
+   "category": "period"
+  }
+ ]
+}

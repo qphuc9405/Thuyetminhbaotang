@@ -1,0 +1,171 @@
+/* Shared toolbar: each visible icon and its label belong to one real button. */
+.zone-header { z-index: 15; }
+.visit-toolbar {
+  --toolbar-gold: #edd29a;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid #dabb7b9c;
+  border-radius: 20px;
+  background: linear-gradient(160deg, #103944, #06232e);
+  box-shadow: 0 8px 24px #00151c40, inset 0 1px 0 #fff2cf0d;
+  color: var(--toolbar-gold);
+  isolation: isolate;
+  overflow: visible;
+}
+.visit-toolbar > button,
+.visit-toolbar > .lang-switch > button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  background: transparent;
+  color: var(--toolbar-gold);
+  transition: background .16s ease, border-color .16s ease, color .16s ease, box-shadow .16s ease;
+  touch-action: manipulation;
+}
+.visit-toolbar > .lang-switch {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.visit-toolbar > button > *,
+.visit-toolbar > .lang-switch > button > * { pointer-events: none; }
+.visit-toolbar > button > svg,
+.visit-toolbar > .lang-switch > button > svg { width: 21px; height: 21px; flex-shrink: 0; stroke-width: 1.8; }
+.visit-toolbar .lang-short { display: none; }
+.visit-toolbar > button[data-state="off"] { background: transparent; color: #a9bdbd; }
+.visit-toolbar > button[data-state="success"] { background: #183e34; color: #c5f2d3; }
+.visit-toolbar > .lang-switch > button[aria-expanded="true"] { background: #e8c8881f; border-color: #e8c88870; color: #fff1cc; }
+.visit-toolbar > button:focus-visible,
+.visit-toolbar > .lang-switch > button:focus-visible { outline: 2px solid #ffe1a2; outline-offset: 2px; background: #e8c8881f; }
+.visit-toolbar > button:active:not(:disabled),
+.visit-toolbar > .lang-switch > button:active { background: #e8c88833; }
+.visit-toolbar > button:disabled { opacity: .45; }
+
+/* Labels become tooltips on the compact toolbar, anchored to the same button. */
+.visit-toolbar--zone .tool-label {
+  position: absolute;
+  top: calc(100% + 13px);
+  left: 50%;
+  z-index: 5;
+  width: max-content;
+  max-width: 190px;
+  padding: 8px 11px;
+  border: 1px solid #dabb7b70;
+  border-radius: 9px;
+  background: #082731;
+  box-shadow: 0 6px 18px #0005;
+  color: #fff0d3;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: nowrap;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(-3px);
+  transition: opacity .15s ease, transform .15s ease, visibility .15s;
+  pointer-events: none;
+}
+.visit-toolbar--zone > button:last-child .tool-label { left: auto; right: -6px; transform: translateY(-3px); }
+.visit-toolbar--zone > button:focus-visible .tool-label,
+.visit-toolbar--zone > .lang-switch > button:focus-visible .tool-label { visibility: visible; opacity: 1; transform: translateX(-50%); }
+.visit-toolbar--zone > button:last-child:focus-visible .tool-label { transform: none; }
+.visit-toolbar--zone > .lang-switch > button[aria-expanded="true"] .tool-label { visibility: hidden; opacity: 0; }
+
+/* Five columns, including the language wrapper; no transparent hitboxes. */
+.visit-toolbar--home {
+  position: absolute;
+  z-index: 8;
+  top: max(14px, env(safe-area-inset-top));
+  right: max(18px, env(safe-area-inset-right));
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: calc(647 / 1672 * 100%);
+  min-height: 68px;
+  gap: 4px;
+  padding: 5px;
+}
+.visit-toolbar--home > button,
+.visit-toolbar--home > .lang-switch > button { width: 100%; min-width: 0; height: 56px; padding: 4px; }
+.visit-toolbar--home > .lang-switch { min-width: 0; }
+.visit-toolbar--home .tool-label { display: block; font-size: 11px; line-height: 1.25; white-space: normal; text-align: center; }
+
+.visit-toolbar .toolbar-language-menu {
+  position: absolute;
+  top: calc(100% + 13px);
+  right: 0;
+  z-index: 20;
+  display: grid;
+  gap: 4px;
+  width: 200px;
+  padding: 6px;
+  border: 1px solid #dabb7b9c;
+  border-radius: 16px;
+  background: #082b36;
+  box-shadow: 0 16px 36px #00121c70;
+}
+.visit-toolbar .toolbar-language-menu button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 9px 11px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: #e7eeea;
+  font-size: 13px;
+  text-align: left;
+  transition: background .16s ease;
+}
+.visit-toolbar .toolbar-language-menu button b { min-width: 29px; padding: 4px; border-radius: 6px; background: #ffffff09; color: var(--toolbar-gold); font-size: 11px; text-align: center; }
+.visit-toolbar .toolbar-language-menu button svg { width: 16px; height: 16px; margin-left: auto; color: var(--toolbar-gold); }
+.visit-toolbar .toolbar-language-menu button.on { background: #ecd09b18; color: #ffedc9; }
+
+@media (hover: hover) {
+  .visit-toolbar > button:hover:not(:disabled),
+  .visit-toolbar > .lang-switch > button:hover { background: #e8c8881f; border-color: #e8c88855; color: #fff1cc; box-shadow: inset 0 1px 0 #fff2cf0a; }
+  .visit-toolbar--zone > button:hover:not(:disabled) .tool-label,
+  .visit-toolbar--zone > .lang-switch > button:hover .tool-label { visibility: visible; opacity: 1; transform: translateX(-50%); }
+  .visit-toolbar--zone > button:last-child:hover .tool-label { transform: none; }
+  .visit-toolbar--zone > .lang-switch > button[aria-expanded="true"]:hover .tool-label { visibility: hidden; opacity: 0; }
+  .visit-toolbar .toolbar-language-menu button:hover { background: #ffffff10; }
+}
+
+@media (max-width: 1100px), (max-aspect-ratio: 4/3), (max-height: 600px) {
+  .visit-toolbar--home { position: relative; top: auto; right: auto; order: 1; width: min(100%, 1100px); height: auto; margin: 0 auto; min-height: 68px; }
+}
+@media (max-width: 760px) {
+  .visit-toolbar--zone { gap: 1px; padding: 3px; border-radius: 16px; }
+  .visit-toolbar--zone > button,
+  .visit-toolbar--zone > .lang-switch > button { width: 44px; height: 44px; border-radius: 11px; }
+  .zone-header .zone-brand { min-width: 0; }
+  .zone-header .visit-toolbar { margin-left: auto; }
+  .visit-toolbar .toolbar-language-menu { right: -40px; width: 184px; }
+}
+@media (max-width: 380px) {
+  .visit-toolbar--home .tool-label { font-size: 10px; }
+  .zone-header { gap: 6px; }
+  .hall-header .zone-brand { flex-basis: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .visit-toolbar *, .visit-toolbar *::before, .visit-toolbar *::after { transition: none; }
+}

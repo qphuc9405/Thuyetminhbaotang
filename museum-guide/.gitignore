@@ -1,0 +1,10 @@
+.env
+backend/.env
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/audio_cache/
+data/thumbs/
+data/processed/pages/

@@ -1,0 +1,42 @@
+@import '@fontsource/noto-serif/vietnamese-400.css';
+@import '@fontsource/noto-serif/vietnamese-700.css';
+@import '@fontsource/noto-serif/latin-400.css';
+@import '@fontsource/noto-serif/latin-700.css';
+@import '@fontsource/noto-serif/latin-400-italic.css';
+@import '@fontsource/noto-serif/vietnamese-400-italic.css';
+@import '@fontsource/be-vietnam-pro/400.css';
+@import '@fontsource/be-vietnam-pro/500.css';
+@import '@fontsource/be-vietnam-pro/600.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-paper text-ink font-sans antialiased; line-height: 1.7; font-size: 16.5px; }
+h1, h2, h3, h4 { @apply font-serif; letter-spacing: -0.01em; }
+:focus-visible { outline: 2px solid #A6261C; outline-offset: 3px; }
+::selection { background: #A6261C; color: #fff; }
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-sm border border-rule bg-card px-4 py-2 text-sm font-medium text-ink transition-colors hover:border-ink disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply border-flag bg-flag text-white hover:border-[#8a1f17] hover:bg-[#8a1f17]; }
+  .btn-ghost-light { @apply border-white/50 bg-transparent text-white hover:border-white hover:bg-white/10; }
+  .card { @apply rounded-sm border border-rule bg-card; }
+  .tag { @apply inline-block rounded-sm border border-rule bg-paper px-2 py-0.5 text-xs text-earth; }
+  .eyebrow { @apply text-[11px] font-semibold uppercase tracking-[0.22em] text-earth; }
+  .rule-top { @apply border-t border-rule; }
+  .museum-label { @apply border-l-2 border-flag pl-4; }
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
+  .reveal.is-visible { opacity: 1; transform: none; }
+  .archival { filter: sepia(.18) contrast(1.03); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1; transform: none; }
+}
+.prose-guide p { margin: 0 0 1.05em; }
+.prose-guide p:last-child { margin-bottom: 0; }
+.prose-guide h3 { @apply mt-5 mb-2 font-serif text-lg text-ink; }
+.prose-guide strong { @apply font-semibold text-ink; }

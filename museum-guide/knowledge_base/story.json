@@ -1,0 +1,310 @@
+[
+ {
+  "id": "ch1",
+  "period": "1954",
+  "image_id": "BKFIG02",
+  "topic_id": "geneva",
+  "timeline_period": "1954-1956",
+  "title": {
+   "vi": "Một dòng sông trở thành giới tuyến",
+   "en": "A river becomes a demarcation line",
+   "zh": "一条河成为分界线"
+  },
+  "lead": {
+   "vi": "Mùa hè năm 1954, Hội nghị Genève khép lại cuộc chiến tranh Đông Dương – và một dòng sông hiền hòa ở Quảng Trị bước vào lịch sử.",
+   "en": "In the summer of 1954 the Geneva Conference ended the Indochina War – and a quiet river in Quảng Trị entered history.",
+   "zh": "1954年夏，日内瓦会议结束了印度支那战争——广治省一条平静的河流从此走进了历史。"
+  },
+  "body": {
+   "vi": [
+    "Theo cuốn sách, tại Hội nghị Genève, Việt Nam phải chấp nhận lấy vĩ tuyến 17 làm giới tuyến quân sự tạm thời, với thời hạn tổng tuyển cử tái thống nhất đất nước là hai năm.",
+    "Hiệp định đình chỉ chiến sự ngày 20-7-1954 quy định một đường phân định quân sự tạm thời và khu phi quân sự rộng không quá 5 km mỗi bên; Tuyên bố cuối cùng ngày 21-7-1954 khẳng định đường ấy không phải là ranh giới chính trị hay lãnh thổ.",
+    "Tác giả viết rằng một dòng sông hiền hòa như bao dòng sông khác đã bị chọn làm giới tuyến quân sự tạm thời."
+   ],
+   "en": [
+    "According to the book, at the Geneva Conference Vietnam had to accept the 17th parallel as a provisional military demarcation line, with general elections for reunification due within two years.",
+    "The Agreement on the Cessation of Hostilities of 20 July 1954 set a provisional military demarcation line and a demilitarized zone no wider than 5 km on each side; the Final Declaration of 21 July 1954 stated that the line was not a political or territorial boundary.",
+    "As the author puts it, a peaceful river like any other was chosen to become the provisional military demarcation line."
+   ],
+   "zh": [
+    "书中指出，在日内瓦会议上，越南不得不接受以北纬17度线作为临时军事分界线，并规定两年内举行重新统一的普选。",
+    "1954年7月20日的停战协定规定了一条临时军事分界线，以及两侧各不超过5公里的非军事区；1954年7月21日的最后宣言强调这条线不是政治或领土边界。",
+    "作者写道，一条与其他河流一样平静的河，被选作了临时军事分界线。"
+   ]
+  },
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 15,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "DOC001",
+    "source_title": "Agreement on the Cessation of Hostilities in Viet-Nam (Hiệp định đình chỉ chiến sự ở Việt Nam), 20/7/1954",
+    "source_type": "HISTORICAL_DOCUMENT",
+    "printed_page": null,
+    "provision": "Chương I, Điều 1",
+    "verified_anchor": true
+   },
+   {
+    "source_id": "DOC002",
+    "source_title": "Final Declaration of the Geneva Conference on the Problem of Restoring Peace in Indo-China (Tuyên bố cuối cùng), 21/7/1954",
+    "source_type": "HISTORICAL_DOCUMENT",
+    "printed_page": null,
+    "provision": "Đoạn 6",
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 9,
+    "provision": null,
+    "verified_anchor": true
+   }
+  ],
+  "note": "Văn dẫn chuyện do nhóm biên soạn từ các trang được trích; bản en/zh là bản dịch của nhóm phát triển."
+ },
+ {
+  "id": "ch2",
+  "period": "1952–1959",
+  "image_id": "IMG034",
+  "topic_id": "bridgeflag",
+  "timeline_period": "1956-1967",
+  "title": {
+   "vi": "Cây cầu mang hai màu",
+   "en": "The bridge of two colours",
+   "zh": "两种颜色的桥"
+  },
+  "lead": {
+   "vi": "Dài 178 mét, bảy nhịp thép, mặt lát gỗ – cây cầu Hiền Lương từng nối hai bờ, rồi bị chia đôi bởi một vạch sơn.",
+   "en": "178 metres long, seven steel spans, a timber deck – the Hiền Lương bridge once joined two banks, then was split by a line of paint.",
+   "zh": "全长178米、七个钢跨、木质桥面——贤良桥曾连接两岸，后来却被一道油漆分成两半。"
+  },
+  "body": {
+   "vi": [
+    "Cây cầu do công binh Pháp bắc lại năm 1952. Sau Hiệp định Genève, cầu bị chia đôi, mỗi bên dài 89 mét.",
+    "Tháng 11-1958, Đội sơn cầu 337 của Ty Giao thông Vĩnh Linh sơn nửa cầu phía Bắc bằng màu nâu đỏ vốn có. Phía Sài Gòn sơn nửa cầu phía Nam bằng màu khác và hoàn thành ngày 16-1-1959; từ đó cầu mang hai màu.",
+    "Theo cuốn sách, với nhân dân Việt Nam, cầu Hiền Lương là biểu tượng của nỗi đau chia cắt và khát vọng thống nhất đất nước."
+   ],
+   "en": [
+    "French engineers rebuilt the bridge in 1952. After the Geneva Agreement it was split in two, each half 89 metres long.",
+    "In November 1958 Painting Team 337 of the Vinh Linh transport service painted the northern half in its original brown-red. The Saigon side painted the southern half a different colour, finishing on 16 January 1959; from then on the bridge had two colours.",
+    "According to the book, for the Vietnamese people the Hiền Lương bridge became a symbol of the pain of division and the longing for reunification."
+   ],
+   "zh": [
+    "这座桥于1952年由法军工兵重建。日内瓦协议后，桥被一分为二，每侧长89米。",
+    "1958年11月，永灵交通处337涂漆队用桥原有的棕红色涂刷北半桥；西贡方面以另一种颜色涂刷南半桥，于1959年1月16日完工，从此桥呈两种颜色。",
+    "书中写道，对越南人民而言，贤良桥成为分裂之痛与统一渴望的象征。"
+   ]
+  },
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 184,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 184,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 185,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 186,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 183,
+    "provision": null,
+    "verified_anchor": true
+   }
+  ],
+  "note": "Văn dẫn chuyện do nhóm biên soạn từ các trang được trích; bản en/zh là bản dịch của nhóm phát triển."
+ },
+ {
+  "id": "ch3",
+  "period": "1955–1965",
+  "image_id": "IMG015",
+  "topic_id": "bridgeflag",
+  "timeline_period": "1956-1967",
+  "title": {
+   "vi": "Những năm tháng bên bờ giới tuyến",
+   "en": "Years on the banks of the line",
+   "zh": "分界线两岸的岁月"
+  },
+  "lead": {
+   "vi": "Hai bờ chỉ cách nhau chưa đầy trăm mét, nhưng gia đình phải nhờ bưu thiếp để báo tin, còn tiếng loa và lá cờ trở thành cuộc đối thoại không lời.",
+   "en": "The banks were less than a hundred metres apart, yet families had to rely on postcards for news, while loudspeakers and flags became a wordless dialogue.",
+   "zh": "两岸相距不到一百米，家人却只能靠明信片互通音讯，而广播与旗帜成了无声的对话。"
+  },
+  "body": {
+   "vi": [
+    "Lời nói đầu của cuốn sách nhắc đến dòng sông rộng chưa đầy 100 mét và bao gia đình lâm vào cảnh “chồng Bắc vợ Nam”.",
+    "Từ tháng 5-1955, trao đổi bưu thiếp trở thành hình thức liên lạc giữa nhân dân hai miền. Những năm 1956–1962, hệ thống phát thanh hai bờ diễn ra cuộc “đấu loa”.",
+    "Ở đầu cầu, hai bên thi nhau nâng cao cột cờ: từ cột 12 mét năm 1954 đến trụ thép 38,6 mét năm 1962. Mẹ Ngô Thị Diệm ở thôn Hiền Lương ở lại khâu vá từng lá cờ."
+   ],
+   "en": [
+    "The book's preface mentions a river less than 100 metres wide and many families split \"husband in the North, wife in the South\".",
+    "From May 1955 postcard exchange became the way people of the two zones kept in touch. Between 1956 and 1962 the loudspeaker systems of the two banks fought a \"loudspeaker contest\".",
+    "At the bridgehead the two sides kept raising their flagpoles: from a 12-metre pole in 1954 to a 38.6-metre steel mast in 1962. Mother Ngô Thị Diệm of Hiền Lương village stayed behind to mend the flags."
+   ],
+   "zh": [
+    "书的前言提到这条河宽不到100米，许多家庭陷入“丈夫在北、妻子在南”的境地。",
+    "自1955年5月起，交换明信片成为南北两地人民联系的方式。1956至1962年间，两岸的广播系统展开了“对喊”。",
+    "在桥头，双方竞相加高旗杆：从1954年的12米旗杆到1962年38.6米的钢管旗杆。贤良村的吴氏琰妈妈留下来一针一线地缝补旗帜。"
+   ]
+  },
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 9,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 150,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 109,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 188,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 189,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 192,
+    "provision": null,
+    "verified_anchor": true
+   }
+  ],
+  "note": "Văn dẫn chuyện do nhóm biên soạn từ các trang được trích; bản en/zh là bản dịch của nhóm phát triển."
+ },
+ {
+  "id": "ch4",
+  "period": "1965–1967",
+  "image_id": "BKFIG13",
+  "topic_id": "late",
+  "timeline_period": "1956-1967",
+  "title": {
+   "vi": "Khát vọng thống nhất",
+   "en": "The longing for reunification",
+   "zh": "统一的渴望"
+  },
+  "lead": {
+   "vi": "Bom đạn trút xuống đôi bờ, cây cầu sụp đổ, cột cờ gãy rồi lại được dựng lên – cho đến ngày đường chia cắt bị xóa bỏ trên thực tế.",
+   "en": "Bombs fell on both banks, the bridge collapsed, the flagpole fell and was raised again – until the dividing line was erased in practice.",
+   "zh": "炸弹落在两岸，大桥坍塌，旗杆倒下又重新竖起——直到分界线在事实上被消除。"
+  },
+  "body": {
+   "vi": [
+    "Từ ngày 8-2-1965, Mỹ tiến hành chiến tranh phá hoại Vĩnh Linh, cột cờ Hiền Lương trở thành một mục tiêu đánh phá. Cầu Hiền Lương bị đánh sập vào tháng 9-1966.",
+    "Ngày 2-8-1967, cột cờ phía Bắc bị đánh gãy; ngay đêm đó phía Bắc đánh sập cột cờ bờ Nam. Hôm sau, đồn công an Hiền Lương dựng một cột cờ mới bằng gỗ.",
+    "Theo lời nói đầu, đến năm 1967, khi khu phi quân sự Nam được giải phóng, đường giới tuyến quân sự tạm thời chia cắt đất nước được xóa bỏ trên thực tế."
+   ],
+   "en": [
+    "From 8 February 1965 the United States waged an air war on Vinh Linh, and the Hiền Lương flagpole became a target. The bridge was destroyed in September 1966.",
+    "On 2 August 1967 the northern flagpole was broken; that same night the northern side blew up the flagpole on the southern bank. The next day the Hiền Lương police post raised a new wooden flagpole.",
+    "According to the preface, in 1967, when the southern part of the demilitarized zone was liberated, the provisional demarcation line dividing the country was erased in practice."
+   ],
+   "zh": [
+    "自1965年2月8日起，美国对永灵展开轰炸，贤良旗杆成为攻击目标。贤良桥于1966年9月被炸毁。",
+    "1967年8月2日，北岸旗杆被炸断；当夜北方炸毁了南岸旗杆。次日，贤良公安哨所竖起了一根新的木旗杆。",
+    "据前言所述，1967年南部非军事区获得解放，分割国家的临时军事分界线在事实上被消除。"
+   ]
+  },
+  "citations": [
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 190,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 183,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 191,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 192,
+    "provision": null,
+    "verified_anchor": true
+   },
+   {
+    "source_id": "SRC001",
+    "source_title": "Đôi bờ giới tuyến (1954–1967)",
+    "source_type": "BOOK",
+    "printed_page": 10,
+    "provision": null,
+    "verified_anchor": true
+   }
+  ],
+  "note": "Văn dẫn chuyện do nhóm biên soạn từ các trang được trích; bản en/zh là bản dịch của nhóm phát triển."
+ }
+]

@@ -1,0 +1,65 @@
+{
+ "warnings": [],
+ "paragraph_stats": {
+  "footnote_blocks_excluded": 148,
+  "page_number_lines_dropped": 227,
+  "merged_across_blocks": 129
+ },
+ "n_paragraphs": 842,
+ "structural_pages_excluded_from_chunks": [
+  1,
+  2,
+  3,
+  4,
+  13,
+  14,
+  57,
+  58,
+  257,
+  258,
+  259,
+  260
+ ],
+ "supplement": {
+  "doc_chunks": {
+   "SRC003": 24,
+   "SRC004": 14,
+   "SRC005": 15
+  },
+  "web_records": 5,
+  "conflict_notes": 11,
+  "events_added": 2,
+  "images_added": 16,
+  "image_relations_added": 41,
+  "nested_archive3_duplicates": 10,
+  "macosx_skipped": 16
+ },
+ "n_anecdotes": 10,
+ "n_exhibits": 56,
+ "pdf_pages": 130,
+ "book_pages": 260,
+ "blank_pages": 10,
+ "review_pages": 12,
+ "printed_detect_agree": 226,
+ "printed_detect_disagree": 10,
+ "printed_detect_none": 24,
+ "n_chunks_book": 604,
+ "n_chunks_external": 10,
+ "n_events": 31,
+ "n_images": 65,
+ "chunk_config": {
+  "max_chars": 900,
+  "overlap": 150
+ },
+ "avg_chunk_chars": 771.6,
+ "exported": {
+  "sources": 35,
+  "chapters": 18,
+  "topics": 13,
+  "pages": 260,
+  "chunks": 683,
+  "images": 65,
+  "events": 31,
+  "relations": 1586
+ }
+}

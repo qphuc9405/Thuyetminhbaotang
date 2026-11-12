@@ -1,0 +1,339 @@
+{
+ "aggregate": {
+  "image_index": {
+   "n": 16,
+   "hit@1": 1.0,
+   "hit@3": 1.0,
+   "MRR@5": 1.0
+  },
+  "pipeline": {
+   "n": 5,
+   "hit_rate": 1.0
+  }
+ },
+ "image_index_rows": [
+  {
+   "test_id": "IMQ-01",
+   "query": "Cụm loa phát thanh bên bờ Nam",
+   "expected": [
+    "IMG042"
+   ],
+   "top5": [
+    "IMG042",
+    "IMG041",
+    "IMG047",
+    "IMG049",
+    "IMG048"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-02",
+   "query": "Cụm loa phát thanh bên bờ Bắc",
+   "expected": [
+    "IMG041",
+    "IMG047",
+    "IMG049"
+   ],
+   "top5": [
+    "IMG041",
+    "IMG047",
+    "IMG042",
+    "IMG049",
+    "IMG048"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-03",
+   "query": "O Nhạn phát thanh viên Đài Truyền thanh Vĩnh Linh",
+   "expected": [
+    "IMG043"
+   ],
+   "top5": [
+    "IMG043",
+    "IMG047",
+    "IMG046",
+    "IMG048",
+    "BKFIG13"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-04",
+   "query": "cầu Hiền Lương bị bom Mỹ đánh sập năm 1967",
+   "expected": [
+    "IMG037"
+   ],
+   "top5": [
+    "IMG037",
+    "IMG028",
+    "IMG005",
+    "IMG039",
+    "IMG040"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-05",
+   "query": "toàn cảnh cầu Hiền Lương ngày 2-9-1959",
+   "expected": [
+    "IMG044"
+   ],
+   "top5": [
+    "IMG044",
+    "IMG040",
+    "IMG039",
+    "IMG045",
+    "IMG034"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-06",
+   "query": "mẹ Diệm vá cờ Tổ quốc",
+   "expected": [
+    "IMG050"
+   ],
+   "top5": [
+    "IMG050",
+    "BKFIG12",
+    "IMG007",
+    "BKFIG06",
+    "IMG006"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-07",
+   "query": "1954 Geneva Conference",
+   "expected": [
+    "IMG035"
+   ],
+   "top5": [
+    "IMG035",
+    "BKFIG02",
+    "BKFIG07",
+    "IMG032",
+    "IMG031"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-08",
+   "query": "chiếc loa trưng bày Đài Tiếng nói Việt Nam",
+   "expected": [
+    "IMG046"
+   ],
+   "top5": [
+    "IMG046",
+    "IMG014",
+    "IMG022",
+    "IMG050",
+    "IMG047"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-09",
+   "query": "cột cờ tại cầu Hiền Lương ngày nay",
+   "expected": [
+    "IMG040"
+   ],
+   "top5": [
+    "IMG040",
+    "IMG020",
+    "IMG043",
+    "IMG044",
+    "IMG029"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-10",
+   "query": "cầu Hiền Lương hai màu",
+   "expected": [
+    "IMG045",
+    "IMG034",
+    "IMG004",
+    "BKFIG11"
+   ],
+   "top5": [
+    "IMG045",
+    "IMG006",
+    "IMG039",
+    "IMG044",
+    "IMG027"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-11",
+   "query": "cầu Hiền Lương do người Pháp xây dựng năm 1952",
+   "expected": [
+    "IMG038"
+   ],
+   "top5": [
+    "IMG038",
+    "IMG002",
+    "IMG045",
+    "IMG040",
+    "IMG039"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-12",
+   "query": "cụm loa phóng thanh phục dựng bờ Nam khu di tích",
+   "expected": [
+    "IMG048"
+   ],
+   "top5": [
+    "IMG048",
+    "IMG047",
+    "IMG046",
+    "IMG049",
+    "IMG041"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-13",
+   "query": "khẩu hiệu Nam Bắc là một nhà",
+   "expected": [
+    "IMG036",
+    "IMG024"
+   ],
+   "top5": [
+    "IMG036",
+    "IMG012",
+    "IMG021",
+    "IMG024",
+    "IMG022"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-14",
+   "query": "cầu Hiền Lương nhìn từ phía Nam năm 1964",
+   "expected": [
+    "IMG039"
+   ],
+   "top5": [
+    "IMG039",
+    "IMG036",
+    "IMG001",
+    "IMG045",
+    "IMG004"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-15",
+   "query": "loudspeakers on the southern bank",
+   "expected": [
+    "IMG042",
+    "IMG048"
+   ],
+   "top5": [
+    "IMG048",
+    "IMG042",
+    "IMG047",
+    "IMG046",
+    "IMG049"
+   ],
+   "first_rank": 1
+  },
+  {
+   "test_id": "IMQ-16",
+   "query": "贤良桥 扩音器",
+   "expected": [
+    "IMG041",
+    "IMG042",
+    "IMG043",
+    "IMG046",
+    "IMG047",
+    "IMG048",
+    "IMG049",
+    "IMG030",
+    "IMG024",
+    "IMG036"
+   ],
+   "top5": [
+    "IMG046",
+    "IMG047",
+    "IMG043",
+    "IMG049",
+    "IMG048"
+   ],
+   "first_rank": 1
+  }
+ ],
+ "pipeline_rows": [
+  {
+   "test_id": "SUP-02",
+   "question": "Chiếc loa 500W ở bờ Bắc có đường kính bao nhiêu và được đặt ở đâu?",
+   "expected": [
+    "IMG046"
+   ],
+   "picked": [
+    "IMG046",
+    "IMG049",
+    "IMG041"
+   ],
+   "hit": true
+  },
+  {
+   "test_id": "SUP-04",
+   "question": "O Nhạn là ai?",
+   "expected": [
+    "IMG043"
+   ],
+   "picked": [
+    "IMG043",
+    "IMG048",
+    "IMG047"
+   ],
+   "hit": true
+  },
+  {
+   "test_id": "SUP-14",
+   "question": "Năm 2014 cầu Hiền Lương được phục hồi màu sơn như thế nào?",
+   "expected": [
+    "IMG045"
+   ],
+   "picked": [
+    "IMG037",
+    "IMG045",
+    "IMG048"
+   ],
+   "hit": true
+  },
+  {
+   "test_id": "SUP-15",
+   "question": "Cho tôi xem ảnh cụm loa phát thanh bên bờ Nam",
+   "expected": [
+    "IMG042"
+   ],
+   "picked": [
+    "IMG042",
+    "IMG047",
+    "IMG041"
+   ],
+   "hit": true
+  },
+  {
+   "test_id": "SUP-16",
+   "question": "Có ảnh toàn cảnh cầu Hiền Lương chụp ngày 2-9-1959 không?",
+   "expected": [
+    "IMG044"
+   ],
+   "picked": [
+    "IMG044",
+    "IMG039",
+    "IMG018"
+   ],
+   "hit": true
+  }
+ ]
+}

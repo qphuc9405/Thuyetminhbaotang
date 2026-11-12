@@ -1,0 +1,47 @@
+{
+ "simple": {
+  "n_questions": 20,
+  "context_recall_old": 0.775,
+  "context_recall_new": 0.775,
+  "chunks_old": 6.3,
+  "chunks_new": 6.2,
+  "context_chars_new": 4733
+ },
+ "event": {
+  "n_questions": 8,
+  "context_recall_old": 0.812,
+  "context_recall_new": 1.0,
+  "chunks_old": 6.1,
+  "chunks_new": 10.4,
+  "context_chars_new": 7693
+ },
+ "entity": {
+  "n_questions": 17,
+  "context_recall_old": 0.902,
+  "context_recall_new": 0.922,
+  "chunks_old": 6.2,
+  "chunks_new": 10.5,
+  "context_chars_new": 7893
+ },
+ "period": {
+  "n_questions": 2,
+  "context_recall_old": 0.5,
+  "context_recall_new": 0.5,
+  "chunks_old": 6,
+  "chunks_new": 12.5,
+  "context_chars_new": 10034
+ },
+ "story": {
+  "n_questions": 2,
+  "context_recall_old": 0.125,
+  "context_recall_new": 0.25,
+  "chunks_old": 6.5,
+  "chunks_new": 15,
+  "context_chars_new": 11192
+ },
+ "ALL": {
+  "n_questions": 49,
+  "context_recall_old": 0.787,
+  "context_recall_new": 0.83
+ }
+}

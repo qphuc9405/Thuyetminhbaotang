@@ -1,0 +1,26 @@
+/* ================= Nhân vật hướng dẫn (hoạt ảnh miệng) + bong bóng trang chủ — giữ lại sau khi gộp bản cập nhật ================= */
+
+.soldier-sprite { position: relative; width: 100%; aspect-ratio: 1417 / 1110; transform-origin: 42% 92%; will-change: transform; }
+.soldier-pose, .soldier-mouth { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: fill; }
+.soldier-pose { filter: drop-shadow(0 12px 18px #00131dbb); }
+.soldier-mouth { z-index: 1; opacity: 0; -webkit-mask-image: radial-gradient(ellipse 5.5% 4% at var(--mouth-x, 40%) var(--mouth-y, 31.5%), #000 45%, transparent 100%); mask-image: radial-gradient(ellipse 5.5% 4% at var(--mouth-x, 40%) var(--mouth-y, 31.5%), #000 45%, transparent 100%); transition: opacity .14s ease-in-out; }
+.soldier-guide.is-speaking .soldier-sprite { animation: soldier-body 5.4s ease-in-out infinite; }
+.soldier-guide.is-speaking:not(.has-speech-boundary) .soldier-mouth { animation: soldier-talk .72s ease-in-out infinite; }
+.soldier-guide.has-speech-boundary.mouth-open .soldier-mouth { opacity: 1; }
+@keyframes soldier-body { 0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); } 50% { transform: translate3d(0, -5px, 0) rotate(-.7deg) scale(1.012); } }
+@keyframes soldier-talk { 0%, 9%, 38%, 48%, 78%, 100% { opacity: 0; } 17%, 29%, 57%, 70%, 88% { opacity: 1; } }
+.home-page .home-soldier-guide { position: absolute; z-index: 2; top: 12.6%; left: -2.4%; width: 21%; margin: 0; }
+.home-guide-bubble { position: absolute; width: clamp(250px, 18vw, 330px) !important; z-index: 3; top: 20.5%; left: 14.5%; display: flex; align-items: flex-end; gap: 7px; width: clamp(280px, 20vw, 360px); min-height: 108px; padding: 11px 16px; border: 1px solid #79d7d8; border-radius: 23px; background: #052835ed; box-shadow: 0 10px 25px #00131db0; color: #fff; text-align: left; font-size: clamp(12px, .93vw, 16px); line-height: 1.31; backdrop-filter: blur(8px); }
+.home-guide-bubble:hover { background: #0a3542f5; border-color: #b6eeee; }
+.home-guide-bubble strong { display: block; margin-bottom: 2px; }
+.home-guide-sound { display: flex; align-items: center; gap: 2px; flex-shrink: 0; height: 18px; margin-bottom: 4px; }
+.home-guide-sound i { width: 2px; height: 5px; border-radius: 2px; background: #80e1eb; }
+.home-guide-sound i:nth-child(2), .home-guide-sound i:nth-child(4) { height: 11px; }
+.home-guide-sound i:nth-child(3) { height: 16px; }
+.home-page .home-soldier-guide.is-speaking + .home-guide-bubble .home-guide-sound i { animation: home-sound-wave .7s ease-in-out infinite alternate; }
+.home-page .home-soldier-guide.is-speaking + .home-guide-bubble .home-guide-sound i:nth-child(2) { animation-delay: .15s; }
+.home-page .home-soldier-guide.is-speaking + .home-guide-bubble .home-guide-sound i:nth-child(3) { animation-delay: .3s; }
+.home-page .home-soldier-guide.is-speaking + .home-guide-bubble .home-guide-sound i:nth-child(4) { animation-delay: .45s; }
+@keyframes home-sound-wave { to { height: 3px; } }
+@media (prefers-reduced-motion: reduce) { .soldier-mouth { opacity: 0 !important; } .soldier-guide.is-speaking .soldier-sprite { animation: none; } }
+@media (max-width: 600px) { .home-guide-bubble { top: auto; bottom: 84px; left: 12px; width: min(320px, calc(100% - 24px)); min-height: 0; padding: 10px 12px; border-radius: 16px; font-size: 12px; } }

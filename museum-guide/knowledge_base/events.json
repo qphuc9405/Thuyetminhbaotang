@@ -1,0 +1,602 @@
+[
+ {
+  "event_id": "EV01",
+  "date_iso": "1928",
+  "date_label": "1928",
+  "title_vi": "Xây cầu Hiền Lương đầu tiên",
+  "title_en": "First Hien Luong bridge built",
+  "title_zh": "首座贤良桥建成",
+  "summary_vi": "Theo sách, năm 1928 Tri phủ Vĩnh Linh huy động sức dân xây cầu Hiền Lương đầu tiên bằng cọc sắt và gỗ, dài 120 m, rộng 2 m.",
+  "summary_en": "According to the book, in 1928 the Vinh Linh district chief mobilised local labour to build the first Hien Luong bridge (iron piles and timber, 120 m long, 2 m wide).",
+  "period": "pre-1954",
+  "source_id": "SRC001",
+  "printed_page": 183,
+  "provision": null,
+  "evidence_snippet": "CẦU VÀ CỘT CỜ HIỂN LƯƠNG T cuộc kháng chiến chống Mỹ, cứu nước (1954 - 1975), sông Bến Hải - cầu Hiển Lương là địa danh nổi tiếng, thu hút sự chú ý của không chỉ quân dân cả nước mà còn được quốc tế quan tâm, bởi đây chí",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV02",
+  "date_iso": "1952",
+  "date_label": "1952",
+  "title_vi": "Công binh Pháp bắc lại cầu Hiền Lương",
+  "title_en": "French engineers rebuild the Hien Luong bridge",
+  "title_zh": "法军工兵重建贤良桥",
+  "summary_vi": "Theo sách, năm 1952 công binh Pháp bắc lại cầu dài 178 m, 7 nhịp thép, mặt cầu lát gỗ.",
+  "summary_en": "According to the book, in 1952 French engineers rebuilt the bridge: 178 m long, 7 steel spans, timber deck.",
+  "period": "pre-1954",
+  "source_id": "SRC001",
+  "printed_page": 184,
+  "provision": null,
+  "evidence_snippet": "phương tiện cơ giới muốn vượt sông phải dùng phà. Năm 1931, Pháp sửa chữa lại cầu song tải trọng vẫn giữ nguyên. Năm 1945, Pháp lại nâng cấp cầu một lần nữa. Lúc này, xe thô sơ, xe cơ giới hạng nhẹ có thể qua cầu. Đầu nă",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV03",
+  "date_iso": "1953-07-27",
+  "date_label": "27/7/1953",
+  "title_vi": "Ký Hiệp định đình chiến Triều Tiên",
+  "title_en": "Korean armistice signed",
+  "title_zh": "朝鲜停战协定签署",
+  "summary_vi": "Theo sách, ngày 27-7-1953 Hiệp định đình chiến ở Triều Tiên được ký kết, mở ra xu thế giải quyết xung đột bằng đàm phán và thúc đẩy các nước lớn tìm cách giải quyết vấn đề Đông Dương.",
+  "summary_en": "According to the book, the Korean armistice of 27 July 1953 opened a trend toward negotiated settlements and pushed the great powers to seek a solution for Indochina.",
+  "period": "pre-1954",
+  "source_id": "SRC001",
+  "printed_page": 15,
+  "provision": null,
+  "evidence_snippet": "HỘI NGHỊ GENÈVE (1954) VÀ VIỆC THIẾT LẬP GIỚI TUYẾN QUÂN SỰ TẠM THỜI Ở VIỆT NAM Tại Hội nghị Genève 1954, do sự sắp đặt sẵn của các cường quốc về giải pháp kết thúc chiến tranh, Việt Nam phải chấp nhận lấy Vĩ tuyến 17 là",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "geneva"
+  ]
+ },
+ {
+  "event_id": "EV04",
+  "date_iso": "1954-07-04",
+  "date_label": "4/7/1954",
+  "title_vi": "Hai đoàn quân sự gặp nhau tại Trung Giã (Thái Nguyên)",
+  "title_en": "Military delegations meet at Trung Gia",
+  "title_zh": "两军代表在忠嘉会晤",
+  "summary_vi": "Theo sách, song song với Hội nghị Genève, từ ngày 4-7-1954 hai đoàn đại biểu của Quân đội nhân dân Việt Nam và Quân đội Liên hiệp Pháp gặp nhau tại Trung Giã (Thái Nguyên) bàn các vấn đề liên quan.",
+  "summary_en": "According to the book, from 4 July 1954 delegations of the Vietnamese People's Army and the French Union forces met at Trung Gia (Thai Nguyen) in parallel with the Geneva Conference.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 44,
+  "provision": null,
+  "evidence_snippet": "ân sự có thể được xem như là nơi mở đầu. Song song với Hội nghị Genève, từ ngày 4-7-1954, hai đoàn đại biểu của Bộ Tổng Tư lệnh Quân đội Nhân dân Việt Nam và Bộ Tổng Chỉ huy Quân đội Liên hiệp Pháp ở Đông Dương gặp nhau tại Trung Giã (Thái Nguyên) để bàn về các vấn đề như trao trả tù binh, thường dâ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "geneva"
+  ]
+ },
+ {
+  "event_id": "EV05",
+  "date_iso": "1954-07-21",
+  "date_label": "21/7/1954",
+  "title_vi": "Công bố Tuyên bố cuối cùng của Hội nghị Genève",
+  "title_en": "Final Declaration of the Geneva Conference issued",
+  "title_zh": "日内瓦会议最后宣言发表",
+  "summary_vi": "Theo sách, lúc 15 giờ ngày 21-7-1954 Bản Tuyên bố cuối cùng của Hội nghị Genève được công bố.",
+  "summary_en": "According to the book, the Final Declaration of the Geneva Conference was issued at 15:00 on 21 July 1954. (External sources: the declaration was unsigned.)",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 43,
+  "provision": null,
+  "evidence_snippet": " Bô-hô-su, rồi Vĩ tuyến Bô-hô-su cho đến biên giới Lào - Việt”? Lúc 15 giờ ngày 21-7-1954, Bản Tuyên bố cuối cùng của Hội nghị Genève được công bố. Điều 6 của bản Tuyên bố nói rõ: “Hội nghị chứng nhận rằng trục đích căn bản của Hiệp định về Việt Nam là giải quyết các vấn để quân sự để đình chỉ chiến",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "geneva",
+   "dmz"
+  ]
+ },
+ {
+  "event_id": "EV06",
+  "date_iso": "1954-08-03",
+  "date_label": "3/8/1954",
+  "title_vi": "Ký Hiệp nghị thành lập Ủy ban Liên hiệp",
+  "title_en": "Agreement on the Joint Commission signed",
+  "title_zh": "联合委员会协议签署",
+  "summary_vi": "Theo sách, ngày 3-8-1954 Hiệp nghị về việc thành lập Ủy ban Liên hiệp để thi hành Hiệp định Genève được ký kết.",
+  "summary_en": "According to the book, on 3 August 1954 the agreement establishing the Joint Commission to implement the Geneva Agreement was signed.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 44,
+  "provision": null,
+  "evidence_snippet": "ịnh Genève được ký kết, các bên đi sâu bàn về việc thi hành hiệp định này. Ngày 3-8-1954, Hiệp nghị về việc thành lập Ủy ban Liên hiệp để thi hành Hiệp định Genève được ký kết. Theo đó, “Ủy ban Liên hiệp có nhiệm vụ đại diện cho hai bên đặt kế hoạch và thể thức thực hiện các điều khoản trong hiệp đị",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "dmz",
+   "implementation"
+  ]
+ },
+ {
+  "event_id": "EV07",
+  "date_iso": "1954-08-13",
+  "date_label": "13/8/1954",
+  "title_vi": "Quyết định số 01 của Ủy ban Liên hiệp Trung ương",
+  "title_en": "Joint Commission Decision No. 01",
+  "title_zh": "联合委员会第01号决定",
+  "summary_vi": "Theo sách, ngày 13-8-1954 Ủy ban Liên hiệp Trung ương ra Quyết định số 01 quy định việc vạch giới hạn thực tế của khu phi quân sự, số lượng công an mỗi bên và việc ra vào khu phi quân sự.",
+  "summary_en": "According to the book, on 13 Aug 1954 the Central Joint Commission issued Decision No. 01 on demarcating the DMZ on the ground, police numbers per side and access to the DMZ.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 45,
+  "provision": null,
+  "evidence_snippet": "Quy chế khu phi quân sự. Ngày 13-8-1954, Ủy ban Liên hiệp Trung ương ra Quyết định số 01 quy định về việc vạch giới hạn thực tế của khu phi quân sự, về số lượng công an mỗi bên trong khu phi quân sự cũng như việc ra vào khu phi quân sự. Ở đoạn giới t",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "dmz",
+   "police"
+  ]
+ },
+ {
+  "event_id": "EV08",
+  "date_iso": "1954-09-15",
+  "date_label": "15/9/1954",
+  "title_vi": "Quyết định số 11/QĐ về giới hạn khu phi quân sự",
+  "title_en": "Decision No. 11/QD on DMZ limits",
+  "title_zh": "关于非军事区界限的第11号决定",
+  "summary_vi": "Theo sách, ngày 15-9-1954 Ủy ban Liên hiệp Trung ương ra Quyết định số 11/QĐ quy định về giới hạn của khu phi quân sự ở hai bên giới tuyến quân sự tạm thời.",
+  "summary_en": "According to the book, on 15 Sept 1954 the Central Joint Commission issued Decision No. 11/QD defining the limits of the DMZ on both sides of the provisional line.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 46,
+  "provision": null,
+  "evidence_snippet": "ời có giấy chứng minh ấy mới được phép ra vào tự do tại khu phi quân sự”). Ngày 15-9-1954, Ủy ban Liên hiệp Trung ương ra Quyết định số 11/QĐ, quy định về giới hạn củakhu phi quân sự ở hai bên giới tuyến quân sự tạm thời. Ranh giới phía Bắc khu phi quân sự được giới hạn bởi: - Một đường từ Đồng sang",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "dmz"
+  ]
+ },
+ {
+  "event_id": "EV09",
+  "date_iso": "1954-10-08",
+  "date_label": "8/10/1954",
+  "title_vi": "Dựng cột cờ đầu tiên cao 12 m ở đầu cầu Hiền Lương",
+  "title_en": "First 12 m flagpole raised at the Hien Luong bridgehead",
+  "title_zh": "贤良桥头立起首根12米旗杆",
+  "summary_vi": "Theo sách, ngày 8-10-1954 phía Bắc dựng cột cờ đầu tiên cao 12 m ở sát đầu cầu Hiền Lương, lá cờ rộng 24 m².",
+  "summary_en": "According to the book, on 8 Oct 1954 the northern side raised the first flagpole (12 m) next to the bridgehead, with a 24 m² flag.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 188,
+  "provision": null,
+  "evidence_snippet": "p trung nỗ lực nhằm xây dựng một cột cờ chiếm ưu thế so với cột cờ của ta. Ngày 8-10-1954, ta dựng cột cờ đầu tiên cao 12m ở sát đầu cầu Hiển Lương, lá cờ rộng 24m?. Ở bờ Nam, Pháp cắm lá cờ tam tài và lá cờ vàng ba sọc đỏ của chính quyển Bảo Đại lên nóc lôcốt Xuân Hòa cao 15m. Sau đó, ta nâng cột c",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV10",
+  "date_iso": "1955-02-21",
+  "date_label": "21/2/1955",
+  "title_vi": "Hai bên bắt đầu kiểm soát người ra vào khu phi quân sự",
+  "title_en": "Both sides begin controlling movement in and out of the DMZ",
+  "title_zh": "双方开始管制进出非军事区人员",
+  "summary_vi": "Theo sách, đến ngày 21-2-1955 lực lượng công an và cảnh sát của hai bên mới tiến hành kiểm soát người ra vào khu phi quân sự và qua lại giới tuyến.",
+  "summary_en": "According to the book, only by 21 Feb 1955 did the police forces of both sides begin controlling movement into the DMZ and across the demarcation line.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 151,
+  "provision": null,
+  "evidence_snippet": " hai miền trở nên bức thiết, nhất là khi việc kiểm soát giới tuyến có hiệu lực (21-2-1955, sự đi lại giữa hai miền bị thu hẹp. Đầu năm 1955, trong cuộc vận động lập lại quan hệ bình thường giữa hai miền Nam - Bắc, ta đấu tranh đòi chính quyền Ngô Đình Diệm trước hết phải thực hiện việc trao đổi thư ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "postcard",
+   "police"
+  ]
+ },
+ {
+  "event_id": "EV11",
+  "date_iso": "1955-04-12",
+  "date_label": "12/4/1955",
+  "title_vi": "Biên bản về việc trao đổi bưu thiếp gia đình",
+  "title_en": "Minutes on family postcard exchange",
+  "title_zh": "家庭明信片往来会议纪要",
+  "summary_vi": "Theo sách, ngày 12-4-1955 hai đoàn chuyên viên bưu điện hai miền lập biên bản về việc trao đổi bưu thiếp gia đình.",
+  "summary_en": "According to the book, on 12 April 1955 postal specialists of the two zones drew up minutes on exchanging family postcards.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 154,
+  "provision": null,
+  "evidence_snippet": "Ngày 12-4-1955, Biên bản “Về việc frao đổi bưu thiếp gia đình giữa hai đoàn chuyên viên Bưu điện miền Nam và miễn Bắc” được ký kết. Biên bản quy định bưu thiếp có kích thước 15cm x 10cm (của miền Nam màu vàng, của miền Bắc mà",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "postcard"
+  ]
+ },
+ {
+  "event_id": "EV12",
+  "date_iso": "1955-05",
+  "date_label": "5/1955",
+  "title_vi": "Thiết lập hình thức trao đổi bưu thiếp Bắc – Nam",
+  "title_en": "Postcard exchange between North and South established",
+  "title_zh": "南北明信片往来机制建立",
+  "summary_vi": "Theo sách, trao đổi bưu thiếp được thiết lập vào tháng 5-1955 như một hình thức liên lạc giữa nhân dân hai miền khi đất nước bị chia cắt.",
+  "summary_en": "According to the book, the postcard exchange was set up in May 1955 as a form of contact between people of the two zones.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 150,
+  "provision": null,
+  "evidence_snippet": "TRAO ĐỔI BƯU THIẾP GIỮA HAI MIỂN BẮC - NAM VIỆT NAM (5-1955 — 1965) Được thiết lập vào tháng 5-1955, trao đổi bưu thiếp là hình thức liên lạc giữa nhân dân hai miền Bắc - Nam Việt Nam trong tình hình đất nước bị chia cắt",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "postcard"
+  ]
+ },
+ {
+  "event_id": "EV13",
+  "date_iso": "1955-06-30",
+  "date_label": "30/6/1955",
+  "title_vi": "Pháp chuyển giao hệ thống đồn cảnh sát giới tuyến cho chính quyền Ngô Đình Diệm",
+  "title_en": "France hands the demarcation-line police posts to the Ngo Dinh Diem government",
+  "title_zh": "法国向吴廷琰政权移交分界线警察哨所",
+  "summary_vi": "Theo sách, ngày 30-6-1955 Pháp chuyển giao hệ thống đồn cảnh sát giới tuyến cho chính quyền Ngô Đình Diệm; từ đây cuộc đấu tranh nâng cao cột cờ giữa hai bên diễn ra gay gắt hơn.",
+  "summary_en": "According to the book, on 30 June 1955 France handed the line's police posts to the Ngo Dinh Diem government; the flagpole contest then intensified.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 188,
+  "provision": null,
+  "evidence_snippet": "c lôcốt Xuân Hòa cao 15m. Sau đó, ta nâng cột cờ lên 18m, lá cờ rộng 32m”. Ngày 30-6-1955, Pháp chuyển giao hệ thống đồn cảnh sát giới tuyến cho chính quyền Ngô Đình Diệm, lá cờ Pháp bị bỏ đi. Từ đây, cuộc đấu tranh nâng cao cột cờ giữa ta và đối phương mới thực sự điễn ra gay gắt, thể hiện trình độ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag",
+   "police"
+  ]
+ },
+ {
+  "event_id": "EV14",
+  "date_iso": "1955-07-17",
+  "date_label": "17/7/1955",
+  "title_vi": "Hoàn thành việc sơn lại cầu do phía Pháp thực hiện",
+  "title_en": "French repainting of the bridge completed",
+  "title_zh": "法方完成桥梁重新涂漆",
+  "summary_vi": "Theo sách, giữa năm 1955 hai bên thỏa thuận để Tiểu đoàn 26 thuộc Trung đoàn công binh số 4 của Pháp sơn lại cầu; ngày 17-7-1955 công việc hoàn thành.",
+  "summary_en": "According to the book, in mid-1955 it was agreed that a French engineer battalion repaint the bridge; the work was completed on 17 July 1955.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 184,
+  "provision": null,
+  "evidence_snippet": "huận để Tiểu đoàn 26 thuộc Trung đoàn công binh số 4 của Pháp sơn lại cầu. Ngày 17-7-1955, công việc hoàn thành. Sau tháng 7-1956, cầu Hiền Lương mất đi chức nắng vốn có của nó mà trở thành chứng nhân cho sự chia cắt đất nước. Lúc này, qua lại trên cầu chỉ có nhân viên của Tổ Quốc tế 76 đi thị sát t",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV15",
+  "date_iso": "1956-02",
+  "date_label": "2/1956",
+  "title_vi": "Chính quyền Ngô Đình Diệm xây cột cờ thép cao 25 m",
+  "title_en": "Diem government builds a 25 m steel flagpole",
+  "title_zh": "吴廷琰政权建起25米钢旗杆",
+  "summary_vi": "Theo sách, tháng 2-1956 chính quyền Ngô Đình Diệm xây cột cờ mới bằng thép cao 25 m, lá cờ rộng 96 m².",
+  "summary_en": "According to the book, in Feb 1956 the Ngo Dinh Diem government built a new 25 m steel flagpole with a 96 m² flag.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 188,
+  "provision": null,
+  "evidence_snippet": "Đối với đối phương, cột cờ Hiền Lương “không chỉ là nơi dừng chân của lý tưởng quốc gia” mà còn là nơi “tung ra khắp bốn phương trời cái lý tưởng cao siêu của cách mạng nhân vị), Do vậy, ở phía Nam cầu Hiền Lương, chính ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV16",
+  "date_iso": "1956-07",
+  "date_label": "7/1956",
+  "title_vi": "Hạn tổng tuyển cử theo Hiệp định Genève trôi qua",
+  "title_en": "The Geneva deadline for general elections passes",
+  "title_zh": "日内瓦协议规定的大选期限过去",
+  "summary_vi": "Theo sách, sau tháng 7-1956 cuộc tổng tuyển cử tái thống nhất đất nước như quy định của Hiệp định Genève không được Mỹ và chính quyền Sài Gòn thực hiện (đây là nhận định của sách).",
+  "summary_en": "According to the book (its own assessment), after July 1956 the general elections stipulated by the Geneva Agreement were not carried out by the US and the Saigon government.",
+  "period": "1954-1956",
+  "source_id": "SRC001",
+  "printed_page": 150,
+  "provision": null,
+  "evidence_snippet": "TRAO ĐỔI BƯU THIẾP GIỮA HAI MIỂN BẮC - NAM VIỆT NAM (5-1955 — 1965) Được thiết lập vào tháng 5-1955, trao đổi bưu thiếp là hình thức liên lạc giữa nhân dân hai miền Bắc - Nam Việt Nam trong tình hình đất nước bị chia cắt",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "postcard",
+   "geneva"
+  ]
+ },
+ {
+  "event_id": "EV17",
+  "date_iso": "1957-07-19",
+  "date_label": "19/7/1957",
+  "title_vi": "Khu Vĩnh Linh lắp trụ cờ thép ống cao 32 m",
+  "title_en": "Vinh Linh area installs a 32 m steel-tube flagpole",
+  "title_zh": "永灵区安装32米钢管旗杆",
+  "summary_vi": "Theo sách, ngày 19-7-1957 Khu Vĩnh Linh lắp ráp trụ cờ bằng thép ống cao 32 m, cách đầu cầu khoảng 50 m về phía Bắc, lá cờ rộng 108 m².",
+  "summary_en": "According to the book, on 19 July 1957 Vinh Linh area erected a 32 m steel-tube flagpole about 50 m north of the bridgehead, with a 108 m² flag.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 188,
+  "provision": null,
+  "evidence_snippet": "ính quyển Ngô Đình Diệm xây cột cờ mới bằng thép cao 25m, lá cờ rộng 96m?, Ngày 19-7-1957, Khu Vĩnh Linh lắp ráp trụ cờ bằng thép ống cao 32m, cách đầu cầu Hiển Lương khoảng 50m về phía Bắc, lá cờ rộng 108m?. Cột cờ sơn màu trắng, trên đỉnh gắn ngôi sao bằng đồng có đường kính 1,2m, năm đỉnh sao gắn",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV18",
+  "date_iso": "1958-11-09",
+  "date_label": "9/11/1958",
+  "title_vi": "Bắt đầu cuộc sơn cầu phía Bắc (Đội sơn cầu 337)",
+  "title_en": "Northern painting of the bridge begins (Painting Team 337)",
+  "title_zh": "北侧开始涂漆（337涂漆队）",
+  "summary_vi": "Theo sách, ngày 9-11-1958 Đội sơn cầu 337 của Ty Giao thông Vĩnh Linh bắt đầu sơn nửa cầu phía Bắc bằng nước sơn nâu đỏ, màu cũ của cầu.",
+  "summary_en": "According to the book, on 9 Nov 1958 Painting Team 337 began painting the northern half in the bridge's old brown-red colour.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 185,
+  "provision": null,
+  "evidence_snippet": "ng trả lời. Trước tình hình đó, ta buộc phải đơn phương thực hiện sơn cầu. Ngày 9-11-1958, công việc bắt đầu. Đội sơn cầu 337 thuộc Ty Giao thông Vĩnh Linh, gồm 10 người, được giao nhiệm vụ này. Đối với công nhân của ta, sơn cầu là công việc mới mẻ, khá phức tạp và chưa có dụng cụ chuyên dùng, hoàn ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV19",
+  "date_iso": "1959-01-16",
+  "date_label": "16/1/1959",
+  "title_vi": "Sài Gòn hoàn thành sơn nửa cầu phía Nam; cầu có hai màu",
+  "title_en": "Saigon side finishes painting its half; the bridge has two colours",
+  "title_zh": "西贡方完成南半桥涂漆，桥呈两色",
+  "summary_vi": "Theo sách, ngày 16-1-1959 chính quyền Sài Gòn hoàn thành việc sơn nửa cầu phía Nam bằng màu khác (xanh); từ đó cầu Hiền Lương có hai màu.",
+  "summary_en": "According to the book, on 16 Jan 1959 the Saigon authorities finished painting the southern half in a different colour; from then the bridge had two colours.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 186,
+  "provision": null,
+  "evidence_snippet": "cầu phía Nam. Do thái độ đó của chúng, “cuộc chiến sơn cầu” phải dừng lại. Ngày 16-1-1959, chính quyển Sài Gòn hoàn thành việc sơn nửa cầu phía Nam và “cây cẩu có hai vẻ màu kỳ lạ kể từ đó”®), 1 Trấn Văn Đồn - Trung tướng Tư lệnh Đệ nhị Quân khu (1959), Bưu tín chuyển tay số 733/TM/4 gửi Bộ trưởng t",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV20",
+  "date_iso": "1961",
+  "date_label": "1961",
+  "title_vi": "Phía Nam nâng cột cờ lên 35 m",
+  "title_en": "The southern side raises its flagpole to 35 m",
+  "title_zh": "南方将旗杆升至35米",
+  "summary_vi": "Theo sách, năm 1961 đối phương nâng cột cờ lên 35 m, cao hơn cột cờ phía Bắc lúc đó.",
+  "summary_en": "According to the book, in 1961 the other side raised its pole to 35 m, taller than the northern pole at that time.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 188,
+  "provision": null,
+  "evidence_snippet": "Đối với đối phương, cột cờ Hiền Lương “không chỉ là nơi dừng chân của lý tưởng quốc gia” mà còn là nơi “tung ra khắp bốn phương trời cái lý tưởng cao siêu của cách mạng nhân vị), Do vậy, ở phía Nam cầu Hiền Lương, chính ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV21",
+  "date_iso": "1962",
+  "date_label": "1962",
+  "title_vi": "Phía Bắc dựng trụ cờ thép ống cao 38,6 m",
+  "title_en": "The northern side builds a 38.6 m steel-tube flagpole",
+  "title_zh": "北方建起38.6米钢管旗杆",
+  "summary_vi": "Theo sách, năm 1962 phía Bắc xây trụ cờ mới bằng thép ống cao 38,6 m, lá cờ rộng 134 m²; phía Nam không nâng cột cờ thêm.",
+  "summary_en": "According to the book, in 1962 the north built a new 38.6 m steel-tube flagpole with a 134 m² flag; the south did not raise its pole further.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 189,
+  "provision": null,
+  "evidence_snippet": "Vĩnh Linh xây dựng một trụ cờ mới bằng thép ống cao 38,6m, lá cờ rộng 134m. Với chiều cao của cột cờ và độ rộng của lá cờ, đồng bào bờ Nam ở tận Dốc Miếu hay trên Kinh Môn cách xa 6-8km đểu có thể nhìn thấy. Hàng ngày, lá cờ của ta được kéo lên từ 6*30 đến 1830. Vào dịp l",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV22",
+  "date_iso": "1965-02-08",
+  "date_label": "8/2/1965",
+  "title_vi": "Không quân Mỹ bắt đầu đánh phá Vĩnh Linh",
+  "title_en": "US air raids on Vinh Linh begin",
+  "title_zh": "美军开始轰炸永灵",
+  "summary_vi": "Theo sách, từ ngày 8-2-1965 Mỹ tiến hành chiến tranh phá hoại Vĩnh Linh; cột cờ Hiền Lương trở thành một mục tiêu đánh phá.",
+  "summary_en": "According to the book, from 8 Feb 1965 the US began bombing Vinh Linh; the Hien Luong flagpole became a target.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 190,
+  "provision": null,
+  "evidence_snippet": " xem Hiển Lương chính là “biên giới tranh chấp của cột cờ cao nnhất”?), Từ ngày 8-2-1965, Mỹ tiến hành chiến tranh phá hoại Vĩnh Linh với quy mô và cường độ ngày càng dữ đội. Cột cờ Hiển Lương trở thành một trong những mục tiêu đánh phá ác liệt của địch. Chỉ tính từ cuối năm 1965 đến đầu năm 1967, đ",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag",
+   "late"
+  ]
+ },
+ {
+  "event_id": "EV23",
+  "date_iso": "1965-03-19",
+  "date_label": "19/3/1965",
+  "title_vi": "Vụ “tống triệt” ba nhân vật hòa bình qua cầu Hiền Lương",
+  "title_en": "Three peace-movement figures expelled across the Hien Luong bridge",
+  "title_zh": "三位和平人士经贤良桥被“驱逐”",
+  "summary_vi": "Theo sách, ngày 19-3-1965 ba nhân vật của Phong trào Hòa bình ở Sài Gòn bị chính quyền Sài Gòn đưa ra Vĩnh Linh qua cầu Hiền Lương (hồi 12 giờ, theo công điện của phía Sài Gòn).",
+  "summary_en": "According to the book, on 19 March 1965 three figures of the Saigon peace movement were sent across the Hien Luong bridge to Vinh Linh (12:00, per a Saigon-side telegram).",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 194,
+  "provision": null,
+  "evidence_snippet": "VỤ “TỐNG TRIỆT” BA NHÂN VẬT HÒA BÌNH QUA CẦU HIỀN LƯƠNG NGÀY 19-3-1965 gày 19-3-1965, tại cầu Hiền Lương đã diễn ra sự việc chính quyền ViệtNam Cộng hòatrucxuấtbanhàhoạtđộngtrong “Ủy ban vận động Hòa bình” gồm Bác sĩ thú y Phạm Văn Huyến, Nhàbáo Cao Minh Chiếm (Phi Bằng) và Giáo s",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "tongtriet"
+  ]
+ },
+ {
+  "event_id": "EV24",
+  "date_iso": "1965-09-17",
+  "date_label": "17/9/1965",
+  "title_vi": "Máy bay Mỹ ném nhầm vào khu gia binh đồn cảnh sát Xuân Hòa",
+  "title_en": "US aircraft bomb the Xuan Hoa police families' quarters by mistake",
+  "title_zh": "美机误炸春和警察哨所家属区",
+  "summary_vi": "Theo sách, ngày 17-9-1965 sáu máy bay AD.6 ném bom đồn Hiền Lương, bom lạc xuống khu gia binh đồn cảnh sát Xuân Hòa làm chết và bị thương 52 người.",
+  "summary_en": "According to the book, on 17 Sept 1965 six AD-6 aircraft bombed the Hien Luong post; bombs fell on the Xuan Hoa police families' quarters, killing or wounding 52.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 190,
+  "provision": null,
+  "evidence_snippet": "ể bảo vệ cờ của quân dân Vĩnh Linh do vậy cũng diễn ra hết sức quyết liệt. Ngày 17-9-1965, 6 chiếc AD.6 ném bom vào đồn Hiển Lương. Trước hỏa lực chống trả mạnh mề của ta, phi công Mỹ ném chệch xuống khu gia binh của đồn cảnh sát Xuân Hòa làm chết và bị thương 52 người, trong đó có đồn trưởng cùng v",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV25",
+  "date_iso": "1965-11-13",
+  "date_label": "13/11/1965",
+  "title_vi": "Bom Mỹ rơi xuống bờ Nam gần cầu Hiền Lương",
+  "title_en": "US bombs fall on the south bank near the bridge",
+  "title_zh": "美军炸弹落在贤良桥附近南岸",
+  "summary_vi": "Theo sách, ngày 13-11-1965 máy bay Mỹ khi oanh tạc khu vực cầu và cột cờ đã ném bom xuống bờ Nam, làm chết một cảnh sát; công văn của tướng Nguyễn Chánh Thi gửi Westmoreland được sách trích.",
+  "summary_en": "According to the book, on 13 Nov 1965 US aircraft raiding the bridge/flagpole area bombed the south bank, killing a policeman; the book cites Gen. Nguyen Chanh Thi's letter to Westmoreland.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 190,
+  "provision": null,
+  "evidence_snippet": " của cảnh sát Bến Hải và đồng bào khiến dư luận hoang mmang”©). Tiếp theo, ngày 13-11-1965, máy bay 1 Tivo Colour Bridge Divides E v. W; Boder Contest For Tallest Flagpole, tlả. 2_ Bộ Chỉ huy Bộ đội Biền phòng Quảng Trị, sđd, tr. 190. 3 Tòa Hành chánh tỉnh Quảng Trị, Tổ frình Nguyệt để, tháng 9-1965",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV26",
+  "date_iso": "1966-09",
+  "date_label": "9/1966",
+  "title_vi": "Cầu Hiền Lương bị đánh sập",
+  "title_en": "The Hien Luong bridge is destroyed",
+  "title_zh": "贤良桥被炸毁",
+  "summary_vi": "Theo sách, cầu Hiền Lương là cây cầu nối hai miền cho đến trước khi bị đánh sập vào tháng 9-1966.",
+  "summary_en": "According to the book, the bridge linked the two zones until it was destroyed in September 1966.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 183,
+  "provision": null,
+  "evidence_snippet": "c trong suốt cuộc kháng chiến chống Mỹ cứu nước. Cho đến trước khi bị đánh sập (9-1966), đây là cây cầu nối hai miền Nam Bắc theo cả nghĩa đen lẫn nghĩa bóng. Tuy nhiên, không giống bất cứ một cây cầu nào trên trái đất này, cầu Hiển Lương mang trên mình hai màu sơn khác nhau. Cầu Hiền Lương nằm ở Km",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag"
+  ]
+ },
+ {
+  "event_id": "EV27",
+  "date_iso": "1967-08-02",
+  "date_label": "2/8/1967",
+  "title_vi": "Mỹ đánh gãy cột cờ phía Bắc; ta đánh sập cột cờ bờ Nam",
+  "title_en": "US destroys the northern flagpole; the northern side blows up the southern one",
+  "title_zh": "美军击断北侧旗杆；北方炸毁南岸旗杆",
+  "summary_vi": "Theo sách, đến ngày 2-8-1967 Mỹ huy động pháo binh, không quân, hải quân đánh gãy cột cờ của phía Bắc; ngay trong đêm đó phía Bắc đặt bộc phá đánh sập cột cờ ở bờ Nam.",
+  "summary_en": "According to the book, on 2 Aug 1967 US artillery, air and naval forces broke the northern flagpole; that same night the northern side blew up the southern flagpole.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 191,
+  "provision": null,
+  "evidence_snippet": ", biểu tượng cho hai chế độ cùng tổn tại song song trên giới tuyến cho đến ngày 2-8-1967, khi Mỹ huy động một lực lượng lớn pháo binh, không quân, hải quân phối hợp đánh gãy cột cờ của ta. Ngay trong đêm đó, ta đặt bộc phá đánh sập cột cờ ở bờ Nam. 1 Nguyễn Chánh Thi - Trung tướng, Tư lệnh Quần đoàn",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag",
+   "late"
+  ]
+ },
+ {
+  "event_id": "EV28",
+  "date_iso": "1967-08-03",
+  "date_label": "3/8/1967",
+  "title_vi": "Dựng cột cờ gỗ mới ở đồn Hiền Lương",
+  "title_en": "A new timber flagpole is raised at Hien Luong post",
+  "title_zh": "贤良哨所竖起新木旗杆",
+  "summary_vi": "Theo sách, ngày 3-8-1967 đồn công an Hiền Lương dựng lên một cột cờ mới bằng gỗ.",
+  "summary_en": "According to the book, on 3 Aug 1967 Hien Luong police post erected a new timber flagpole.",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 192,
+  "provision": null,
+  "evidence_snippet": "Ngày 3-8-1967, đồn công an Hiển Lương dựng lên một cột cờ mới bằng gỗ. Liên tục trong nhiều năm, sau mỗi trận đánh, cột cờ gãy đổ, lá cờ bị mảnh bom, đạn pháo xé rách, lập tức một cột cờ mới, một lá cờ mới được thay thế. Để l",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "bridgeflag",
+   "late"
+  ]
+ },
+ {
+  "event_id": "EV-X01",
+  "date_iso": "1954-07-20",
+  "date_label": "20/7/1954",
+  "title_vi": "Ký Hiệp định đình chỉ chiến sự ở Việt Nam (Genève)",
+  "title_en": "Agreement on the Cessation of Hostilities in Viet-Nam signed (Geneva)",
+  "title_zh": "越南停战协定签署（日内瓦）",
+  "summary_vi": "Hiệp định (ký bởi các bộ chỉ huy quân sự Pháp và Việt Minh) quy định đường phân định quân sự tạm thời với lực lượng Quân đội nhân dân Việt Nam ở phía Bắc và lực lượng Liên hiệp Pháp ở phía Nam, cùng khu phi quân sự rộng không quá 5 km mỗi bên (Chương I, Điều 1).",
+  "summary_en": "The agreement, signed by the French and Viet Minh military commands, fixed a provisional military demarcation line with People's Army forces to the north and French Union forces to the south, and a demilitarized zone of no more than 5 km on either side (Chapter I, Article 1).",
+  "period": "1954-1956",
+  "source_id": "DOC001",
+  "printed_page": null,
+  "provision": "Chương I, Điều 1",
+  "evidence_snippet": "(diễn giải từ văn kiện, xem bản ghi KX001–KX004)",
+  "verification_status": "partially_verified_via_search_snippets",
+  "topic_ids": [
+   "geneva",
+   "dmz"
+  ]
+ },
+ {
+  "event_id": "EV29",
+  "date_iso": "1960",
+  "date_label": "1960",
+  "title_vi": "Phía Bắc trang bị loa 500 W đường kính 1,72 m",
+  "title_en": "The north adds a 500 W loudspeaker 1.72 m in diameter",
+  "title_zh": "北岸增设直径1.72米、500瓦扩音器",
+  "summary_vi": "Theo sách, năm 1960 phía Bắc trang bị thêm một loa đường kính 1,72 m, công suất 500 W đặt trên xe chuyên dụng cơ động dọc tuyến; các bài SRC003, SRC005 cũng mô tả chiếc loa này (1,7 m, 500 W).",
+  "summary_en": "According to the book, in 1960 the northern side added a 1.72 m, 500 W loudspeaker mounted on a mobile vehicle; articles SRC003 and SRC005 describe the same loudspeaker (1.7 m, 500 W).",
+  "period": "1956-1967",
+  "source_id": "SRC001",
+  "printed_page": 116,
+  "provision": null,
+  "evidence_snippet": "am không thấu được”) Đặc biệt, năm 1960, ta trang bị thêm một loa có đường kính 1,72m, công suất 500w đặt trên xe chuyên dụng cơ động đọc tuyến. Chiếc loa này cộng thêm công suất có từ trước đã làm cho hệ thống phát thanh của ta vốn đã mạnh nay càng mạnh thêm. Trong khi đó, ở bờ Nam, sau một thời gi",
+  "verification_status": "anchor_verified_in_ocr",
+  "topic_ids": [
+   "broadcast"
+  ]
+ },
+ {
+  "event_id": "EV-S01",
+  "date_iso": "1965",
+  "date_label": "1965",
+  "title_vi": "Hệ thống loa hai bờ ngừng hoạt động (theo các bài viết)",
+  "title_en": "Loudspeakers on both banks fall silent (per the articles)",
+  "title_zh": "两岸扩音系统停止运作（据文章）",
+  "summary_vi": "Theo các bài SRC003 (dòng 65) và SRC005 (dòng 18), đến năm 1965 khi Mỹ ném bom miền Bắc, hệ thống loa phóng thanh của cả hai bờ hoàn toàn ngừng hoạt động; nhân chứng Nguyễn Văn Quảng (SRC004, dòng 48) cũng nhớ cuộc đấu kéo dài đến năm 1965.",
+  "summary_en": "According to articles SRC003 (line 65) and SRC005 (line 18), by 1965, when US bombing of the North began, the loudspeaker systems on both banks stopped completely; witness Nguyen Van Quang (SRC004, line 48) also recalls the contest lasting until 1965.",
+  "period": "1956-1967",
+  "source_id": "SRC005",
+  "printed_page": null,
+  "provision": "dòng 18",
+  "evidence_snippet": "[Chú thích ảnh trong bài: O Nhạn- phát thanh viên chính của Đài Truyền thanh Vĩnh Linh trong thời kỳ đấu loa ở cầu Hiền Lương.]\nĐể “đấu khẩu”, Mỹ - Diệm đã cho phát đi những điều xuyên tạc, sai lịch sử, tung hô chính quyền Ngụy Sài Gòn.... Mỗi ngày chúng nói t",
+  "verification_status": "secondary_sources_agree_unverified",
+  "topic_ids": [
+   "broadcast",
+   "late"
+  ]
+ }
+]

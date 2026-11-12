@@ -6,6 +6,7 @@ type Props = {
   phase: 'idle' | 'zooming' | 'return-setup' | 'returning';
   stageRef: RefObject<HTMLDivElement>;
   children: ReactNode;
+  alt?: string;
 };
 
 // Convert percentages of the original artwork into the painted image's coordinates.
@@ -30,7 +31,7 @@ export function imagePoint(image: HTMLImageElement, x: number, y: number) {
   return { x: left + paintedWidth * x / 100, y: top + paintedHeight * y / 100, left, top, width: paintedWidth, height: paintedHeight };
 }
 
-export function MapCamera({ zone, phase, stageRef, children }: Props) {
+export function MapCamera({ zone, phase, stageRef, children, alt }: Props) {
   const imageRef = useRef<HTMLImageElement>(null);
   const [transform, setTransform] = useState('translate(0px, 0px) scale(1)');
   const zoomed = phase === 'zooming' || phase === 'return-setup';
@@ -64,7 +65,7 @@ export function MapCamera({ zone, phase, stageRef, children }: Props) {
   return (
     <div className="home-map-stage" ref={stageRef} data-camera-phase={phase}>
       <div className={`home-map-camera ${phase === 'return-setup' ? 'camera-no-transition' : ''}`} style={style}>
-        <img ref={imageRef} onLoad={update} className="home-image" src="/home-map-open-forecourt-sharp.png" fetchPriority="high" decoding="async" alt="Bản đồ năm điểm tham quan khu di tích Vĩ tuyến 17: Cầu Hiền Lương, Nhà trưng bày, Kỳ đài, Tượng đài và Nhà liên hiệp." />
+        <img ref={imageRef} onLoad={update} className="home-image" src="/home-map-clean-toolbar.png" {...{ fetchpriority: 'high' }} decoding="async" alt={alt || 'Bản đồ năm điểm tham quan khu di tích Vĩ tuyến 17'} />
         <svg className="home-title-plaque" viewBox="0 0 450 98" preserveAspectRatio="none" role="img" aria-labelledby="home-title-label">
           <title id="home-title-label">Di tích quốc gia đặc biệt Vĩ tuyến 17 — Nơi khát vọng thống nhất non sông</title>
           <defs>

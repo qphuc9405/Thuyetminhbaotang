@@ -1,0 +1,2479 @@
+{
+ "aggregate": {
+  "recall@3": 0.6921768707482994,
+  "precision@3": 0.36734693877551017,
+  "hit@3": 0.8163265306122449,
+  "ndcg@3": 0.5206953025055117,
+  "recall@5": 0.7874149659863946,
+  "precision@5": 0.30612244897959184,
+  "hit@5": 0.8571428571428571,
+  "ndcg@5": 0.5891404421699493,
+  "recall@10": 0.8384353741496599,
+  "precision@10": 0.1979591836734694,
+  "hit@10": 0.8775510204081632,
+  "ndcg@10": 0.6628828932398657,
+  "MRR": 0.6335276967930029,
+  "abstention_accuracy": 0.5454545454545454,
+  "answerable_pass_gate_rate": 0.9795918367346939,
+  "latency_ms_mean": 6.791960000009567,
+  "latency_ms_p95": 9.994340000048396,
+  "n_answerable": 49,
+  "n_unanswerable": 11
+ },
+ "rows": [
+  {
+   "test_id": "RAG-001",
+   "question": "Cầu Hiền Lương nằm ở đâu và năm 1928 có sự kiện gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC003-L010",
+     null,
+     false
+    ],
+    [
+     "SRC001-0431",
+     183,
+     true
+    ],
+    [
+     "SRC001-0451",
+     191,
+     false
+    ],
+    [
+     "SRC003-L022",
+     null,
+     false
+    ],
+    [
+     "SRC001-0430",
+     183,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.38685280723454163,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6240505200038379,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6240505200038379,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-002",
+   "question": "Sau Hiệp định Genève cầu Hiền Lương bị chia đôi, mỗi bên dài bao nhiêu mét?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0432",
+     183,
+     true
+    ],
+    [
+     "SRC001-0207",
+     93,
+     false
+    ],
+    [
+     "SRC001-0350",
+     150,
+     false
+    ],
+    [
+     "SRC001-0077",
+     37,
+     false
+    ],
+    [
+     "SRC001-0117",
+     55,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-003",
+   "question": "Cuộc chiến sơn cầu ở Hiền Lương diễn ra như thế nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge_paint",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC004-L001",
+     null,
+     false
+    ],
+    [
+     "SRC001-0438",
+     186,
+     true
+    ],
+    [
+     "SRC004-L011",
+     null,
+     false
+    ],
+    [
+     "SRC004-L020",
+     null,
+     false
+    ],
+    [
+     "SRC004-L027",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.2960819109658652,
+   "recall@5": 0.5,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.2960819109658652,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6045093387918965,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-004",
+   "question": "Ngày 8-10-1954 phía Bắc dựng cột cờ đầu tiên cao bao nhiêu mét?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0441",
+     187,
+     true
+    ],
+    [
+     "WX001",
+     null,
+     false
+    ],
+    [
+     "SRC001-0442",
+     188,
+     true
+    ],
+    [
+     "SRC001-0044",
+     26,
+     false
+    ],
+    [
+     "WX002",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.9197207891481876,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.9197207891481876,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.9197207891481876,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-005",
+   "question": "Năm 1962 phía Bắc dựng trụ cờ cao bao nhiêu và phía Nam làm gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "WX001",
+     null,
+     false
+    ],
+    [
+     "SRC001-0445",
+     189,
+     true
+    ],
+    [
+     "SRC001-0094",
+     45,
+     false
+    ],
+    [
+     "SRC001-0442",
+     188,
+     true
+    ],
+    [
+     "WX005",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.2960819109658652,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.49818925746641285,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6546154994739983,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-006",
+   "question": "Cột cờ Hiền Lương bị đánh gãy khi nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0448",
+     190,
+     true
+    ],
+    [
+     "SRC001-0442",
+     188,
+     false
+    ],
+    [
+     "SRC001-0432",
+     183,
+     false
+    ],
+    [
+     "SRC001-0447",
+     190,
+     false
+    ],
+    [
+     "SRC003-L083",
+     null,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.46927872602275644,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6508205185601091,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7920874914199381,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-007",
+   "question": "Mẹ Ngô Thị Diệm đã làm gì để bảo vệ lá cờ ở Hiền Lương?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0451",
+     191,
+     true
+    ],
+    [
+     "SRC001-0434",
+     184,
+     false
+    ],
+    [
+     "SRC001-0232",
+     103,
+     false
+    ],
+    [
+     "SRC001-0233",
+     103,
+     false
+    ],
+    [
+     "SRC001-0441",
+     187,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6131471927654584,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7977228895450266,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-008",
+   "question": "Vụ tống triệt ngày 19-3-1965 là gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "tong_triet",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0457",
+     194,
+     true
+    ],
+    [
+     "SRC001-0458",
+     194,
+     true
+    ],
+    [
+     "SRC001-0462",
+     196,
+     true
+    ],
+    [
+     "SRC001-0463",
+     197,
+     false
+    ],
+    [
+     "SRC001-0459",
+     195,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 1.0,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.8,
+   "hit@5": 1.0,
+   "ndcg@5": 0.8539316501572937,
+   "recall@10": 1.0,
+   "precision@10": 0.6,
+   "hit@10": 1.0,
+   "ndcg@10": 0.9484399158780439,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-009",
+   "question": "Hiệp định Genève quy định thời hạn tổng tuyển cử là bao lâu?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_agreement",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0012",
+     15,
+     true
+    ],
+    [
+     "SRC001-0187",
+     86,
+     false
+    ],
+    [
+     "SRC001-0173",
+     80,
+     false
+    ],
+    [
+     "SRC001-0088",
+     43,
+     false
+    ],
+    [
+     "SRC001-0089",
+     43,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-010",
+   "question": "Quyết định số 01 ngày 13-8-1954 của Ủy ban Liên hiệp Trung ương quy định gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "dmz",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0120",
+     60,
+     false
+    ],
+    [
+     "SRC001-0091",
+     44,
+     true
+    ],
+    [
+     "SRC001-0096",
+     46,
+     false
+    ],
+    [
+     "SRC001-0121",
+     60,
+     false
+    ],
+    [
+     "SRC001-0175",
+     81,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6309297535714575,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6309297535714575,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6309297535714575,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-011",
+   "question": "Quyết định số 11/QĐ ngày 15-9-1954 nói về nội dung gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "dmz",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0095",
+     46,
+     true
+    ],
+    [
+     "SRC001-0102",
+     48,
+     false
+    ],
+    [
+     "SRC001-0108",
+     50,
+     false
+    ],
+    [
+     "SRC001-0122",
+     61,
+     false
+    ],
+    [
+     "SRC001-0123",
+     61,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6131471927654584,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7903864795495061,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-012",
+   "question": "Tuyên bố cuối cùng của Hội nghị Genève được công bố lúc nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_agreement",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0088",
+     43,
+     true
+    ],
+    [
+     "SRC001-0047",
+     27,
+     false
+    ],
+    [
+     "SRC001-0156",
+     74,
+     false
+    ],
+    [
+     "SRC001-0170",
+     79,
+     false
+    ],
+    [
+     "SRC001-0012",
+     15,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6131471927654584,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.8315546295836225,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-013",
+   "question": "Trao đổi bưu thiếp giữa hai miền được thiết lập vào thời điểm nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "postcard",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0424",
+     179,
+     false
+    ],
+    [
+     "SRC001-0414",
+     176,
+     false
+    ],
+    [
+     "SRC001-0399",
+     169,
+     false
+    ],
+    [
+     "SRC001-0398",
+     168,
+     false
+    ],
+    [
+     "SRC001-0350",
+     150,
+     true
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.23719771276929622,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.4415801103577823,
+   "rr": 0.2
+  },
+  {
+   "test_id": "RAG-014",
+   "question": "Biên bản về việc trao đổi bưu thiếp gia đình giữa hai đoàn chuyên viên bưu điện được lập ngày nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "postcard",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0360",
+     153,
+     true
+    ],
+    [
+     "SRC001-0357",
+     152,
+     false
+    ],
+    [
+     "SRC001-0397",
+     168,
+     false
+    ],
+    [
+     "SRC001-0398",
+     168,
+     false
+    ],
+    [
+     "SRC001-0399",
+     169,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-015",
+   "question": "Vì sao nước Pháp tìm kiếm lối thoát năm 1953?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_background",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0013",
+     15,
+     true
+    ],
+    [
+     "SRC001-0015",
+     16,
+     false
+    ],
+    [
+     "SRC001-0038",
+     23,
+     false
+    ],
+    [
+     "SRC001-0064",
+     32,
+     false
+    ],
+    [
+     "SRC001-0016",
+     16,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6131471927654584,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7903864795495061,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-016",
+   "question": "Viện trợ Mỹ chiếm tỉ lệ bao nhiêu trong chi phí chiến tranh của Pháp ở Đông Dương?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_background",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0016",
+     16,
+     true
+    ],
+    [
+     "SRC001-0038",
+     23,
+     false
+    ],
+    [
+     "SRC001-0042",
+     25,
+     false
+    ],
+    [
+     "SRC001-0024",
+     19,
+     false
+    ],
+    [
+     "SRC001-0044",
+     26,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-017",
+   "question": "Ngày 17-9-1965 máy bay Mỹ ném bom vào đâu và hậu quả ra sao?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0447",
+     190,
+     true
+    ],
+    [
+     "SRC001-0241",
+     106,
+     false
+    ],
+    [
+     "SRC005-L018-2",
+     null,
+     false
+    ],
+    [
+     "SRC001-0565",
+     239,
+     false
+    ],
+    [
+     "SRC001-0548",
+     233,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.46927872602275644,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.46927872602275644,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.758586654365518,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-018",
+   "question": "Đội sơn cầu 337 gồm bao nhiêu người và thuộc cơ quan nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge_paint",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0435",
+     185,
+     true
+    ],
+    [
+     "SRC001-0438",
+     186,
+     false
+    ],
+    [
+     "SRC004-L011",
+     null,
+     false
+    ],
+    [
+     "SRC003-L018",
+     null,
+     false
+    ],
+    [
+     "SRC001-0448",
+     190,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6131471927654584,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7977228895450266,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-019",
+   "question": "Cầu Hiền Lương bị đánh sập khi nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC003-L083",
+     null,
+     false
+    ],
+    [
+     "SRC003-L028",
+     null,
+     false
+    ],
+    [
+     "SRC001-0430",
+     183,
+     true
+    ],
+    [
+     "SRC005-L020-1",
+     null,
+     false
+    ],
+    [
+     "SRC001-0431",
+     183,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.23463936301137822,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.41618115554873086,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5642221110316635,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-020",
+   "question": "Hằng ngày lá cờ của phía Bắc ở Hiền Lương được kéo lên từ mấy giờ đến mấy giờ?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC003-L077",
+     null,
+     true
+    ],
+    [
+     "SRC001-0444",
+     189,
+     true
+    ],
+    [
+     "SRC001-0438",
+     186,
+     false
+    ],
+    [
+     "SRC001-0445",
+     189,
+     true
+    ],
+    [
+     "SRC001-0443",
+     188,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.7653606369886217,
+   "recall@5": 1.0,
+   "precision@5": 0.8,
+   "hit@5": 1.0,
+   "ndcg@5": 0.9558295932317544,
+   "recall@10": 1.0,
+   "precision@10": 0.4,
+   "hit@10": 1.0,
+   "ndcg@10": 0.9558295932317544,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-021",
+   "question": "Từ 19-5-1956 đến 8-10-1967 phía Bắc đã dùng bao nhiêu lá cờ ở Hiền Lương?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC003-L083",
+     null,
+     true
+    ],
+    [
+     "SRC001-0444",
+     189,
+     true
+    ],
+    [
+     "WX002",
+     null,
+     true
+    ],
+    [
+     "SRC001-0442",
+     188,
+     false
+    ],
+    [
+     "SRC001-0441",
+     187,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 1.0,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.6,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-022",
+   "question": "What did the Final Declaration of the Geneva Conference say about the military demarcation line?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_documents",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0086",
+     42,
+     false
+    ],
+    [
+     "KX007",
+     null,
+     false
+    ],
+    [
+     "KX006",
+     null,
+     true
+    ],
+    [
+     "SRC001-0090",
+     43,
+     true
+    ],
+    [
+     "KX008",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.3065735963827292,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.5706417189553201,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5706417189553201,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-023",
+   "question": "How wide was the demilitarized zone under the 20 July 1954 agreement?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_documents",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0086",
+     42,
+     false
+    ],
+    [
+     "SRC001-0048",
+     27,
+     false
+    ],
+    [
+     "KX002",
+     null,
+     true
+    ],
+    [
+     "SRC001-0169",
+     79,
+     false
+    ],
+    [
+     "KX004",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.5,
+   "recall@5": 0.5,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.5,
+   "recall@10": 0.5,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-024",
+   "question": "Was the Final Declaration of the Geneva Conference signed by the participants?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_documents",
+   "unknown_entities": [],
+   "top": [
+    [
+     "KX007",
+     null,
+     true
+    ],
+    [
+     "SRC001-0012",
+     15,
+     false
+    ],
+    [
+     "KX006",
+     null,
+     false
+    ],
+    [
+     "SRC001-0090",
+     43,
+     false
+    ],
+    [
+     "KX008",
+     null,
+     true
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.8503449055347546,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.8503449055347546,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-025",
+   "question": "日内瓦协议规定的非军事区有多宽？",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "geneva_documents",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0086",
+     42,
+     false
+    ],
+    [
+     "SRC001-0090",
+     43,
+     false
+    ],
+    [
+     "KX008",
+     null,
+     false
+    ],
+    [
+     "SRC001-0170",
+     79,
+     false
+    ],
+    [
+     "KX006",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  },
+  {
+   "test_id": "RAG-026",
+   "question": "When did the northern side raise its first flagpole at the Hien Luong bridge and how tall was it?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0439",
+     186,
+     false
+    ],
+    [
+     "SRC001-0448",
+     190,
+     false
+    ],
+    [
+     "SRC001-0456",
+     193,
+     false
+    ],
+    [
+     "SRC003-L067",
+     null,
+     false
+    ],
+    [
+     "SRC001-0442",
+     188,
+     true
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.23719771276929622,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.430624116386567,
+   "rr": 0.2
+  },
+  {
+   "test_id": "RAG-027",
+   "question": "What happened to the Hien Luong bridge paint in January 1959?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge_paint",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0438",
+     186,
+     true
+    ],
+    [
+     "SRC001-0439",
+     186,
+     true
+    ],
+    [
+     "SRC001-0448",
+     190,
+     false
+    ],
+    [
+     "SRC001-0447",
+     190,
+     false
+    ],
+    [
+     "SRC004-L011",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-028",
+   "question": "贤良桥为什么有两种颜色？",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge_paint",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0447",
+     190,
+     false
+    ],
+    [
+     "SRC001-0438",
+     186,
+     true
+    ],
+    [
+     "SRC001-0439",
+     186,
+     true
+    ],
+    [
+     "SRC001-0430",
+     183,
+     false
+    ],
+    [
+     "SRC001-0436",
+     185,
+     true
+    ]
+   ],
+   "recall@3": 0.6666666666666666,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.5307212739772434,
+   "recall@5": 1.0,
+   "precision@5": 0.6,
+   "hit@5": 1.0,
+   "ndcg@5": 0.592512031964586,
+   "recall@10": 1.0,
+   "precision@10": 0.4,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7053571733135213,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-029",
+   "question": "Hệ thống phát thanh ở khu phi quân sự – Vĩ tuyến 17 nói đến những năm nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "broadcast",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0304",
+     130,
+     false
+    ],
+    [
+     "SRC001-0308",
+     131,
+     false
+    ],
+    [
+     "SRC001-0278",
+     119,
+     false
+    ],
+    [
+     "SRC001-0262",
+     114,
+     false
+    ],
+    [
+     "SRC001-0261",
+     114,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  },
+  {
+   "test_id": "RAG-030",
+   "question": "Nguyễn Chánh Thi gửi công văn cho ai về vụ ném bom ngày 13-11-1965?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0448",
+     190,
+     true
+    ],
+    [
+     "SRC001-0449",
+     191,
+     true
+    ],
+    [
+     "SRC001-0459",
+     195,
+     false
+    ],
+    [
+     "SRC001-0447",
+     190,
+     true
+    ],
+    [
+     "SRC001-0450",
+     191,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.7653606369886217,
+   "recall@5": 1.0,
+   "precision@5": 0.8,
+   "hit@5": 1.0,
+   "ndcg@5": 0.9558295932317544,
+   "recall@10": 1.0,
+   "precision@10": 0.4,
+   "hit@10": 1.0,
+   "ndcg@10": 0.9558295932317544,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-U01",
+   "question": "Giá vé tham quan Bảo tàng Điện Biên Phủ hiện nay là bao nhiêu?",
+   "answerable": false,
+   "gate_pass": true,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U02",
+   "question": "Who won the 2018 football world cup?",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U03",
+   "question": "请问北京故宫的开放时间是什么？",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U04",
+   "question": "Cuộc Tổng tiến công Mậu Thân 1968 diễn ra như thế nào?",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U05",
+   "question": "What is the recipe for traditional Vietnamese pho?",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U06",
+   "question": "Hãy cho tôi số điện thoại của Tổng thống Mỹ hiện nay.",
+   "answerable": false,
+   "gate_pass": true,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-U07",
+   "question": "Trận Đồng Xoài năm 1965 có bao nhiêu binh sĩ tham gia?",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": [
+    "Xoài"
+   ]
+  },
+  {
+   "test_id": "RAG-U08",
+   "question": "What is the current population of Hanoi?",
+   "answerable": false,
+   "gate_pass": false,
+   "category": "unanswerable",
+   "unknown_entities": [
+    "Hanoi"
+   ]
+  },
+  {
+   "test_id": "RAG-031",
+   "question": "Hãy trình bày lịch sử cây cầu Hiền Lương từ năm 1928 đến 1966.",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "synthesis",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0439",
+     186,
+     false
+    ],
+    [
+     "SRC001-0431",
+     183,
+     true
+    ],
+    [
+     "SRC001-0447",
+     190,
+     false
+    ],
+    [
+     "SRC001-0430",
+     183,
+     true
+    ],
+    [
+     "SRC001-0448",
+     190,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.38685280723454163,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6509209298071326,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6509209298071326,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-032",
+   "question": "Hãy kể câu chuyện cuộc đấu nâng cột cờ giữa hai bờ từ 1954 đến 1967.",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "story",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0442",
+     188,
+     true
+    ],
+    [
+     "SRC001-0441",
+     187,
+     true
+    ],
+    [
+     "SRC001-0361",
+     154,
+     false
+    ],
+    [
+     "SRC001-0005",
+     6,
+     false
+    ],
+    [
+     "SRC001-0439",
+     186,
+     false
+    ]
+   ],
+   "recall@3": 0.25,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 0.25,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 0.25,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-033",
+   "question": "Việc bảo vệ lá cờ ở Hiền Lương khó khăn ra sao?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "synthesis",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0444",
+     189,
+     true
+    ],
+    [
+     "SRC001-0439",
+     186,
+     false
+    ],
+    [
+     "SRC001-0223",
+     100,
+     false
+    ],
+    [
+     "SRC001-0222",
+     99,
+     false
+    ],
+    [
+     "SRC001-0155",
+     73,
+     false
+    ]
+   ],
+   "recall@3": 0.3333333333333333,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 0.3333333333333333,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 0.3333333333333333,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-034",
+   "question": "Ủy ban Liên hiệp được thành lập khi nào và đã ra những quyết định gì về khu phi quân sự?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "synthesis",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0120",
+     60,
+     false
+    ],
+    [
+     "SRC001-0091",
+     44,
+     true
+    ],
+    [
+     "SRC001-0090",
+     43,
+     true
+    ],
+    [
+     "SRC001-0096",
+     46,
+     true
+    ],
+    [
+     "SRC001-0095",
+     46,
+     true
+    ]
+   ],
+   "recall@3": 0.6666666666666666,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.5307212739772434,
+   "recall@5": 1.0,
+   "precision@5": 0.8,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6608397947263839,
+   "recall@10": 1.0,
+   "precision@10": 0.5,
+   "hit@10": 1.0,
+   "ndcg@10": 0.7678329270936477,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-035",
+   "question": "Tên của người mẹ khâu cờ ở Hiền Lương là Ngô Thị Diệm hay Nguyễn Thị Diệm?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "conflicting_sources",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0453",
+     192,
+     true
+    ],
+    [
+     "SRC001-0232",
+     103,
+     false
+    ],
+    [
+     "SRC001-0452",
+     192,
+     true
+    ],
+    [
+     "SRC001-0233",
+     103,
+     false
+    ],
+    [
+     "SRC001-0434",
+     184,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.6666666666666666,
+   "hit@3": 1.0,
+   "ndcg@3": 0.9197207891481876,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.9197207891481876,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.9197207891481876,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-036",
+   "question": "Was the provisional demarcation line exactly on the 17th parallel?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "conflicting_sources",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0086",
+     42,
+     false
+    ],
+    [
+     "KX006",
+     null,
+     false
+    ],
+    [
+     "KX009",
+     null,
+     true
+    ],
+    [
+     "KX002",
+     null,
+     false
+    ],
+    [
+     "KX004",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.5,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.5,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-037",
+   "question": "Ảnh băng-rôn 'Muốn thống nhất lãnh thổ phải có Tổng thống Ngô Đình Diệm' được in ở trang nào của sách và chú thích ra sao?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "image",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0255",
+     111,
+     false
+    ],
+    [
+     "SRC001-0174",
+     80,
+     true
+    ],
+    [
+     "SRC001-0148",
+     71,
+     false
+    ],
+    [
+     "SRC001-0168",
+     78,
+     false
+    ],
+    [
+     "SRC001-0414",
+     176,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6309297535714575,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6309297535714575,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6309297535714575,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-038",
+   "question": "Bức ảnh cây cầu có hai màu được in ở trang nào và chú thích là gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "image",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC004-L020",
+     null,
+     false
+    ],
+    [
+     "SRC004-L011",
+     null,
+     false
+    ],
+    [
+     "SRC001-0439",
+     186,
+     true
+    ],
+    [
+     "SRC001-0430",
+     183,
+     false
+    ],
+    [
+     "SRC003-L048",
+     null,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.3065735963827292,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.3065735963827292,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-039",
+   "question": "Bức ảnh hai cột cờ trên đồng ruộng (IMG015) được chụp năm nào?",
+   "answerable": true,
+   "gate_pass": false,
+   "category": "image_unknown_date",
+   "unknown_entities": [
+    "IMG015"
+   ],
+   "top": [
+    [
+     "SRC001-0445",
+     189,
+     false
+    ],
+    [
+     "SRC001-0450",
+     191,
+     false
+    ],
+    [
+     "SRC004-L087",
+     null,
+     false
+    ],
+    [
+     "SRC001-0465",
+     198,
+     false
+    ],
+    [
+     "SRC001-0448",
+     190,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 1.0,
+   "precision@10": 0.1,
+   "hit@10": 1.0,
+   "ndcg@10": 0.3333333333333333,
+   "rr": 0.14285714285714285
+  },
+  {
+   "test_id": "RAG-040",
+   "question": "Tell me the story of the Hien Luong bridge from 1954 to 1967.",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "story",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0244",
+     107,
+     false
+    ],
+    [
+     "SRC001-0241",
+     106,
+     false
+    ],
+    [
+     "SRC001-0215",
+     97,
+     false
+    ],
+    [
+     "SRC001-0214",
+     97,
+     false
+    ],
+    [
+     "SRC001-0239",
+     105,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  },
+  {
+   "test_id": "RAG-041",
+   "question": "贤良的北方旗杆在1962年有多高？",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0442",
+     188,
+     false
+    ],
+    [
+     "SRC001-0445",
+     189,
+     true
+    ],
+    [
+     "SRC001-0439",
+     186,
+     false
+    ],
+    [
+     "SRC003-L077",
+     null,
+     true
+    ],
+    [
+     "SRC004-L059",
+     null,
+     true
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.2960819109658652,
+   "recall@5": 1.0,
+   "precision@5": 0.6,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6797310500037655,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6797310500037655,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-042",
+   "question": "How did people in the two zones keep in touch while the country was divided?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "postcard",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0430",
+     183,
+     false
+    ],
+    [
+     "SRC005-L022",
+     null,
+     false
+    ],
+    [
+     "SRC001-0251",
+     109,
+     false
+    ],
+    [
+     "SRC001-0422",
+     179,
+     false
+    ],
+    [
+     "SRC001-0010",
+     10,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  },
+  {
+   "test_id": "RAG-043",
+   "question": "Cuộc 'đấu loa' ở hai bờ Bến Hải được sách trình bày trong những năm nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "broadcast",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC005-L014-1",
+     null,
+     false
+    ],
+    [
+     "SRC005-L020-2",
+     null,
+     false
+    ],
+    [
+     "SRC001-0260",
+     113,
+     false
+    ],
+    [
+     "SRC001-0261",
+     114,
+     false
+    ],
+    [
+     "SRC001-0330",
+     140,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  },
+  {
+   "test_id": "RAG-044",
+   "question": "Trước năm 1954 cây cầu Hiền Lương đã bị đánh sập những lần nào?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0430",
+     183,
+     false
+    ],
+    [
+     "SRC001-0431",
+     183,
+     true
+    ],
+    [
+     "SRC003-L028",
+     null,
+     false
+    ],
+    [
+     "SRC003-L083",
+     null,
+     false
+    ],
+    [
+     "SRC001-0439",
+     186,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.38685280723454163,
+   "recall@5": 1.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.38685280723454163,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5714285040141098,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-045",
+   "question": "Cột cờ phía Bắc dựng năm 1957 có đặc điểm gì?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "WX001",
+     null,
+     false
+    ],
+    [
+     "SRC001-0442",
+     188,
+     true
+    ],
+    [
+     "SRC001-0402",
+     170,
+     false
+    ],
+    [
+     "SRC001-0441",
+     187,
+     true
+    ],
+    [
+     "SRC001-0398",
+     168,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.38685280723454163,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.6509209298071326,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.6509209298071326,
+   "rr": 0.5
+  },
+  {
+   "test_id": "RAG-046",
+   "question": "Từ cuối năm 1965 đến đầu năm 1967, khu vực cầu và cột cờ Hiền Lương bị ném bom bao nhiêu lần?",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "flagpole",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0448",
+     190,
+     true
+    ],
+    [
+     "SRC001-0447",
+     190,
+     true
+    ],
+    [
+     "SRC001-0446",
+     190,
+     true
+    ],
+    [
+     "SRC003-L028",
+     null,
+     false
+    ],
+    [
+     "SRC001-0465",
+     198,
+     false
+    ]
+   ],
+   "recall@3": 1.0,
+   "precision@3": 1.0,
+   "hit@3": 1.0,
+   "ndcg@3": 1.0,
+   "recall@5": 1.0,
+   "precision@5": 0.6,
+   "hit@5": 1.0,
+   "ndcg@5": 1.0,
+   "recall@10": 1.0,
+   "precision@10": 0.3,
+   "hit@10": 1.0,
+   "ndcg@10": 1.0,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-047",
+   "question": "Hãy giải thích cho một học sinh chưa biết lịch sử vì sao cầu Hiền Lương có hai màu.",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "bridge_paint",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0439",
+     186,
+     true
+    ],
+    [
+     "SRC004-L027",
+     null,
+     false
+    ],
+    [
+     "SRC004-L011",
+     null,
+     false
+    ],
+    [
+     "SRC004-L020",
+     null,
+     false
+    ],
+    [
+     "SRC001-0436",
+     185,
+     true
+    ]
+   ],
+   "recall@3": 0.5,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.6131471927654584,
+   "recall@5": 1.0,
+   "precision@5": 0.4,
+   "hit@5": 1.0,
+   "ndcg@5": 0.8503449055347546,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.8503449055347546,
+   "rr": 1.0
+  },
+  {
+   "test_id": "RAG-048",
+   "question": "Ai là kỹ sư thiết kế cây cầu Hiền Lương năm 1952?",
+   "answerable": false,
+   "gate_pass": true,
+   "category": "in_domain_unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-049",
+   "question": "Có bao nhiêu người đã vượt sông Bến Hải bằng thuyền trong năm 1960?",
+   "answerable": false,
+   "gate_pass": true,
+   "category": "in_domain_unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-050",
+   "question": "What did Ho Chi Minh say when he visited the Hien Luong bridge?",
+   "answerable": false,
+   "gate_pass": true,
+   "category": "unanswerable",
+   "unknown_entities": []
+  },
+  {
+   "test_id": "RAG-051",
+   "question": "1965年3月19日在贤良桥发生了什么事？",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "tong_triet",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0376",
+     160,
+     false
+    ],
+    [
+     "SRC001-0447",
+     190,
+     false
+    ],
+    [
+     "SRC003-L042",
+     null,
+     true
+    ],
+    [
+     "SRC001-0463",
+     197,
+     false
+    ],
+    [
+     "SRC001-0465",
+     198,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.3333333333333333,
+   "hit@3": 1.0,
+   "ndcg@3": 0.3065735963827292,
+   "recall@5": 0.0,
+   "precision@5": 0.2,
+   "hit@5": 1.0,
+   "ndcg@5": 0.3065735963827292,
+   "recall@10": 1.0,
+   "precision@10": 0.2,
+   "hit@10": 1.0,
+   "ndcg@10": 0.5109559939712153,
+   "rr": 0.3333333333333333
+  },
+  {
+   "test_id": "RAG-052",
+   "question": "So sánh tình hình ở giới tuyến giai đoạn 1954–1956 và giai đoạn 1956–1967.",
+   "answerable": true,
+   "gate_pass": true,
+   "category": "period",
+   "unknown_entities": [],
+   "top": [
+    [
+     "SRC001-0379",
+     161,
+     false
+    ],
+    [
+     "SRC001-0395",
+     167,
+     false
+    ],
+    [
+     "SRC001-0396",
+     167,
+     false
+    ],
+    [
+     "SRC001-0038",
+     23,
+     false
+    ],
+    [
+     "SRC001-0131",
+     64,
+     false
+    ]
+   ],
+   "recall@3": 0.0,
+   "precision@3": 0.0,
+   "hit@3": 0.0,
+   "ndcg@3": 0.0,
+   "recall@5": 0.0,
+   "precision@5": 0.0,
+   "hit@5": 0.0,
+   "ndcg@5": 0.0,
+   "recall@10": 0.0,
+   "precision@10": 0.0,
+   "hit@10": 0.0,
+   "ndcg@10": 0.0,
+   "rr": 0.0
+  }
+ ],
+ "config": {
+  "source_aware_relevance": true,
+  "backend": "hybrid(bm25+char-tfidf)",
+  "min_cov": 0.5,
+  "min_cos": 0.06,
+  "top_k": 10,
+  "n_chunks": 683
+ }
+}
