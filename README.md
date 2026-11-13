@@ -249,6 +249,7 @@ Các cảnh 3D là hình minh họa, không phải ảnh tư liệu lịch sử 
 
 **Âm thanh** (`audio.ts`): một bộ phát duy nhất – luôn chỉ một tiếng. Ưu tiên **ElevenLabs** qua `POST /mg/api/narration/generate` của museum-guide (giọng nữ Sarah cho nữ hướng dẫn viên, giọng nam George cho chú bộ đội / cụ ông); nếu backend chưa có `ELEVENLABS_API_KEY` thì tự dùng giọng của trình duyệt và ghi chú trên thanh thuyết minh. Mọi lối thoát khu vực (nút quay lại, breadcrumb, nút Back trình duyệt, đổi khu, đóng tab) đều gọi `stopAll()`; đổi ngôn ngữ thì dừng giọng cũ.
 > Bật ElevenLabs: điền `ELEVENLABS_API_KEY=` trong `museum-guide/backend/.env` rồi chạy lại backend. Muốn đổi giọng thì sửa `VOICE_FEMALE / VOICE_MALE` trong `frontend/src/guides.ts`.
+> Nếu đang chạy bằng `./run.sh`, dừng bằng Ctrl+C rồi chạy lại để backend nạp khóa mới. Sau đó bấm **Thử lại ElevenLabs** trên thanh thuyết minh. Giao diện phân biệt lỗi thiếu khóa, khóa không hợp lệ, hết hạn mức và lỗi kết nối; mỗi lần thử lại sẽ gọi backend ngay.
 
 **Chat ở mọi khu** (`ChatDock.tsx`): gợi ý câu hỏi theo khu/hiện vật, lịch sử thu gọn được, ảnh trong câu trả lời hiện lớn kèm tên; bấm ảnh → `Lightbox.tsx` (phóng to bằng cuộn chuột / chụm hai ngón / nút, kéo để xem, trước–sau, Esc).
 

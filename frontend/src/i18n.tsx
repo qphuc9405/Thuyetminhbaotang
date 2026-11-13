@@ -62,6 +62,11 @@ const D = {
   pause: { vi: 'Tạm dừng thuyết minh', en: 'Pause narration', zh: '暂停解说' },
   narrationLoading: { vi: 'Đang chuẩn bị giọng đọc…', en: 'Preparing the voice…', zh: '正在准备语音…' },
   browserVoice: { vi: 'Đang dùng giọng đọc của trình duyệt (chưa kết nối được ElevenLabs).', en: 'Using the browser voice (ElevenLabs not available).', zh: '正在使用浏览器语音（ElevenLabs不可用）。' },
+  ttsKeyMissing: { vi: 'Chưa cấu hình khóa ElevenLabs. Đang dùng giọng trình duyệt nếu có.', en: 'ElevenLabs API key is missing. Using the browser voice if available.', zh: '尚未配置ElevenLabs密钥，将使用可用的浏览器语音。' },
+  ttsAuthError: { vi: 'Khóa ElevenLabs không hợp lệ hoặc thiếu quyền. Đang dùng giọng trình duyệt nếu có.', en: 'ElevenLabs API key is invalid or lacks permission. Using the browser voice if available.', zh: 'ElevenLabs密钥无效或权限不足，将使用可用的浏览器语音。' },
+  ttsQuotaExceeded: { vi: 'ElevenLabs đã hết hạn mức. Đang dùng giọng trình duyệt nếu có.', en: 'ElevenLabs quota exceeded. Using the browser voice if available.', zh: 'ElevenLabs配额已用尽，将使用可用的浏览器语音。' },
+  ttsConnectionError: { vi: 'Không kết nối được dịch vụ giọng nói. Đang dùng giọng trình duyệt nếu có.', en: 'Cannot connect to the voice service. Using the browser voice if available.', zh: '无法连接语音服务，将使用可用的浏览器语音。' },
+  retryVoice: { vi: 'Thử lại ElevenLabs', en: 'Retry ElevenLabs', zh: '重试ElevenLabs' },
   tapToPlay: { vi: 'Chạm nút phát để nghe thuyết minh.', en: 'Tap play to hear the narration.', zh: '点击播放按钮收听解说。' },
   noVoice: { vi: 'Trình duyệt chưa hỗ trợ đọc thuyết minh.', en: 'This browser cannot read the narration aloud.', zh: '此浏览器无法朗读解说。' },
   // guide

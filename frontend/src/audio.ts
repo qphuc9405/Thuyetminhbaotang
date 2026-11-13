@@ -11,9 +11,10 @@ export type AudioState = {
   status: AudioStatus; key: string | null; pos: number; dur: number; engine: Engine | null;
   /** 0..1 – độ mở miệng giả lập cho nhân vật hướng dẫn */
   level: number; blocked: boolean; fallback: boolean; muted: boolean;
+  ttsError: string | null;
 };
 
-const IDLE: AudioState = { status: 'idle', key: null, pos: 0, dur: 0, engine: null, level: 0, blocked: false, fallback: false, muted: false };
+const IDLE: AudioState = { status: 'idle', key: null, pos: 0, dur: 0, engine: null, level: 0, blocked: false, fallback: false, muted: false, ttsError: null };
 let state: AudioState = IDLE;
 const subs = new Set<(s: AudioState) => void>();
 const set = (p: Partial<AudioState>) => { state = { ...state, ...p }; subs.forEach(f => f(state)); };
@@ -28,8 +29,6 @@ let token = 0;
 let mouth: ReturnType<typeof setInterval> | null = null;
 let muted = false;
 const urlCache = new Map<string, string>();
-/** Khi backend báo chưa có khoá ElevenLabs thì tạm không gọi lại trong 5 phút (tránh lỗi 503 lặp lại). */
-let elevenDownUntil = 0;
 const supportsSpeech = typeof window !== 'undefined' && 'speechSynthesis' in window;
 const CHARS_PER_SEC = 13.5;
 /** tốc độ đọc ước tính (ký tự/giây) – tiếng Trung đọc ít ký tự hơn mỗi giây */
@@ -129,7 +128,7 @@ export async function speak(key: string, text: string, lang: Lang, voiceId?: str
   set({ key, status: 'loading', pos: 0, dur: clean.length / cps(lang), engine: null, fallback: false });
   const ck = `${lang}|${voiceId ?? ''}|${clean}`;
   let url = urlCache.get(ck);
-  if (!url && Date.now() > elevenDownUntil) {
+  if (!url) {
     const ctl = new AbortController();
     fetchCtl = ctl;
     try {
@@ -141,11 +140,14 @@ export async function speak(key: string, text: string, lang: Lang, voiceId?: str
       if (r.ok) {
         const j = await r.json() as { audio_url?: string };
         if (j.audio_url) { url = `${MG}${j.audio_url}`; urlCache.set(ck, url); }
-      } else if (r.status === 503 || r.status === 404) {
-        elevenDownUntil = Date.now() + 5 * 60_000;
+      } else {
+        const j = await r.json().catch(() => null) as { error?: { code?: string } } | null;
+        if (my !== token) return;
+        set({ ttsError: j?.error?.code ?? 'tts_network_error' });
       }
     } catch {
       if (my !== token) return;
+      set({ ttsError: 'tts_network_error' });
     } finally {
       if (fetchCtl === ctl) fetchCtl = null;
     }

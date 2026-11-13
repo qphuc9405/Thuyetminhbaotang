@@ -1,7 +1,15 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Loader2, Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { cps, getAudio, setMuted, speak, subscribe, toggle, type AudioState } from './audio';
-import { useLang, useT } from './i18n';
+import { useLang, useT, type Key } from './i18n';
+
+const ttsMessages: Record<string, Key> = {
+  elevenlabs_key_missing: 'ttsKeyMissing',
+  tts_auth_error: 'ttsAuthError',
+  tts_quota_exceeded: 'ttsQuotaExceeded',
+  tts_network_error: 'ttsConnectionError',
+  tts_timeout: 'ttsConnectionError',
+};
 
 export function useAudio(): AudioState {
   const [s, setS] = useState(getAudio);
@@ -49,7 +57,10 @@ export default function NarrationBar({ id, text, voiceId, autoPlay = true, compa
       </button>
       {mine && loading && <small className="narration-note">{t('narrationLoading')}</small>}
       {mine && a.blocked && <small className="narration-note">{t('tapToPlay')}</small>}
-      {mine && a.engine === 'browser' && a.fallback && <small className="narration-note subtle">{t('browserVoice')}</small>}
+      {mine && a.fallback && <small className="narration-note subtle" role="status">
+        {t(a.ttsError ? ttsMessages[a.ttsError] ?? 'browserVoice' : 'browserVoice')}{' '}
+        <button type="button" onClick={() => void speak(key, text, lang, voiceId)}>{t('retryVoice')}</button>
+      </small>}
     </div>
   );
 }

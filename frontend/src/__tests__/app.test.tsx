@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { act, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import App from '../App';
+import NarrationBar from '../Narration';
 import { getAudio, speak, stopAll } from '../audio';
 import { tr, type Key } from '../i18n';
 import { audios, speech } from './setup';
@@ -70,6 +71,32 @@ describe('i18n', () => {
 });
 
 describe('bộ điều khiển âm thanh', () => {
+  it('báo thiếu khóa và thử lại ngay khi ElevenLabs đã sẵn sàng', async () => {
+    const fetchMock = mockFetch({ tts: 'down' });
+    render(<NarrationBar id="retry" text="Kiểm tra kết nối giọng đọc." />);
+    expect((await screen.findByRole('status')).textContent).toContain('Chưa cấu hình khóa ElevenLabs');
+    expect(getAudio().ttsError).toBe('elevenlabs_key_missing');
+    fetchMock.mockResolvedValue(new Response(JSON.stringify({ audio_url: '/api/narration/' + 'b'.repeat(40) }), { status: 200 }));
+    fireEvent.click(screen.getByRole('button', { name: 'Thử lại ElevenLabs' }));
+    await waitFor(() => expect(getAudio().engine).toBe('eleven'));
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(getAudio().ttsError).toBeNull();
+    expect(screen.queryByRole('status')).toBeNull();
+    stopAll();
+  });
+
+  it('lỗi 503 tạm thời không ngăn lần kết nối tiếp theo', async () => {
+    const fetchMock = vi.spyOn(globalThis, 'fetch')
+      .mockResolvedValueOnce(new Response(JSON.stringify({ error: { code: 'tts_timeout' } }), { status: 503 }))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ audio_url: '/api/narration/' + 'c'.repeat(40) }), { status: 200 }));
+    await speak('timeout', 'Thử lại sau lỗi tạm thời.', 'vi');
+    expect(getAudio().ttsError).toBe('tts_timeout');
+    await speak('timeout', 'Thử lại sau lỗi tạm thời.', 'vi');
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(getAudio().engine).toBe('eleven');
+    stopAll();
+  });
+
   it('không có khoá ElevenLabs → lùi về giọng trình duyệt đúng ngôn ngữ; stopAll() dừng hẳn', async () => {
     mockFetch({ tts: 'down' });
     await speak('k1', '你好', 'zh');
@@ -81,8 +108,6 @@ describe('bộ điều khiển âm thanh', () => {
   });
   it('có ElevenLabs → phát tệp mp3 từ museum-guide; lời mới dừng lời cũ', async () => {
     mockFetch({ tts: 'ok' });
-    // lần gọi trước có thể đã tạm khoá ElevenLabs 5 phút → đặt lại đồng hồ
-    vi.spyOn(Date, 'now').mockReturnValue(Date.now() + 10 * 60_000);
     await speak('a', 'xin chào', 'vi');
     expect(audios).toHaveLength(1);
     expect(audios[0].src).toMatch(/^\/mg\/api\/narration\/a{40}$/);
